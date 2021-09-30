@@ -2,13 +2,13 @@
 
 Traditional Chinese translation of RimWorld.
 
-See this page for license info:
+See this page for license info and guideline for how to contribute to translation:
 
 <http://ludeon.com/forums/index.php?topic=2933.0>
 
 ===========================
 
-# RimWorld-ChineseTraditional
+## RimWorld-ChineseTraditional
 
 RimWorld 繁體中文化(台灣)
 
@@ -23,9 +23,9 @@ RimWorld 繁體中文化(台灣)
 注意事項：  
 本補丁為 1.3.3101 版本專用，注意，即使同屬 1.3 版，各版間仍存在大量不相容，未更新至 1.3.3101 版以上的玩家請自行斟酌是否使用此補丁。
 
-# 安裝方法
+## 安裝方法
 
-1. 下載壓縮檔並解壓縮，得到`Core`、`Royalty`、`Ideology`三個資料夾與本說明文件
+1. 下載壓縮檔(請點擊本頁上方的`Code▾` 點選`Download ZIP`)並解壓縮，得到`Core`、`Royalty`、`Ideology`三個資料夾與本說明文件
     >
     > - 若未來有新的 DLC 發布則會有更多資料夾
     > - `.github` 的資料夾與 `.gitattributes` 為 git 的版本控制設定及 github 平台的相關設定，若只是想更新語言的人刪除或忽略即可
@@ -50,19 +50,19 @@ RimWorld 繁體中文化(台灣)
 官方會把 github 這裡的翻譯放到遊戲中，只是會稍微晚一點，  
 過一段時間，官方放到遊戲內就不用做以上安裝步驟，直接遊戲中切換語言即可。
 
-## FAQ
+### FAQ
 
-+ 問：我的遊戲根目錄在哪裡？我找不到
+- 問：我的遊戲根目錄在哪裡？我找不到
     > 答：看你的Steam安裝在哪裡，Rimworld 的資料夾會放在`Steam\steamapps\common\RimWorld` 這個位置，至於你的Steam又安裝在哪裡我們就不知道惹，假如直接放在你的D槽的話就是`D:\Steam` 或是 `本機\本機磁碟 (D:)\Steam`
-    > 
+    >
     > 也可以在 Steam 上面滑鼠右鍵點選 Rimworld，選擇 `管理` > `瀏覽本機檔案` 就會打開檔案總管到那個資料夾了
 
-# 變更語言方法
+## 變更語言方法
 
 於遊戲主選單點選國旗圖案，即可選擇語言。或於遊戲選項內點選 Change Language 即可選擇語言。  
 本補丁可無痛套用，無須重開新檔。
 
-# 中文化說明
+## 中文化說明
 
 本繁體中文化翻譯在 A6 版本前的部分內容是基於翻譯得極為優秀的簡體中文內容修改而成，  
 將對岸用字用語修改為台灣地區熟悉通用的字詞語，一方面可極大節省翻譯時程，  
@@ -82,7 +82,7 @@ RimWorld 繁體中文化(台灣)
 - 快捷鍵設定中的部分按鍵名稱
 - 開發者模式之內容(官方未提供翻譯接口)
 
-# 使用權利
+## 使用權利
 
 本翻譯為玩家志願者無償與遊戲開發者合作推出的中文化，基本上屬於共享資源，任何人皆可不經授權的修改、散佈、再製，唯仍需符合各地法令。
 
@@ -93,7 +93,7 @@ Discord群組：<https://discord.gg/96sZ5RgW2G>
 翻譯問題回報：請透過Discord或巴哈討論板(訊息跟信箱容易被忽略...)  
 感謝支持 RimWorld
 
-# 中文化人員
+## 中文化人員
 
 Wilseanhsu 個人中文化。 2018/10/3
 
