@@ -2,19 +2,23 @@
 
 Traditional Chinese translation of RimWorld.
 
-See this page for license info and guideline for how to contribute to translation:
+See this page for license info and guidelines for how to contribute to the localization:
 
 <http://ludeon.com/forums/index.php?topic=2933.0>
 
 ===========================
 
-## RimWorld-ChineseTraditional
+## RimWorld 繁體中文化
 
 RimWorld 繁體中文化(台灣)
 
 授權憑證:
 
 <http://ludeon.com/forums/index.php?topic=2933.0>
+
+本翻譯為玩家志願者無償與遊戲開發者合作推出的中文化，屬於共享資源，Ludeon Studio 將會將本翻譯內容應用在官方釋出的 RimWorld 遊戲之中，而並不會提供任何形式上的酬勞與獎勵給予參與者(但你可以將你的名字放在中文化參與者的名單中並顯示在遊戲裡)。
+
+參與本專案表示你同意 Ludeon Studio 可以任意使用你所提供的內容，且任何人皆可不經授權的修改、散佈、再製，惟仍需符合各地法令。
 
 ===========================
 
@@ -53,7 +57,7 @@ RimWorld 繁體中文化(台灣)
 ### FAQ
 
 - 問：我的遊戲根目錄在哪裡？我找不到
-    > 答：看你的Steam安裝在哪裡，Rimworld 的資料夾會放在`Steam\steamapps\common\RimWorld` 這個位置，至於你的Steam又安裝在哪裡我們就不知道惹，假如直接放在你的D槽的話就是`D:\Steam` 或是 `本機\本機磁碟 (D:)\Steam`
+    > 答：看你的Steam安裝在哪裡，Rimworld 的資料夾會放在`Steam\steamapps\common\RimWorld` 這個位置，至於你的Steam又安裝在哪裡，假如直接放在你的D槽的話就是`D:\Steam` 或是 `本機\本機磁碟 (D:)\Steam`
     >
     > 也可以在 Steam 上面滑鼠右鍵點選 Rimworld，選擇 `管理` > `瀏覽本機檔案` 就會打開檔案總管到那個資料夾了
 
@@ -82,9 +86,7 @@ RimWorld 繁體中文化(台灣)
 - 快捷鍵設定中的部分按鍵名稱
 - 開發者模式之內容(官方未提供翻譯接口)
 
-## 使用權利
-
-本翻譯為玩家志願者無償與遊戲開發者合作推出的中文化，基本上屬於共享資源，任何人皆可不經授權的修改、散佈、再製，唯仍需符合各地法令。
+## 其他連結
 
 歡迎加入 FB 社團：<https://www.facebook.com/groups/261201480757707/>  
 Discord群組：<https://discord.gg/96sZ5RgW2G>  
