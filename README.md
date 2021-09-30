@@ -33,7 +33,7 @@ RimWorld 繁體中文化(台灣)
 2. 刪除或重新命名 `遊戲根目錄(Rimworld安裝的位置)\Data\Core\Languages` 中的 `ChineseTraditional (繁體中文).tar` 檔案
     >
     > - 此步驟可以省略，只要名稱不要和下一步驟的資料夾重複即可
-    > - 若有購買並安裝DLC：Royalty 及 Ideology 則 `Core` 資料夾中會出現對應的資料夾，更新時在對應的資料夾重複同樣步驟即可(三個資料夾要重複三次本安裝流程)
+    > - 若有購買並安裝DLC：Royalty 及 Ideology 則 `Data` 資料夾中會出現對應的資料夾，更新時在對應的資料夾重複同樣步驟即可(三個資料夾要重複三次本安裝流程)
     >
 3. 在同一資料夾下新增「ChineseTraditional (繁體中文)」的資料夾
     >
@@ -43,6 +43,7 @@ RimWorld 繁體中文化(台灣)
     >
     > - Core 的資料夾內應有：`Backstories` 、 `DefInjected` 、`Keyed` 、 `Strings` 四個資料夾與 `LangIcon.png` 、 `LanguageInfo.xml` 兩個檔案
     > - Royalty 與 Ideology 應有：`DefInjected` 、 `Keyed` 兩個資料夾
+    > - 請注意以上檔案放置的位置是否正確，若不正確將導致所有文本無法正常顯示！
     >
 5. 開始遊戲並在遊戲內選擇語言
 
@@ -52,7 +53,9 @@ RimWorld 繁體中文化(台灣)
 ## FAQ
 
 + 問：我的遊戲根目錄在哪裡？我找不到
-    > 答：看你的Steam安裝在哪裡，Rimworld 的資料夾會放在`Steam\steamapps\common\RimWorld` 這個位置，至於你的Steam又安裝在哪裡我們就不知道惹
+    > 答：看你的Steam安裝在哪裡，Rimworld 的資料夾會放在`Steam\steamapps\common\RimWorld` 這個位置，至於你的Steam又安裝在哪裡我們就不知道惹，假如直接放在你的D槽的話就是`D:\Steam` 或是 `本機\本機磁碟 (D:)\Steam`
+    > 
+    > 也可以在 Steam 上面滑鼠右鍵點選 Rimworld，選擇 `管理` > `瀏覽本機檔案` 就會打開檔案總管到那個資料夾了
 
 # 變更語言方法
 
