@@ -5,13 +5,13 @@
   <!-- EN: Satisfies title -->
   <ThroneMaxSatisfiedTitle>符合頭銜</ThroneMaxSatisfiedTitle>
   <!-- EN: ({0} impressiveness) -->
-  <ThroneRoomImpressivenessInfo>({0} 印象深刻)</ThroneRoomImpressivenessInfo>
+  <ThroneRoomImpressivenessInfo>({0}印象深刻)</ThroneRoomImpressivenessInfo>
   <!-- EN: Throne must be placed indoors. -->
   <ThroneMustBePlacedInside>王座必須放在室內。</ThroneMustBePlacedInside>
   <!-- EN: Minimum title ({FACTION_name}): {TITLE} -->
-  <MinimumRoyalTitleInspectString>最低頭銜 ({FACTION_name}): {TITLE}</MinimumRoyalTitleInspectString>
+  <MinimumRoyalTitleInspectString>最低頭銜 ({FACTION_name}):{TITLE}</MinimumRoyalTitleInspectString>
   <!-- EN: Trading here requires title: {0} -->
-  <RequiresTradePermission>在這裡交易需要頭銜: {0}</RequiresTradePermission>
+  <RequiresTradePermission>在這裡交易需要頭銜:{0}</RequiresTradePermission>
   <!-- EN: Personal bedroom (partner allowed) -->
   <RequirementPersonalBedroom>私人臥室(允許伴侶)</RequirementPersonalBedroom>
   
@@ -50,11 +50,11 @@
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>精神力</PsyfocusLabelGizmo>
   <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
-  <PsyfocusDesc>精神力是施放心靈能力所必需的一種特殊的心理結構。 精神力會隨著時間消散，並且必須通過冥想來建立。 失去所有精神力會無法執行心靈能力，但沒有其他後果。\n\n較高的精神力等級允許較高等級的心靈能力，但也會提高精神力消散速率。</PsyfocusDesc>
+  <PsyfocusDesc>精神力是施放心靈能力所必需的一種特殊的心理結構。 精神力會隨著時間消散，並且必須通過冥想來建立。 失去所有精神力會無法執行心靈能力，但沒有其他後果。\n\n較高的精神力等級允許較高等級的心靈能力，但也會提高精神力消散速率</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}%</PsyfocusLevelInfoRange>
   <!-- EN: Up to level {0} powers. -->
-  <PsyfocusLevelInfoPsycasts>達到{0}級心靈能力。</PsyfocusLevelInfoPsycasts>
+  <PsyfocusLevelInfoPsycasts>可達{0}級心靈能力。</PsyfocusLevelInfoPsycasts>
   <!-- EN: Psyfocus falls at {0} per day. -->
   <PsyfocusLevelInfoFallRate>精神力每天下降{0}。</PsyfocusLevelInfoFallRate>
   <!-- EN: Meditation focus strength for {LASTUSER_labelShort} -->
@@ -62,23 +62,23 @@
   <!-- EN: Focus effect impacted by -->
   <MeditationFocusImpacted>聚焦效果受影響於</MeditationFocusImpacted>
   <!-- EN: {1} per nearby animus stone (max {0}) -->
-  <MeditationFocusPerAnimusStoneAbstract>{1} 附近每有一塊法石（最高{0}）</MeditationFocusPerAnimusStoneAbstract>
+  <MeditationFocusPerAnimusStoneAbstract>{1}附近每有一塊法石（最高{0}）</MeditationFocusPerAnimusStoneAbstract>
   <!-- EN: {2} per nearby animus stone ({0} / {1}) -->
-  <MeditationFocusPerAnimusStone>{2} 附近每有一塊法石（{0}/{1}）</MeditationFocusPerAnimusStone>
+  <MeditationFocusPerAnimusStone>{2}附近每有一塊法石（{0}/{1}）</MeditationFocusPerAnimusStone>
   <!-- EN: Per nearby animus stone {2}, nature shrine {1} (max {0}) -->
-  <MeditationFocusPerAnimusStoneAndShrineAbstract>附近每有一塊法石 {2}， 自然聖地 {1} （最高{0}）</MeditationFocusPerAnimusStoneAndShrineAbstract>
+  <MeditationFocusPerAnimusStoneAndShrineAbstract>附近每有一塊法石{2}，自然聖地{1}（最高{0}）</MeditationFocusPerAnimusStoneAndShrineAbstract>
   <!-- EN: Per nearby animus stone {3}, nature shrine {2} ({0} / {1}) -->
-  <MeditationFocusPerAnimusStoneAndShrine>附近每有一塊法石 {3}， 自然聖地 {2} （{0} / {1}）</MeditationFocusPerAnimusStoneAndShrine>
+  <MeditationFocusPerAnimusStoneAndShrine>附近每有一塊法石{3}，自然聖地{2}（{0}/{1}）</MeditationFocusPerAnimusStoneAndShrine>
   <!-- EN: Max {1} per nearby sculpture depending on quality (max {0}) -->
-  <MeditationFocusPerSculptureAbstract>最多{1} 附近每有一個雕塑，包含品質因素（最高{0}）</MeditationFocusPerSculptureAbstract>
+  <MeditationFocusPerSculptureAbstract>最多{1}附近每有一個雕塑，包含品質因素（最高{0}）</MeditationFocusPerSculptureAbstract>
   <!-- EN: Max {2} per nearby sculpture depending on quality ({0} / {1}) -->
-  <MeditationFocusPerSculpture>最多{2} 附近每有一個雕塑，包含品質因素（{0}/{1}）</MeditationFocusPerSculpture>
+  <MeditationFocusPerSculpture>最多{2}附近每有一個雕塑，包含品質因素（{0}/{1}）</MeditationFocusPerSculpture>
   <!-- EN: Per nearby grave {1} if empty, {2} for human corpse (up to {0}) -->
   <MeditationFocusPerGraveAbstract>附近每有一個墳墓，{1}空的，{2}包含人類屍體（最高{0}）</MeditationFocusPerGraveAbstract>
   <!-- EN: Per nearby grave {2} if empty, {3} for human corpse ({0} / {1}) -->
   <MeditationFocusPerGrave>附近每有一個墳墓，{2}空的，{3}包含人類屍體（{0}/{1}）</MeditationFocusPerGrave>
   <!-- EN: {1} per nearby lit flame source (up to {0}) -->
-  <MeditationFocusPerFlameAbstract>{1} 附近每個點燃的火源（最高{0}）</MeditationFocusPerFlameAbstract>
+  <MeditationFocusPerFlameAbstract>{1}附近每個點燃的火源（最高{0}）</MeditationFocusPerFlameAbstract>
   <!-- EN: {2} per nearby lit flame source ({0} / {1}) -->
   <MeditationFocusPerFlame>{2}附近每個點燃的火源（{0}/{1}）</MeditationFocusPerFlame>
   <!-- EN: Psyfocus gain rate: {0}/d -->
@@ -88,20 +88,6 @@
   <!-- EN: Click to set desired psyfocus. -->
   <DesiredPsyfocusDesc>點擊已設置所需精神力</DesiredPsyfocusDesc>
 
-  <!-- Abilities -->
-  <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>必須徵招</AbilityDisabledUndrafted>
-  <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>能力冷卻。他將在{0}後可使用。</AbilityOnCooldown>
-  <!-- EN: ability already queued. -->
-  <AbilityAlreadyQueued>能力已佇列。</AbilityAlreadyQueued>
-  <!-- EN: no heat to dump. -->
-  <AbilityNoEntropyToDump>沒有認量可以傾瀉。</AbilityNoEntropyToDump>
-  <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>準備就緒: {0}</AbilityReadyLabel>
-  <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef}已準備使用{1}。</AbilityReadyText>
-  
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>未分配王座</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -135,9 +121,9 @@
   <!-- EN: Begin linking ritual -->
   <BeginLinkingRitualFloatMenu>開始連結儀式</BeginLinkingRitualFloatMenu>
   <!-- EN: Need {0} {1} here (have {2}) -->
-  <BeginLinkingRitualNeedSubplants>這裡需要{0} {1}（擁有{2}）</BeginLinkingRitualNeedSubplants>
+  <BeginLinkingRitualNeedSubplants>這裡需要{0}{1}（擁有{2}）</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
-  <BeginLinkingRitualNeedFocus>需要{0} 心靈連結焦點類型</BeginLinkingRitualNeedFocus>
+  <BeginLinkingRitualNeedFocus>需要{0}心靈連結焦點類型</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
   <BeginLinkingRitualMaxPsylinkLevel>最大心靈連結等級</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
@@ -145,7 +131,7 @@
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>連結儀式完成</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}已完成與{LINKABLE_labelShort}的連結儀式。\n\n {PAWN_pronoun}現在具有升級的心靈連結，允許使用新的心靈能力。</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}已完成與{LINKABLE_labelShort}的連結儀式。\n\n{PAWN_pronoun}現在具有升級的心靈連結，允許使用新的心靈能力。</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
   <LetterTextLinkingRitualCompletedAnimaGrass>此外，{0}生命之草已經恢復。</LetterTextLinkingRitualCompletedAnimaGrass>
 
@@ -182,7 +168,8 @@
   <AnimaLinkingExplanationBase>參與者越多，生命之樹連結儀式就越有力量。參加的人越多，儀式所需的時間就越短，會有更多的生命之草生長。\n\n有了{0}名額外的參與者，{1}株生命之草將在儀式結束後恢復。</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>所需物資還沒有全部裝載！</ShuttleRequiredItemsNotSatisfied>
-  <!-- UNUSED -->
-  <AbilitySpeechTooltip>在王座上演講。{ORGANIZER_labelShort}將前往{ORGANIZER_labelShort}王座，並通知所有殖民者聆聽演講。如果進展順利，聽眾會受到鼓舞且會尊重{ORGANIZER_labelShort}。如果進展不順利，演講將造成社交傷害。結果取決於{ORGANIZER_labelShort}的社交能力。</AbilitySpeechTooltip>
+
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>沒有神經熱量可以傾瀉。</AbilityNoEntropyToDump>
 
 </LanguageData>

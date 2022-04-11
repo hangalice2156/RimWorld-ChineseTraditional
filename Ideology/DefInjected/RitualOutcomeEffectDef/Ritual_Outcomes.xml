@@ -213,7 +213,7 @@
   <!-- EN: Each participant will make a lantern out of 4 wood. -->
   <CelebrationSkyLanterns.extraInfoLines.0>每個參加者將會消耗4木材來製作天燈。</CelebrationSkyLanterns.extraInfoLines.0>
   <!-- EN: If the {0} is beautiful or unforgettable, the skylanterns might attract a group of friendly visitors. -->
-  <CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>如果{0}是美麗或難忘的話，天燈可能會吸引一隊友善訪客。</CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>
+  <CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>如果{0}是美麗或難忘的，天燈可能會吸引一隊友善訪客。</CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
   <CelebrationSkyLanterns.outcomeChances.0.label>糟糕</CelebrationSkyLanterns.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! People kept getting annoyed making the lanterns and they looked like garbage on the wind. -->
@@ -255,9 +255,9 @@
   <!-- EN: speaker's social impact -->
   <Conversion.comps.2.labelAbstract>主持的社交影響力</Conversion.comps.2.labelAbstract>
   <!-- EN: {PAWN_labelShort}'s expectations -->
-  <Conversion.comps.3.label>{PAWN_labelShort}的期待</Conversion.comps.3.label>
+  <Conversion.comps.3.label>{PAWN_labelShort}的期望</Conversion.comps.3.label>
   <!-- EN: convertee's expectations -->
-  <Conversion.comps.3.labelAbstract>聽眾的期待</Conversion.comps.3.labelAbstract>
+  <Conversion.comps.3.labelAbstract>異教徒的期望</Conversion.comps.3.labelAbstract>
   <!-- EN: Terrible -->
   <Conversion.outcomeChances.0.label>糟糕</Conversion.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! From the first word, it was a fruitless back-and-forth argument. It dragged on for a cringe-inducingly long time. -->
@@ -265,11 +265,11 @@
   <!-- EN: Ineffective -->
   <Conversion.outcomeChances.1.label>無效</Conversion.outcomeChances.1.label>
   <!-- EN: The {0} was ineffective. Most of the arguments were unclear, and the convertee countered those that made sense. -->
-  <Conversion.outcomeChances.1.description>{0}無效。多數的議題皆不明確，而聽眾所反駁的也很合理。</Conversion.outcomeChances.1.description>
+  <Conversion.outcomeChances.1.description>{0}無效。多數的議題皆不明確，而異教徒所反駁的也很合理。</Conversion.outcomeChances.1.description>
   <!-- EN: Effective -->
   <Conversion.outcomeChances.2.label>有效</Conversion.outcomeChances.2.label>
   <!-- EN: The {0} was effective. The speech not only delivered solid arguments and visibly swayed the convertee's thoughts, but kept the crowd entertained as well. -->
-  <Conversion.outcomeChances.2.description>{0}有效。這場佈道不單探討了實際的議題和明顯動搖了聽眾的立場，還能帶動現場氣氛。</Conversion.outcomeChances.2.description>
+  <Conversion.outcomeChances.2.description>{0}有效。這場佈道不單探討了實際的議題和明顯動搖了異教徒的立場，還能帶動現場氣氛。</Conversion.outcomeChances.2.description>
   <!-- EN: Masterful -->
   <Conversion.outcomeChances.3.label>精湛</Conversion.outcomeChances.3.label>
   <!-- EN: The {0} was masterful! Old beliefs seemed to dissolve effortlessly and inevitably, and our true knowledge was accepted. -->
@@ -415,9 +415,9 @@
   <!-- EN: participant count -->
   <Execution.comps.0.label>參與人數</Execution.comps.0.label>
   <!-- EN: started at altar or ideogram -->
-  <Execution.comps.1.label>在祭壇或標誌舉行</Execution.comps.1.label>
+  <Execution.comps.1.label>在祭壇或符號舉行</Execution.comps.1.label>
   <!-- EN: an altar or an ideogram -->
-  <Execution.comps.1.expectedThingLabelTip>一個祭壇或標誌</Execution.comps.1.expectedThingLabelTip>
+  <Execution.comps.1.expectedThingLabelTip>一個祭壇或符號</Execution.comps.1.expectedThingLabelTip>
   <!-- EN: Awkward -->
   <Execution.outcomeChances.0.label>尷尬</Execution.outcomeChances.0.label>
   <!-- EN: The {0} was awkward. The speech dragged on and when it came time to strike, the executioner slipped and barely recovered. None of it felt justified. -->
@@ -463,19 +463,19 @@
   <GladiatorDuel.outcomeChances.3.description>這場比試令人難忘!雙方渾身解數，死亡更顯出他們的獻身精神。</GladiatorDuel.outcomeChances.3.description>
   
   <!-- EN: A new role will be assigned to a colonist. -->
-  <RoleChange.description>TODO</RoleChange.description>
+  <RoleChange.description>新職位會被指派予居民。</RoleChange.description>
   <!-- EN: required spectator count -->
-  <RoleChange.comps.0.label>TODO</RoleChange.comps.0.label>
+  <RoleChange.comps.0.label>必要的旁觀者</RoleChange.comps.0.label>
   <!-- EN: The required number of spectators must attend for the role change to apply. -->
-  <RoleChange.extraPredictedOutcomeDescriptions.0>TODO</RoleChange.extraPredictedOutcomeDescriptions.0>
+  <RoleChange.extraPredictedOutcomeDescriptions.0>舉行授職典禮必須的旁觀者人數。</RoleChange.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Failed -->
-  <RoleChange.outcomeChances.0.label>TODO</RoleChange.outcomeChances.0.label>
+  <RoleChange.outcomeChances.0.label>失敗</RoleChange.outcomeChances.0.label>
   <!-- EN: The role change was not attended by enough {IDEO_memberNamePlural}. -->
-  <RoleChange.outcomeChances.0.description>TODO</RoleChange.outcomeChances.0.description>
+  <RoleChange.outcomeChances.0.description>沒有足夠的{IDEO_memberNamePlural}參與授職典禮。</RoleChange.outcomeChances.0.description>
   <!-- EN: Successful -->
-  <RoleChange.outcomeChances.1.label>TODO</RoleChange.outcomeChances.1.label>
+  <RoleChange.outcomeChances.1.label>成功</RoleChange.outcomeChances.1.label>
   <!-- EN: The role change ritual was completed. -->
-  <RoleChange.outcomeChances.1.description>TODO</RoleChange.outcomeChances.1.description>
+  <RoleChange.outcomeChances.1.description>授職典禮完滿成功。</RoleChange.outcomeChances.1.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <Sacrifice.description>視乎儀式表現，參與者將獲得{MOODDAYS}天{MINMOOD}至{MAXMOOD}的心情加成。</Sacrifice.description>

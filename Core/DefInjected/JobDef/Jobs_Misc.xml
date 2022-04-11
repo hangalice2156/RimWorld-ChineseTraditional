@@ -41,7 +41,7 @@
   <DeliverToCell.reportString>交付TargetA</DeliverToCell.reportString>
   
   <!-- EN: dropping TargetA. -->
-  <DropEquipment.reportString>卸除裝備。</DropEquipment.reportString>
+  <DropEquipment.reportString>卸除TargetA</DropEquipment.reportString>
   
   <!-- EN: emptying TargetA. -->
   <EmptyThingContainer.reportString>清空TargetA</EmptyThingContainer.reportString>
@@ -164,10 +164,13 @@
   <TakeBeerOutOfFermentingBarrel.reportString>從TargetA取出啤酒。</TakeBeerOutOfFermentingBarrel.reportString>
   
   <!-- EN: taking TargetA to inventory. -->
-  <TakeCountToInventory.reportString>搬運TargetA至庫存。</TakeCountToInventory.reportString>
+  <TakeCountToInventory.reportString>把TargetA收起。</TakeCountToInventory.reportString>
+  
+  <!-- EN: grabbing TargetA from TargetB. -->
+  <TakeFromOtherInventory.reportString>從TargetB取出TargetA。</TakeFromOtherInventory.reportString>
   
   <!-- EN: taking TargetA to inventory. -->
-  <TakeInventory.reportString>搬運TargetA至庫存。</TakeInventory.reportString>
+  <TakeInventory.reportString>把TargetA收起。</TakeInventory.reportString>
   
   <!-- EN: trading with TargetA. -->
   <TradeWithPawn.reportString>與TargetA交易。</TradeWithPawn.reportString>
@@ -188,7 +191,7 @@
   <UseItem.reportString>使用TargetA。</UseItem.reportString>
   
   <!-- EN: using neurotrainer. -->
-  <UseNeurotrainer.reportString>使用學習機械液。</UseNeurotrainer.reportString>
+  <UseNeurotrainer.reportString>使用技能學習器。</UseNeurotrainer.reportString>
   
   <!-- EN: Doing something. -->
   <UseVerbOnThing.reportString>處理。</UseVerbOnThing.reportString>

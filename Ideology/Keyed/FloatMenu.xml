@@ -26,7 +26,7 @@
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
   <NoSlaveBed>需要一張可以前往、可用的且處於安全溫度的奴隸床。</NoSlaveBed>
   <!-- EN: Return to slave bed -->
-  <ReturnToSlaveBed>回到奴隸床</ReturnToSlaveBed>
+  <ReturnToSlaveBed>帶回奴隸床</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>派系不容許</NotAllowedForFaction>
 
@@ -41,7 +41,7 @@
   <!-- EN: No choices available -->
   <NoChoicesAvailable>沒有可用選項</NoChoicesAvailable>
   <!-- EN: Required by meme {0} -->
-  <RequiredByMeme>模因{0}的要求</RequiredByMeme>
+  <RequiredByMeme>{0}模因的要求</RequiredByMeme>
   <!-- EN: Required -->
   <Required>必須</Required>
   <!-- EN: Style category -->
@@ -73,14 +73,14 @@
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>滿足人們的服裝要求會使他們感到高興，違反要求則會不高興。</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
-  <NeuralSuperchargeNotReady>尚未準備超級充能</NeuralSuperchargeNotReady>
+  <NeuralSuperchargeNotReady>尚未準備好</NeuralSuperchargeNotReady>
   <!-- EN: already getting -->
   <NeuralSuperchargeAlreadyGetting>已擁有</NeuralSuperchargeAlreadyGetting>
   <!-- EN: Set type -->
   <SetApparelType>設置類型</SetApparelType>
 
   <!-- EN: change style -->
-  <ChangeStyle>改變風格</ChangeStyle>
+  <ChangeStyle>改變形象</ChangeStyle>
   <!-- EN: {0} {DEITYNOUN} required -->
   <DeitiesRequired>需要{0}{DEITYNOUN}</DeitiesRequired>
   <!-- EN: deity -->
@@ -90,11 +90,11 @@
   <!-- EN: requires one of -->
   <RequiresOneOfMemes>需要其一</RequiresOneOfMemes>
   <!-- EN: conflicts with meme -->
-  <ConflictsWithMeme>衝突的模因</ConflictsWithMeme>
+  <ConflictsWithMeme>抵觸的模因</ConflictsWithMeme>
   <!-- EN: conflicts with memes -->
-  <ConflictsWithMemes>衝突的模因</ConflictsWithMemes>
+  <ConflictsWithMemes>抵觸的模因</ConflictsWithMemes>
   <!-- EN: can only have one altar/ideogram -->
-  <IdeoAlreadyHasAltar>只能擁有一個祭壇/標誌</IdeoAlreadyHasAltar>
+  <IdeoAlreadyHasAltar>只能擁有一個祭壇/符號</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
   <RecolorApparel>服裝重新染色</RecolorApparel>
 
@@ -107,14 +107,14 @@
   <!-- EN: Incapable of hacking -->
   <IncapableOfHacking>無法進行破解</IncapableOfHacking>
   <!-- EN: to drop supplies -->
-  <ToDropSupplies>拋下補給</ToDropSupplies>
+  <ToDropSupplies>召喚空投補給</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>安置{0}</InstallRelic>
   <!-- EN: Extract {0} -->
   <ExtractRelic>取出{0}</ExtractRelic>
   <!-- EN: Extract {0} to inventory ({1}) -->
-  <ExtractRelicToInventory>取出{0}至庫存({1})</ExtractRelicToInventory>
+  <ExtractRelicToInventory>取出{0}並收起({1})</ExtractRelicToInventory>
   <!-- EN: No relic to install -->
   <NoRelicToInstall>沒有可安置的聖物</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
@@ -128,25 +128,44 @@
   <!-- EN: Remove current role -->
   <RemoveCurrentRole>移除現在職位</RemoveCurrentRole>
 
-  <!-- EN: Enter biosculpter pod -->
-  <EnterBiosculpterPod>進入塑體艙</EnterBiosculpterPod>
+  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
+  <EnterBiosculpterPod>進入塑體艙接受{0}療程({1})</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
-  <BiosculpterBiotunedToAnother>調整其他人。</BiosculpterBiotunedToAnother>
+  <BiosculpterBiotunedToAnother>已配對給其他人。</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
   <UnderMinBiosculpterAgeReversalAge>必須{0}歲以進行逆齡。</UnderMinBiosculpterAgeReversalAge>
-  <!-- EN: Carry {PAWN_label} to biosculpter pod ({CYCLE}) -->
-  <CarryToBiosculpterPod>將{PAWN_label}帶往塑體艙({CYCLE})</CarryToBiosculpterPod>
+  <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
+  <CarryToBiosculpterPod>將{PAWN_labelShort}帶往塑體艙({CYCLE}療程)</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
   <CannotCarryToBiosculpterPod>無法帶往塑體艙</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
   <NoBiosculpterPod>沒有可用的塑體艙</NoBiosculpterPod>
-  <!-- EN: No cycle active -->
-  <BiosculpterNoCycleActive>沒有生效的療程</BiosculpterNoCycleActive>
-  <!-- EN: Nutrition being loaded -->
-  <BiosculpterLoadingNutrition>需要營養</BiosculpterLoadingNutrition>
+  <!-- EN: Nutrition not loaded -->
+  <BiosculpterNutritionNotLoaded>未注入營養</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
   <BiosculpterOccupied>佔用中</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
   <CannotEnter>無法進入</CannotEnter>
-
+  <!-- EN: Cannot start {0} cycle -->
+  <BiosculpterCannotStartCycle>無法開始{0}療程</BiosculpterCannotStartCycle>
+  <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
+  <BiosculpterMissingIngredients>無法找到療程材料({INGREDIENTS})</BiosculpterMissingIngredients>
+  <!-- EN: Nobody around can use this -->
+  <BiosculpterNoEligiblePawns>附近的人皆無法使用</BiosculpterNoEligiblePawns>
+  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
+  <BiosculpterNoEligiblePawnsBiotuned>已配對給{PAWN_labelShort}而{PAWN_pronoun}不在附近。</BiosculpterNoEligiblePawnsBiotuned>
+  <!-- EN: Auto load nutrition -->
+  <BiosculpterAutoLoadNutritionLabel>自動注入營養</BiosculpterAutoLoadNutritionLabel>
+  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterAutoLoadNutritionDescription>自動注入進行療程所需的營養</BiosculpterAutoLoadNutritionDescription>
+  <!-- EN: Auto age reversal for {PAWN_labelShort} -->
+  <BiosculpterAutoAgeReversalLabel>自動為{PAWN_labelShort}逆齡</BiosculpterAutoAgeReversalLabel>
+  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
+  <BiosculpterAutoAgeReversalDescription>自動滿足{PAWN_labelShort}對於在此艙內進行逆齡療程的渴望，符合{PAWN_possessive}信仰。{NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
+  <BiosculpterAutoAgeReversalDescriptionFuture>如果啟用，{PAWN_labelShort}將會在{TIME}後，且塑體艙準備好的時候，自動進行{PAWN_possessive}下一次療程。</BiosculpterAutoAgeReversalDescriptionFuture>
+  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort}已經需要{PAWN_possessive}下一次療程，並會在它啟用時自動進行。</BiosculpterAutoAgeReversalDescriptionNow>
+  <!-- EN: Collecting ingredients for biosculpter cycle -->
+  <BiosculpterJobReportCollectIngredients>為塑體艙療程收集材料</BiosculpterJobReportCollectIngredients>
 </LanguageData>

@@ -20,9 +20,9 @@
   <!-- EN: Right-clicking a number in the Work tab using manual priorities will reduce the priority instead of increasing it. -->
   <GameplayTips.WorkTabDecreasePriority>在「工作」選項的手動優先順序模式下，對數字按右鍵會降低優先順序。</GameplayTips.WorkTabDecreasePriority>
   <!-- EN: In a gunfight, always be behind cover! Right-click and drag to have your drafted fighters form a line. -->
-  <GameplayTips.GunfightCover>在槍戰中，請躲在掩體後面！按住滑鼠右鍵拖動讓您徵招的戰士列成一條線。</GameplayTips.GunfightCover>
+  <GameplayTips.GunfightCover>在槍戰中，請躲在掩體後面！按住滑鼠右鍵拖動讓您徵召的戰士列成一條線。</GameplayTips.GunfightCover>
   <!-- EN: Right-click and drag to have your drafted fighters form a line. Bunched-up targets are easy to hit! -->
-  <GameplayTips.GunfightSpread>按住滑鼠右鍵拖動讓您徵招的戰士列成一條線。聚在一起更容易被擊中。</GameplayTips.GunfightSpread>
+  <GameplayTips.GunfightSpread>按住滑鼠右鍵拖動讓您徵召的戰士列成一條線。聚在一起更容易被擊中。</GameplayTips.GunfightSpread>
   <!-- EN: Smoke totally prevents turrets from detecting targets, but people can still shoot with reduced accuracy. -->
   <GameplayTips.ShootingAccuracySmoke>煙霧能夠讓砲塔無法鎖定目標，但人們仍然能夠以較低命中率射擊煙霧內的目標。</GameplayTips.ShootingAccuracySmoke>
   <!-- EN: When designing defences, assume enemies will get inside using drop pods or tunnels. Build internal defensive positions. -->
@@ -53,16 +53,18 @@
   <GameplayTips.AnimalDeathExplosionRain>如果您在雨天時狩獵爆炸鼠、爆炸艾洛普，那牠們死後的爆炸不會引起森林大火。</GameplayTips.AnimalDeathExplosionRain>
   <!-- EN: Carefully-slaughtered animals yield more meat and leather than those who were killed violently. -->
   <GameplayTips.GreaterSlaughterYield>被宰殺的動物比被獵殺的動物生產更多的肉、毛皮。</GameplayTips.GreaterSlaughterYield>
-  <!-- EN: Place a caravan packing spot to designate where you want your caravans to form up. -->
-  <GameplayTips.CaravanPackingSpot>設置旅隊裝卸點，以指定旅隊形成的位置。</GameplayTips.CaravanPackingSpot>
+  <!-- EN: Place the caravan hitching spot where you want your caravans to form up. It's usually best to place it near your storage areas. -->
+  <GameplayTips.CaravanHitchingSpot>將旅隊拴繫點放在你想你的旅隊集結的位置。通常最好放在儲物區附近。</GameplayTips.CaravanHitchingSpot>
+  <!-- EN: During encounters away from home, you can place a caravan hitching spot to keep your animals from wandering. -->
+  <GameplayTips.CaravanHitchingSpotRoamers>在旅途中，你可以放置旅隊拴繫點來防止動物亂跑。</GameplayTips.CaravanHitchingSpotRoamers>
   <!-- EN: Single-person caravans can be very useful in certain situations. -->
   <GameplayTips.CaravanSinglePerson>某些情況下，單人旅隊非常實用。</GameplayTips.CaravanSinglePerson>
   <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
   <GameplayTips.CaravanRideableAnimals>如果旅隊中有像馬、驢、駱駝一樣可騎乘的動物，旅隊的移動速度會更快。</GameplayTips.CaravanRideableAnimals>
   <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>小型旅隊比較不會受到埋伏，因為可見性比較低。</GameplayTips.CaravanSmallerLessVisible>
-  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing spot. This will make packing much faster. -->
-  <GameplayTips.CaravanStockpileNearPackingSpot>組織旅隊之前，將物資運送到旅隊裝卸點附近的儲存區，以提昇效率。</GameplayTips.CaravanStockpileNearPackingSpot>
+  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing post. This will make packing much faster. -->
+  <GameplayTips.CaravanStockpileNearPackingSpot>組織旅隊之前，將物資運送到旅隊拴繫點附近的儲存區，以提昇效率。</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>如果您的旅隊中有尚未訓練的動物，可以在戰鬥前拆分成單獨旅隊，以防出現意外。</GameplayTips.CaravanUntrainedAnimals>
   <!-- EN: Don't forget to pack medicine on your caravans. -->
@@ -73,6 +75,8 @@
   <GameplayTips.BadAllies>有些殖民者一無是處。這些也是挑戰的一部分。</GameplayTips.BadAllies>
   <!-- EN: If you can't defend against a threat, make a caravan and run. You may lose your home, but your story can continue. -->
   <GameplayTips.MakeCaravanRunBeforeDefeat>如果您用無法守住家園，那麼帶上您的旅隊離開吧。您可能失去家園，但故事仍將繼續。</GameplayTips.MakeCaravanRunBeforeDefeat>
+  <!-- EN: When you have more wealth, more powerful enemies attack. If you want the challenge to scale with time instead, select 'Wealth-independent progress mode' in the storyteller settings. -->
+  <GameplayTips.FixedWealthMode>如果你擁有更多的財富，就會有更強的敵人前來攻擊。如果你想讓挑戰依時間變化，你可以在故事敘述者設定中選擇「固定財富模式」。</GameplayTips.FixedWealthMode>
   <!-- EN: Avoid using stone for doors. They open very slowly, which wastes your colonists' time. -->
   <GameplayTips.StoneDoors>儘量避免用石材建造門。緩慢的開門速度會浪費殖民者的時間。</GameplayTips.StoneDoors>
   <!-- EN: Put chairs in front of workbenches so workers can sit comfortably while working. -->
@@ -98,7 +102,7 @@
   <!-- EN: Keeping prisoners together saves space. However, prisoners kept together will try to break out together. -->
   <GameplayTips.KeepingPrisonersTogether>將俘虜集中關押能夠節省空間，但也更容易集體越獄。</GameplayTips.KeepingPrisonersTogether>
   <!-- EN: Enemy faction bases are very well-defended. You don't need to attack them - but be well-prepared if you choose to try. -->
-  <GameplayTips.EnemyFactionBaseDefenses>敵對派系的據點防備嚴密。您不需要去攻擊他們。但如果您打算嘗試，請做好充分準備。</GameplayTips.EnemyFactionBaseDefenses>
+  <GameplayTips.EnemyFactionBaseDefenses>敵對派系的據點防備嚴密。您不一定要去攻擊他們。但若您打算嘗試，請做好充分準備。</GameplayTips.EnemyFactionBaseDefenses>
   <!-- EN: Cute tame animals will nuzzle your colonists, improving their mood. -->
   <GameplayTips.AnimalNuzzle>可愛的動物會向殖民者撒嬌，這會提昇他們的心情。</GameplayTips.AnimalNuzzle>
   <!-- EN: Assign your herbivorous animals to areas with lots of grass. They'll eat the grass and spare you the need to feed them. -->
@@ -112,7 +116,7 @@
   <!-- EN: Work and movement speed are affected by lighting. Everything is slower in the dark. -->
   <GameplayTips.WorkMovementSpeedLighting>光線會影響工作和移動速度。在黑暗中，一切效率都會下降。</GameplayTips.WorkMovementSpeedLighting>
   <!-- EN: Deep underground caverns have a naturally stable temperature, even if it's very hot or cold outside. -->
-  <GameplayTips.DeepCavesTemperature>即使面對極端氣候，厚岩頂下的洞穴深處也能保持自然穩定的溫度。</GameplayTips.DeepCavesTemperature>
+  <GameplayTips.DeepCavesTemperature>即使面對極端氣候，山岩頂下的洞穴深處也能保持自然穩定的溫度。</GameplayTips.DeepCavesTemperature>
   <!-- EN: Mountain bases are easy to defend. The downside is that people go crazy spending too long underground. And giant insects. -->
   <GameplayTips.MountainBases>山地的殖民地易守難攻。不利之處在於人們長期必須待在地底下。還有不定期的蟲災。</GameplayTips.MountainBases>
   <!-- EN: Prisoners will join much quicker and attempt fewer breakouts when they're in a good mood. -->
@@ -122,7 +126,7 @@
   <!-- EN: Geysers heat up rooms if enclosed. This can be dangerous, or useful. -->
   <GameplayTips.GeysersHeatRooms>蒸汽間歇噴泉會提高室內溫度。這會帶來危險，或反之利用。</GameplayTips.GeysersHeatRooms>
   <!-- EN: Explosions extinguish fires in their blast radius. This makes artillery shells useful for stopping fires when there is no other choice. -->
-  <GameplayTips.ExtinguishFireArtillery>爆炸能撲滅爆炸範圍內的火焰。在毫無選擇的情況下可使用高爆炮彈撲滅火焰。</GameplayTips.ExtinguishFireArtillery>
+  <GameplayTips.ExtinguishFireArtillery>爆炸能撲滅爆炸範圍內的火焰。在毫無選擇的情況下可使用高爆砲彈撲滅火焰。</GameplayTips.ExtinguishFireArtillery>
   <!-- EN: Even serious setbacks don't mean the game has to end. Try playing out a lost battle - often the best stories come from the darkest situations. -->
   <GameplayTips.BestStoriesFromDarkestSituations>即使遭受重創也不意味著遊戲結束。失敗乃成功之母。</GameplayTips.BestStoriesFromDarkestSituations>
   <!-- EN: Keep weapon stockpiles away from your prisons. Prison breaks are much more dangerous with guns and explosives. -->
@@ -134,18 +138,21 @@
   <!-- EN: Clean labs with sterile tile give research speed bonuses. -->
   <GameplayTips.CleanLabs>研究室鋪設抗菌地磚可以提昇研究速度。</GameplayTips.CleanLabs>
   <!-- EN: You can change storyteller and playstyle at any time through the options menu. -->
-  <GameplayTips.ChangeStoryteller>您可以隨時透過選單來變更故事敘述者和遊玩風格。</GameplayTips.ChangeStoryteller>
+  <GameplayTips.ChangeStoryteller>您可以隨時透過選單來變更故事敘述者和遊戲難度。</GameplayTips.ChangeStoryteller>
   <!-- EN: The more factions you are allied with, the more random traders and military aid you will receive. -->
   <GameplayTips.MoreAlliesMoreTraders>您的派系盟友越多，旅隊就會來得更頻繁，也會獲得軍事援助。</GameplayTips.MoreAlliesMoreTraders>
   <!-- EN: You can use drug policies to have your fighters carry combat drugs like go-juice. A quick dose at the start of combat can win the battle. -->
   <GameplayTips.CombatDrugsFromInventory>您可以使用藥物管制，例如讓您的戰鬥員攜帶能量果飲。在戰鬥時迅速飲用可以贏得戰鬥。</GameplayTips.CombatDrugsFromInventory>
   <!-- EN: Set schedules with long stretches of one activity to minimize travel time. -->
-  <GameplayTips.SchedulesSetLong>制定一個長期計畫來讓旅行時間最短化。</GameplayTips.SchedulesSetLong>
+  <GameplayTips.SchedulesSetLong>為同一項活動制定長時間計劃來減省來回行走時間。</GameplayTips.SchedulesSetLong>
   <!-- EN: Straw matting ignores filth. Use it as the floor for your barn. -->
   <GameplayTips.StrawMatting>草蓆無視髒污。很適合用他來當穀倉的地板。</GameplayTips.StrawMatting>
   <!-- EN: Some animals produce a lot of filth. Keep your elephants and cattle outside. -->
   <GameplayTips.AnimalFilth>有些動物會產生很多髒污。最好把你的大象和牛留在戶外。</GameplayTips.AnimalFilth>
-  <!-- EN: Predators are less likely to hunt animals which are enclosed by fences or barricades. -->
-  <GameplayTips.PredatorsAndFences>掠食者不太可能狩獵被柵欄或路障包圍的動物。</GameplayTips.PredatorsAndFences>
+  <!-- EN: Predators won't hunt animals which are on the other side of fences or barricades. -->
+  <GameplayTips.PredatorsAndFences>掠食者不會狩獵在柵欄或路障對面的動物。</GameplayTips.PredatorsAndFences>
+  
+  <!-- UNUSED -->
+  <GameplayTips.CaravanPackingSpot>設置旅隊裝卸點，以指定旅隊形成的位置。</GameplayTips.CaravanPackingSpot>
   
 </LanguageData>

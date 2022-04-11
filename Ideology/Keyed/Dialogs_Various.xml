@@ -48,20 +48,20 @@
   <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
   <ConfirmChangeMemesForFluidIdeo>你現在載入的理念有部份模因與新的流動式理念衝突，因此需要重新選擇模因(可以只憑一個低影響力的模因來開始流動理念)。</ConfirmChangeMemesForFluidIdeo>
   <!-- EN: The following memes are incompatible -->
-  <ConfirmIncompatibleMemes>TODO</ConfirmIncompatibleMemes>
+  <ConfirmIncompatibleMemes>以下模因不相容</ConfirmIncompatibleMemes>
   <!-- EN: Would you like to continue? -->
-  <ConfirmChangeMemesForFluidIdeoContinue>TODO</ConfirmChangeMemesForFluidIdeoContinue>
+  <ConfirmChangeMemesForFluidIdeoContinue>你確定繼續嗎？</ConfirmChangeMemesForFluidIdeoContinue>
 
   <!-- EN: role -->
   <Role>職位</Role>
   <!-- EN: Assign role -->
   <ChooseRole>分配職位</ChooseRole>
   <!-- EN: Choose new role -->
-  <ChooseNewRole>TODO</ChooseNewRole>
+  <ChooseNewRole>選擇新職位</ChooseNewRole>
   <!-- EN: No role assigned -->
   <NoRoleAssigned>未分配職位</NoRoleAssigned>
   <!-- EN: Remove {0} role -->
-  <RemoveRole>TODO</RemoveRole>
+  <RemoveRole>移除{0}職位</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
   <ChooseRoleConfirmAssign>將為{PAWN_labelShort}分配{ROLE_labelDef}職位。</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
@@ -85,9 +85,9 @@
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>解鎖自</UnlockedByMeme>
   <!-- EN: Unlocked roles -->
-  <MemeUnlocksRoles>解鎖了職位</MemeUnlocksRoles>
+  <MemeUnlocksRoles>解鎖職位</MemeUnlocksRoles>
   <!-- EN: Unlocked rituals -->
-  <MemeUnlocksRituals>解鎖了儀式</MemeUnlocksRituals>
+  <MemeUnlocksRituals>解鎖儀式</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
   <ChooseRoleRequiredWorkTagsDisabled>警告︰{PAWN_nameDef}無法履行{ROLE_label}的工作。如果你要給予{PAWN_objective}此職位，{PAWN_pronoun}可能無法使用{ROLE_label}帶來的能力。缺失的工種有</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
@@ -108,7 +108,7 @@
   <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
   <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort}是{ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
-  <AbilityIdeoConvertBreakdownTrait>特性{TRAIT}</AbilityIdeoConvertBreakdownTrait>
+  <AbilityIdeoConvertBreakdownTrait>{TRAIT}特性</AbilityIdeoConvertBreakdownTrait>
   <!-- EN: {RELICCOUNT} installed relics on map -->
   <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT}個聖物安置了在地圖上</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
@@ -118,7 +118,7 @@
   <!-- EN: {PAWN_nameDef}'s ideoligion -->
   <AbilityIdeoConvertBreakdownPawnIdeo>{PAWN_nameDef}的理念</AbilityIdeoConvertBreakdownPawnIdeo>
   <!-- EN: {MEME} vs {TRAIT} trait -->
-  <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} VS {TRAIT}特性</AbilityIdeoConvertBreakdownMemeVsTrait>
+  <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME}VS{TRAIT}特性</AbilityIdeoConvertBreakdownMemeVsTrait>
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
   <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort}近來已被商談過了。</AbilityCantApplyAlreadyCounselled>
@@ -164,8 +164,6 @@
   <LastHumanMeat>最後進食人肉時間</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
   <LastHumanMeatDesc>因為{PAWN_possessive}信奉{IDEO_name}，如果{PAWN_nameDef}{DURATION}天內沒有食人，{PAWN_pronoun}會不高興。</LastHumanMeatDesc>
-  <!-- EN: Last large animal slaughter -->
-  <LastAnimalSlaughter>最後的大型動物屠宰</LastAnimalSlaughter>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>實施{PAWN_labelShort}會帶來與{FACTION_name}的負面影響。</ExectueNeutralFactionSlave>
@@ -292,10 +290,14 @@
   <ConfirmDecisionsTitle>確認</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>由AI(*Name)Charlon Whitestone(/Name)通報的那艘休眠星艦將會在新殖民地建立完成後飛離。到時將不能利用它逃離此星球。</ShipEscapeWillEndDescription>
-  <!-- EN: The colony's purchasers will only allow you to take one relic. Any relic not selected will be left behind, including: -->
-  <RemoveEquippedRelicsDescription>殖民地的買家只容許你拿走一件聖物。任何未被選擇的聖物將被留下，包括︰</RemoveEquippedRelicsDescription>
-  <!-- EN: Would you like to proceed? -->
-  <WantToProceed>你確定繼續嗎？</WantToProceed>
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>沒有選擇到要帶到新殖民地的聖物。</ArchonexusRelicNotChosen>
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>{1}件東西中有{0}件東西被選擇要帶到新殖民地。</ArchonexusItemsNotChosen>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
+  <RemoveEquippedRelicsDescription>殖民地的買家只容許你拿走一件聖物。任何未被選擇的聖物將被留下(即使居民拿在手上)，包括︰</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
+  <WantToProceed>你確定繼續嗎？確定後不能取消。</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>轉換</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
@@ -306,11 +308,25 @@
   <AbandonArchotechStructuresWarningDialog>你現在打算放棄的據點存在尚未完全探勘的遠古遺跡。\n\n你以後可以再回來這裡，但你的殖民地將被清除。</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>{0}件東西可以帶到新的殖民地。\n\n最大容許數量︰{1}</ItemQuantityTooltip>
+  <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
+  <SoldColonyDescription>你已賣出殖民地。買家正等待你選擇新的落腳點。</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>破解{0}將會警醒敵人並使他們攻擊你。你確定要破解{0}嗎?</ConfirmHackEnenyTerminal>
 
   <!-- EN: Relics -->
   <RelicsSection>聖物</RelicsSection>
+
+  <!-- Food restrictions -->
+  <!-- EN: Vegetarian -->
+  <FoodRestrictionVegetarian>素食</FoodRestrictionVegetarian>
+  <!-- EN: Carnivore -->
+  <FoodRestrictionCarnivore>葷食</FoodRestrictionCarnivore>
+  <!-- EN: Cannibal -->
+  <FoodRestrictionCannibal>食人</FoodRestrictionCannibal>
+  <!-- EN: Insect meat -->
+  <FoodRestrictionInsectMeat>蟲肉</FoodRestrictionInsectMeat>
+  <!-- UNUSED -->
+  <LastAnimalSlaughter>最後的大型動物屠宰</LastAnimalSlaughter>
 
 </LanguageData>

@@ -50,7 +50,7 @@
   <ExtractTree.reportString>取出TargetA。</ExtractTree.reportString>
   
   <!-- EN: feeding TargetA to TargetB. -->
-  <FeedPatient.reportString>餵食TargetBTargetA。</FeedPatient.reportString>
+  <FeedPatient.reportString>給TargetB餵食TargetA。</FeedPatient.reportString>
   
   <!-- EN: building TargetA. -->
   <FinishFrame.reportString>建造TargetA。</FinishFrame.reportString>
@@ -123,6 +123,9 @@
   
   <!-- EN: researching. -->
   <Research.reportString>進行研究。</Research.reportString>
+  
+  <!-- EN: leading TargetA to hitching spot. -->
+  <RopeRoamerToHitchingPost.reportString>帶領TargetA前往拴繫點。</RopeRoamerToHitchingPost.reportString>
   
   <!-- EN: leading TargetA to TargetC. -->
   <RopeRoamerToUnenclosedPen.reportString>帶領TargetA前往TargetC。</RopeRoamerToUnenclosedPen.reportString>

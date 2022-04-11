@@ -59,8 +59,8 @@
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [areIs] 患有麻痺性重症，必須臥床休息。</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [areIs]得了血腐病，需要每日治療。可以通過高品質的護理和藥物來減緩該疾病，旦通常無法徹底治療。如果疾病變得嚴重[lodgersLabelSingOrPluralDef]將會死亡，因此請確保你有必要的醫療用品。</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef][areIs]患有麻痺性重症，必須臥床休息。</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef][areIs]得了血腐病，需要每日治療。可以通過高品質的護理和藥物來減緩該疾病，但通常無法徹底治療。如果疾病變得嚴重[lodgersLabelSingOrPluralDef]將會死亡，因此請確保你有必要的醫療用品。</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n你必須將[lodgersLabelSingOrPluralDef]的心情保持在[lodgersMoodThreshold_percent]以上。</li>
     <li>workInfo-></li>
@@ -71,10 +71,10 @@
     <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->將進行一次強度為[threatSize]x的(*Threat)襲擊(/Threat)，大約為以下規模：\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->將會有大約這個規模的(*Threat)[threatCount]個襲擊(/Threat)：\n\n[threatExample]</li>
     <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->將會有[threatCount]次(*Threat)襲擊(/Threat)，[threatSize]次襲擊敵兵力大約為以下：\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)一個機械軍團(/Threat)將部屬在附近。</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)兩個機械軍團(/Threat)將部屬在附近。</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->一個規模[threatSize]x的(*Threat)機械軍團(/Threat)將部屬在附近。</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->兩個規模[threatSize]x的(*Threat)機械軍團(/Threat)將部屬在附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)一個機械軍團(/Threat)將部署在附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)兩個機械軍團(/Threat)將部署在附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->一個規模[threatSize]x的(*Threat)機械軍團(/Threat)將部署在附近。</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->兩個規模[threatSize]x的(*Threat)機械軍團(/Threat)將部署在附近。</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已經被在軌道的大批機械軍團鎖定。</li>
     <li>threatsInfoMechClustersMultiPrisoners->俘虜們近期[mechViolation]，已經被在軌道的大批機械軍團鎖定。</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef]近期[mechViolation]，已經被大批機械軍團鎖定。</li>
@@ -89,11 +89,11 @@
     <li>lodgersHasHave(lodgersCount>=2)->有</li>
     <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
     <li>lodgersObjective(lodgersCount>=2)->他們</li>
-    <li>areIs(lodgersCount==1)->是</li>
-    <li>areIs(lodgersCount>=2)->是</li>
+    <li>areIs(lodgersCount==1)-></li>
+    <li>areIs(lodgersCount>=2)-></li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
     <li>remainingWillNowLeave(lodgersCount>=2)->現在所有剩餘的[lodgersLabelPlural]都將離開。</li>
-    <li>failLetterEndingQuest->你未能完成任務'[resolvedQuestName]'.</li>
+    <li>failLetterEndingQuest->你未能完成任務'[resolvedQuestName]'。</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\n你與[asker_faction_name]的關係下降[goodwillPenalty]。</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>

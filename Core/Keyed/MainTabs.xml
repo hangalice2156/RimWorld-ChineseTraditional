@@ -49,7 +49,7 @@
   <!-- EN: Unchangeable -->
   <Unchangeable>不可變</Unchangeable>
   <!-- EN: Clr. forced -->
-  <ClearForcedApparel>卸除裝備</ClearForcedApparel>
+  <ClearForcedApparel>解除強制</ClearForcedApparel>
   <!-- EN: forced -->
   <ApparelForcedLower>強制</ApparelForcedLower>
   <!-- EN: locked -->
@@ -211,7 +211,7 @@
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
   <TechLevelTooLow>你的派系文明等級為{0}，但此項目的技術等級為{1}。研究速度將乘以{2}。</TechLevelTooLow>
   <!-- EN: Unlocked with -->
-  <UnlockedWith>解鎖</UnlockedWith>
+  <UnlockedWith>解鎖自</UnlockedWith>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -241,13 +241,13 @@
   <!-- EN: Accepted on {0} by {1} -->
   <AcceptedOnBy>{1}已於{0}接受</AcceptedOnBy>
   <!-- EN: Expires in {0} -->
-  <QuestExpiresIn>於{0}過期</QuestExpiresIn>
+  <QuestExpiresIn>於{0}後過期</QuestExpiresIn>
   <!-- EN: Expires on {0} -->
   <QuestExpiresOn>於{0}到期</QuestExpiresOn>
   <!-- EN: Average guest mood (previous {0}): {1} -->
-  <QuestAveragePawnMood>訪客平均心情 (之前為{0})：{1} </QuestAveragePawnMood>
+  <QuestAveragePawnMood>訪客平均心情 (過往{0})：{1}</QuestAveragePawnMood>
   <!-- EN: The average mood of {0} over the previous {1} -->
-  <QuestAveragePawnMoodTargets>{0}的平均心情超過之前的 {1}</QuestAveragePawnMoodTargets>
+  <QuestAveragePawnMoodTargets>{0}在過往{1}的平均心情</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
   <ShuttleArrivesIn>太空梭於{0}抵達</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
@@ -281,15 +281,15 @@
   <!-- EN: Jump to {0} -->
   <JumpToTargetCustom>跳至{0}</JumpToTargetCustom>
   <!-- EN: Select hives -->
-  <SelectHiveTargets>選擇蜂箱</SelectHiveTargets>
+  <SelectHiveTargets>選擇蟲巢</SelectHiveTargets>
   <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
   <QuestChallengeRatingTip>挑戰等級。這是一個綜合的難易度評級，顯示該任務相對於你當前的實力有多少差距。更具挑戰性的任務會帶來更大的獎勵。\n\n1: 普通\n2: 困難\n3: 極難\n4: 終極</QuestChallengeRatingTip>
   <!-- EN: To accept this quest, you need -->
   <QuestAcceptanceRequirementsDescription>要接受此任務，你需要</QuestAcceptanceRequirementsDescription>
   <!-- EN: free bedrooms that satisfy the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfied>滿足頭銜要求的個人臥室</QuestBedroomRequirementsUnsatisfied>
+  <QuestBedroomRequirementsUnsatisfied>滿足頭銜要求的個人臥室給</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfiedSingle>滿足頭銜要求的個人臥室</QuestBedroomRequirementsUnsatisfiedSingle>
+  <QuestBedroomRequirementsUnsatisfiedSingle>滿足頭銜要求的個人臥室給</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestThroneRoomRequirementsUnsatisfied>滿足{PAWN_definite}的{TITLE}頭銜要求的謁見廳。</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: assign a throne for {PAWN_definite} -->
@@ -299,7 +299,7 @@
   <!-- EN: {PAWN_definite} to be in your home colony -->
   <QuestPawnNotOnColonyMap>{PAWN_definite}在主殖民地</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
-  <QuestRequiresNoDangerOnMap>佈施者的敵人都必須被消滅！</QuestRequiresNoDangerOnMap>
+  <QuestRequiresNoDangerOnMap>地圖上賜予者的敵人都已被解決</QuestRequiresNoDangerOnMap>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>完成正在進行的授勳儀式任務</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -307,21 +307,21 @@
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
   <ChooseRewardsDesc>告訴其他派系你在未來的任務中想要什麼樣的報酬。這不會影響已經接取的任務。</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
-  <AcceptRoyalFavor>接受{FACTION_royalFavorLabel}的任務</AcceptRoyalFavor>
+  <AcceptRoyalFavor>容許{FACTION_royalFavorLabel}任務</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
-  <AcceptRoyalFavorDesc>是否希望接受{FACTION_name}：{FACTION_royalFavorLabel}的任務。\n\n如果禁用此功能，{FACTION_name}將提供其他類型的獎勵。此設置只會影響新接到的任務。</AcceptRoyalFavorDesc>
+  <AcceptRoyalFavorDesc>是否希望從{FACTION_name}的任務獲得{FACTION_royalFavorLabel}。\n\n如果禁用此功能，{FACTION_name}將提供其他類型的獎勵。\n\n此設置只會影響新接到的任務。</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
-  <AcceptGoodwill>接受任務</AcceptGoodwill>
+  <AcceptGoodwill>容許友好度任務</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
-  <AcceptGoodwillDesc>是否希望接受{FACTION_name}的任務來提昇關係。\n\n如果禁用此功能，{FACTION_name}將提供其他類型的獎勵。此設置只會影響新接到的任務。</AcceptGoodwillDesc>
+  <AcceptGoodwillDesc>是否希望獲得可以提昇與{FACTION_name}的關係的任務。\n\n如果禁用此功能，{FACTION_name}將提供其他類型的獎勵。\n\n此設置只會影響新接到的任務。</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
   <RoyalFavorOn>當前選擇接受{FACTION_royalFavorLabel}任務。 </RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>當前選擇不接受{FACTION_royalFavorLabel}任務。</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>你與 {0_name} 的友好度將提昇 {1} 。\n\n目前的友好度： {4} ( {5} )。\n\n友好度是與各派系之間的關係。該派系保持中立，並會跟你交易和對話。如果低於 {2} 就會敵視你，並會襲擊你的據點和旅隊。如果高於 {3} 就會變成盟友，並盡可能的幫助你。</GoodwillTip>
+  <GoodwillTip>你與{0_name}的友好度將提昇{1}。\n\n目前的友好度：{4}({5})。\n\n友好度是與各派系之間的關係。該派系保持中立，並會跟你交易和對話。如果低於{2}就會敵視你，並會襲擊你的據點和旅隊。如果高於{3}就會變成盟友，並盡可能的幫助你。</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
-  <PawnQuestReward>{0_labelShort} 加入</PawnQuestReward>
+  <PawnQuestReward>{0_labelShort}加入</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
   <QuestBetrayalOffer>背叛：存在{0}個目標</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
@@ -339,6 +339,6 @@
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
-  <CreatesNeed>製作需求</CreatesNeed>
+  <CreatesNeed>引起需求</CreatesNeed>
 
 </LanguageData>

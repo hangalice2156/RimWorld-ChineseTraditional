@@ -55,13 +55,15 @@
   <!-- EN: Needs tending now -->
   <NeedsTendingNow>需要立即治療</NeedsTendingNow>
   <!-- EN: Can tend now -->
-  <CanTendNow>現在無法治療</CanTendNow>
+  <CanTendNow>待接受治療</CanTendNow>
   <!-- EN: Tending expires in {0} -->
   <TreatmentExpiresIn>療效時間{0}</TreatmentExpiresIn>
   <!-- EN: Can be tended in {0} -->
   <NextTendIn>可在{0}後進行治療</NextTendIn>
   <!-- EN: Tend quality -->
   <TendQuality>治療品質</TendQuality>
+  <!-- EN: Total tend quality -->
+  <DisappearsAtTotalTendQuality>總治療品質</DisappearsAtTotalTendQuality>
   <!-- EN: no {0} -->
   <MissingMedicalBillIngredient>無{0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
@@ -89,9 +91,9 @@
   <!-- EN: Drop -->
   <DropThing>卸下</DropThing>
   <!-- EN: Temporary faction members will not drop their items. -->
-  <DropThingLodger>臨時派系成員不會丟掉他們身上的物品。</DropThingLodger>
+  <DropThingLodger>臨時派系成員不會放下他們身上的物品。</DropThingLodger>
   <!-- EN: This person refuses to drop this. -->
-  <DropThingLocked>此人拒絕丟掉。</DropThingLocked>
+  <DropThingLocked>此人拒絕放下。</DropThingLocked>
   <!-- EN: Rename -->
   <Rename>重新命名</Rename>
   <!-- EN: Rename animal -->
@@ -109,7 +111,7 @@
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{1}的{0}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>此操作將讓{PAWN_nameDef}失去{PAWN_possessive} {TITLE}頭銜。放棄頭銜不會獲得任何補償。\n\n這將會產生以下影響:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>此操作將讓{PAWN_nameDef}失去{PAWN_possessive}{TITLE}頭銜。放棄頭銜不會獲得任何補償。\n\n這將會產生以下影響:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_possessive}將失去這些權限</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
@@ -323,7 +325,7 @@
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Shift+左鍵：全選\nShift+右鍵：全部取消</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{0}{1}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
   <SkillRequirements>需要技能</SkillRequirements>
   <!-- EN: Products -->
@@ -417,7 +419,7 @@
   <!-- EN: items -->
   <ItemsLower>物品</ItemsLower>
   <!-- EN: {0} x{1} -->
-  <FilthLabel>{0} x{1}</FilthLabel>
+  <FilthLabel>{0}x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
   <FilthLabelWithSource>{1}的{0}x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
@@ -463,7 +465,7 @@
   <!-- EN: {0} killed -->
   <PawnsKilled>{0}狩獵數</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>發送{0}，將返回{1}</PawnsLent>
+  <PawnsLent>已派出{0}，將在{1}後返回</PawnsLent>
   <!-- EN: Dormant -->
   <DormantCompInactive>休眠</DormantCompInactive>
   <!-- EN: Sealed -->
@@ -499,17 +501,17 @@
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>平常友好度範圍</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>平常友好度基於派系的身份和理念。如果當前友好度與平常友好度差距太大，會隨著時間慢慢推向平常友好度。當推向平常有好度時，友好度的效果為 {0}。</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>平常友好度基於派系的身份和信仰而得。如果當前友好度與平常友好度差距太大，就會隨著時間慢慢趨向平常友好度。所有趨向平常有好度的變化會倍以{0}。</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
-  <JobReport_ReduceResistance>化解 {0_nameIndef} 的心房</JobReport_ReduceResistance>
+  <JobReport_ReduceResistance>化解{0_nameIndef}的心房</JobReport_ReduceResistance>
   <!-- EN: Too large -->
   <TooLargeForBed>過大</TooLargeForBed>
   <!-- EN: Warning -->
   <Warning>警告</Warning>
   <!-- EN: Has subquest -->
-  <HasSubquest>有子任務</HasSubquest>
+  <HasSubquest>具有子任務</HasSubquest>
   <!-- EN: Subquest of -->
-  <SubquestOf>子任務於</SubquestOf>
+  <SubquestOf>屬於</SubquestOf>
   <!-- EN: Raid -->
   <Raid>突襲</Raid>
   <!-- EN: Disabled by -->
@@ -524,6 +526,10 @@
   <AttackToDestroy>對其攻擊以摧毀</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
   <RemoveByAttackingTooltip>對其攻擊以移除</RemoveByAttackingTooltip>
+  <!-- EN: Food -->
+  <ThoughtFoodEatenFood>食物</ThoughtFoodEatenFood>
+  <!-- EN: Ingredients -->
+  <ThoughtFoodEatenIngredients>材料</ThoughtFoodEatenIngredients>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -571,7 +577,7 @@
   <!-- EN: Tame failed\n{0} chance -->
   <TextMote_TameFail>馴服失敗\n成功率{0}</TextMote_TameFail>
   <!-- EN: Tamed! -->
-  <TextMote_TameSuccess>馴服成功！\n成功率{0}</TextMote_TameSuccess>
+  <TextMote_TameSuccess>馴服成功！</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
   <TextMote_TrainFail>訓練失敗：{0}\n成功率{1}</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
@@ -619,7 +625,7 @@
   <!-- EN: Rename pen -->
   <RenameAnimalPen>重新命名飼養圈</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
-  <AnimalPenMarkerDefaultLabel>飼養圈標誌 {0}</AnimalPenMarkerDefaultLabel>
+  <AnimalPenMarkerDefaultLabel>飼養圈標誌{0}</AnimalPenMarkerDefaultLabel>
   <!-- EN: In pen -->
   <InPen>在飼養圈中</InPen>
   <!-- EN: not in a pen -->
@@ -627,11 +633,11 @@
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
   <UnpennedTooltip>在圍住的區域內建立動物飼養圈。你的馴獸師會將動物帶到合適的飼養圈內。飼養圈可以用柵欄、路障、牆和門圍起來。</UnpennedTooltip>
   <!-- EN: Roped by -->
-  <RopedByPawn>被以下馴獸師帶領</RopedByPawn>
+  <RopedByPawn>領頭人</RopedByPawn>
   <!-- EN: Roped to -->
   <RopedToThing>被帶領至</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>被帶領至地點</RopedToSpot>
+  <RopedToSpot>被綁在拴繫點</RopedToSpot>
   <!-- EN: Pen size -->
   <PenSizeLabel>飼養圈範圍</PenSizeLabel>
   <!-- EN: Very small pen -->
@@ -643,11 +649,11 @@
   <!-- EN: Large pen -->
   <PenSizeDesc_Large>大飼養圈</PenSizeDesc_Large>
   <!-- EN: Not enclosed - build fences -->
-  <PenSizeDesc_Unenclosed>尚未圍住 - 建造柵欄</PenSizeDesc_Unenclosed>
+  <PenSizeDesc_Unenclosed>尚未圍住 - 請建造柵欄</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>{ANIMALDEF_label} 數量</PenCapacityDesc>
+  <PenCapacityDesc>{ANIMALDEF_label}</PenCapacityDesc>
   <!-- EN: Example animals -->
-  <PenExampleAnimals>動物樣本</PenExampleAnimals>
+  <PenExampleAnimals>可容納動物</PenExampleAnimals>
 
 
   <!-- Control -->
@@ -848,7 +854,7 @@
   <!-- EN: Queued -->
   <Queued>等候處理中</Queued>
   <!-- EN: State -->
-  <State>屬性</State>
+  <State>狀態</State>
   <!-- EN: stun -->
   <StunLower>暈眩</StunLower>
 
@@ -872,7 +878,7 @@
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>未連結電源。</PowerNotConnected>
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>電網發電量/儲電量：{0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>電網發電量/儲電量：{0}W /{1}Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>電力需求</PowerNeeded>
   <!-- EN: Power output -->
@@ -890,9 +896,9 @@
   <!-- EN: Current power use -->
   <PowerConsumptionMode>目前電力消耗</PowerConsumptionMode>
   <!-- EN: high -->
-  <PowerConsumptionHigh>調高</PowerConsumptionHigh>
+  <PowerConsumptionHigh>高</PowerConsumptionHigh>
   <!-- EN: low -->
-  <PowerConsumptionLow>調低</PowerConsumptionLow>
+  <PowerConsumptionLow>低</PowerConsumptionLow>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -952,7 +958,7 @@
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>待收穫</ReadyToHarvest>
   <!-- EN: Mature. -->
-  <Mature>成熟。</Mature>
+  <Mature>成熟</Mature>
   <!-- EN: Growing period -->
   <OutdoorGrowingPeriod>植物生長季</OutdoorGrowingPeriod>
   <!-- EN: Never -->
@@ -970,9 +976,9 @@
   <!-- EN: Cut now -->
   <AutoCutNow>立即裁剪</AutoCutNow>
   <!-- EN: harvesting -->
-  <HarvestGerund>收割中</HarvestGerund>
+  <HarvestGerund>收割</HarvestGerund>
   <!-- EN: cutting -->
-  <CutGerund>裁剪中</CutGerund>
+  <CutGerund>裁剪</CutGerund>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1126,7 +1132,7 @@
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>Charlon Whitestone已經準備好啟動反應爐的程序。\n\n他警告你，啟動程序需要15天，從很遠的距離外就能注意到此能量訊號\n\n這種能量訊號代表這艘星艦具有飛行能力，這將會引來瘋狂的襲擊者和致命的機械族。你將會受到前所未有的猛烈攻擊，請先提前準備好防衛工事。</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>反應爐已經準備好開始啟動。\n\n啟動程序需要 15天 ，從很遠的距離外就能注意到此能量訊號。這種能量訊號代表這艘星艦具有飛行能力，這將會引來瘋狂的襲擊者和致命的機械族。你將會受到前所未有的猛烈攻擊，請先提前準備好防衛工事。</HibernateWarningStandalone>
+  <HibernateWarningStandalone>反應爐已經準備好開始啟動。\n\n啟動程序需要 15天，從很遠的距離外就能注意到此能量訊號。這種能量訊號代表這艘星艦具有飛行能力，這將會引來瘋狂的襲擊者和致命的機械族。你將會受到前所未有的猛烈攻擊，請先提前準備好防衛工事。</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>Charlon Whitestone已經準備好啟動反應爐的程序。他警告你，啟動程序需要 15天 。</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
@@ -1174,7 +1180,7 @@
 
   <!-- Mood descriptions -->
   <!-- EN: mental state -->
-  <Mood_MentalState>精神狀態</Mood_MentalState>
+  <Mood_MentalState>精神崩潰</Mood_MentalState>
   <!-- EN: about to break -->
   <Mood_AboutToBreak>瀕臨崩潰</Mood_AboutToBreak>
   <!-- EN: on edge -->
@@ -1300,7 +1306,7 @@
 
   <!-- Compass -->
   <!-- EN: Shows the north direction. Click to rotate the camera so the north pole is up. -->
-  <CompassTip>指出正北方向，點擊以旋轉鏡頭使北極向上。</CompassTip>
+  <CompassTip>指出正北方向，點擊以旋轉畫面使北極向上。</CompassTip>
 
   <!-- World route planner -->
   <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
@@ -1354,15 +1360,15 @@
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
-  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
+  <PawnTooltipWithDescAndPrimaryEquip>{0}({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
   <!-- EN: {0} ({1})\n{2} -->
-  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
+  <PawnTooltipWithDescNoPrimaryEquip>{0}({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
   <!-- EN: {0}\n{1}\n{2} -->
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>神經超載： {0} / {1} \n下降率： {2} /秒 ( {3} 秒後歸零)</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>神經超載：{0}/{1}\n下降率：{2}/秒 ({3}秒後歸零)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>心靈施放後會導致神經超載。超過極限時可能會導致數天的精神崩潰。\n\n神經超載會隨著時間恢復。穿上心靈衣物或感受疼痛可加快恢復速度。</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
@@ -1374,7 +1380,7 @@
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{0}{1}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
@@ -1382,15 +1388,15 @@
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_WalkIn>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將抵達並加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將加入 {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>一位名叫{0_nameDef}，{0_age}歲的{0_titleIndef}，將加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>運輸艙會把以下資源送達(總價值 {1})：\n{0}</Reward_Items>
+  <Reward_Items>運輸艙會把以下資源送達(總價值{1})：\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>你會收到(總價值 {1} )：\n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>你會收到(總價值{1})：\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
-  <Reward_Goodwill>你與{0_name}的派系友好度會提昇 {1} </Reward_Goodwill>
+  <Reward_Goodwill>你與{0_name}的派系友好度會提昇{1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
   <Reward_PassageOffworld>您將進入星空</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
@@ -1414,7 +1420,7 @@
   <!-- EN: Possible future reward -->
   <Reward_PossibleFutureReward_Label>未來可能的報酬</Reward_PossibleFutureReward_Label>
   <!-- EN: a reward possibly granted in the future -->
-  <Reward_PossibleFutureReward>將來可能會給與的報酬。</Reward_PossibleFutureReward>
+  <Reward_PossibleFutureReward>將來可能會給予的報酬。</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
   <Reward_Title_Label>{TITLE}頭銜</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
@@ -1438,7 +1444,7 @@
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
-  <Biocoded>{0} 生物鎖</Biocoded>
+  <Biocoded>{0}生物鎖</Biocoded>
   <!-- EN: Biocoding: {0} -->
   <CodedFor>生物鎖：{0}</CodedFor>
   <!-- EN: biocoded -->
@@ -1527,7 +1533,7 @@
   <!-- EN: Performed recently -->
   <RitualOutcomePerformedRecently>最近進行的</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
-  <RitualQualityExpectations>{0} 期望</RitualQualityExpectations>
+  <RitualQualityExpectations>{0}期望</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
   <RitualAmbienceSound>儀式氛圍音</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
@@ -1548,7 +1554,7 @@
   <!-- EN: Begin {0} for {1} -->
   <BeginRitualFor>為了{1}開始{0}</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
-  <QualityOutOf>{0}(在{1}之外)</QualityOutOf>
+  <QualityOutOf>{0}(最大{1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
   <DateRitualNoObligation>{0}是一個特定日期的儀式。你可以在{1}之後舉行，於{2}。</DateRitualNoObligation>
 
@@ -1585,17 +1591,29 @@
   <StartingRitualQuality>{0}起始品質</StartingRitualQuality>
 
   <!-- EN: up to {0} quality -->
-  <OutcomeBonusDesc_Quality>達到{0}品質</OutcomeBonusDesc_Quality>
+  <OutcomeBonusDesc_Quality>可達{0}品質</OutcomeBonusDesc_Quality>
   <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>{0}品質</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{OUTCOMELABEL}{RITUALLABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
-  <MaxValue>{0}最大</MaxValue>
+  <MaxValue>上限{0}</MaxValue>
 
   <!-- EN: {0} of -->
   <ThingOf>{0}個</ThingOf>
   <!-- EN: {0} of {1} -->
   <ThingOfSource>{0}個{1}</ThingOfSource>
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>必須先被徵召</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>能力冷卻。他將在{0}後可使用。</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>能力已佇列。</AbilityAlreadyQueued>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>準備就緒:{0}</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef}已準備使用{1}。</AbilityReadyText>
 
 </LanguageData>

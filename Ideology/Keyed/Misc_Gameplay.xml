@@ -11,22 +11,24 @@
   <RandomStructureTip>隨機選擇你的理念的結構。</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
   <RandomStyleTip>隨機選擇你的理念的風格。</RandomStyleTip>
-  <!-- EN: Customize -->
-  <Customize>自訂</Customize>
-  <!-- EN: Play classic -->
-  <PlayClassic>經典模式</PlayClassic>
-  <!-- EN: Create fluid... -->
-  <CreateFluid>生成流動理念</CreateFluid>
+  <!-- EN: Ideology system inactive -->
+  <PlayClassic>禁用理念系統</PlayClassic>
+  <!-- EN: Create custom\n(fluid) -->
+  <CreateCustomFluid>新增自訂\n(流動)</CreateCustomFluid>
+  <!-- EN: Create custom\n(fixed) -->
+  <CreateCustomFixed>新增自訂\n(固定)</CreateCustomFixed>
+  <!-- EN: Custom ideoligions -->
+  <CustomIdeoligions>自訂理念</CustomIdeoligions>
   <!-- EN: Load saved -->
   <LoadSaved>載入紀錄</LoadSaved>
   <!-- EN: Structure -->
   <Structure>結構</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>你的殖民地應先信奉什麼?這些信仰影響遊戲和外觀。你可以招募人們來皈依，或皈依別人的信仰。</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>你的殖民地應先信奉什麼?這些信仰影響玩法和物件造型。你可以招募人們來皈依，或皈依別人的信仰。</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>製作自訂</CreateCustom>
   <!-- EN: Delete custom -->
-  <DeleteCustom>TODO</DeleteCustom>
+  <DeleteCustom>刪除自訂</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>製作全新</CreateNew>
   <!-- EN: Load existing -->
@@ -34,9 +36,9 @@
   <!-- EN: Create custom ideoligion -->
   <CreateCustomIdeoligion>製作自訂理念</CreateCustomIdeoligion>
   <!-- EN: Custom ideoligion -->
-  <CustomIdeoligionSectionHeader>TODO</CustomIdeoligionSectionHeader>
+  <CustomIdeoligionSectionHeader>自訂理念</CustomIdeoligionSectionHeader>
   <!-- EN: Faction ideoligions -->
-  <FactionIdeoligionSectionHeader>TODO</FactionIdeoligionSectionHeader>
+  <FactionIdeoligionSectionHeader>派系理念</FactionIdeoligionSectionHeader>
   <!-- EN: Load saved ideoligion -->
   <LoadExistingIdeoligion>載入存儲理念</LoadExistingIdeoligion>
   <!-- EN: Select an ideoligion for your faction on the left, or -->
@@ -62,7 +64,7 @@
   <!-- EN: altar -->
   <Altar>祭壇</Altar>
   <!-- EN: base -->
-  <Base>基座</Base>
+  <Base>基礎</Base>
   <!-- EN: min expectation -->
   <MinExpectation>最低期望</MinExpectation>
   <!-- EN: {0} to {1} -->
@@ -76,7 +78,7 @@
   <!-- EN: total nearby bodysize per colonist -->
   <VeneratedAnimalsBodySizePerColonist>附近人均總尺寸</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Expecting at least {0} body size per colonist. -->
-  <MinAnimalBodySizePerColonist>預計至少{0}人均尺寸</MinAnimalBodySizePerColonist>
+  <MinAnimalBodySizePerColonist>期望有至少{0}人均尺寸</MinAnimalBodySizePerColonist>
   <!-- EN: Plant {0_label} -->
   <PlantThing>種植{0_label}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
@@ -93,16 +95,14 @@
   <RequiredPrecepts>需要戒律</RequiredPrecepts>
   <!-- EN: Required rituals -->
   <RequiredRituals>需要儀式</RequiredRituals>
-  <!-- EN: Disables precepts -->
-  <DisablesPrecepts>禁用戒律</DisablesPrecepts>
-  <!-- EN: Disables {0} precepts. -->
-  <DisablesPreceptsCount>禁用{0}條戒律</DisablesPreceptsCount>
+  <!-- EN: Prevents precepts -->
+  <PreventsPrecepts>妨礙選擇戒律</PreventsPrecepts>
   <!-- EN: Styles -->
   <Styles>風格</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>得到戒律的機會</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色。在{PAWN_possessive}的服裝擁有多於{PERCENTAGE}這種顏色，或是{PAWN_possessive}的理念顏色，會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色花將服裝染色。</FavoriteColorTooltip>
+  <FavoriteColorTooltip>{PAWN_labelShort}的喜愛顏色。在{PAWN_possessive}服裝擁有多於{PERCENTAGE}這種顏色，或是{PAWN_possessive}理念顏色，會使{PAWN_objective}稍更高興。\n\n你可以在梳妝台用七色花將服裝染色。</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>設定為理念顏色</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -147,17 +147,23 @@
   <ReformDevelopmentPoints>重組所需點數</ReformDevelopmentPoints>
   <!-- EN: quest -->
   <QuestLower>任務</QuestLower>
+  <!-- EN: Vegetarian -->
+  <MealKindVegetarian>素食</MealKindVegetarian>
+  <!-- EN: Contains meat -->
+  <MealKindMeat>含有肉類</MealKindMeat>
+  <!-- EN: Acceptable food for everyone -->
+  <MealKindAny>所有人可接受</MealKindAny>
 
   <!-- EN: Could not load ideoligion -->
-  <UnableToLoadIdeoTitle>TODO</UnableToLoadIdeoTitle>
+  <UnableToLoadIdeoTitle>不能載入理念</UnableToLoadIdeoTitle>
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
-  <UnableToLoadIdeoDescription>TODO</UnableToLoadIdeoDescription>
+  <UnableToLoadIdeoDescription>由於派系的要求與此理念相關，因此不能載入已選的理念。違反的要求是︰</UnableToLoadIdeoDescription>
   <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeNotAllowed>TODO</UnableToLoadIdeoMemeNotAllowed>
+  <UnableToLoadIdeoMemeNotAllowed>模因{MEME}不能用於{FACTIONTYPE}派系</UnableToLoadIdeoMemeNotAllowed>
   <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeRequired>TODO</UnableToLoadIdeoMemeRequired>
+  <UnableToLoadIdeoMemeRequired>模因{MEME}必備於{FACTIONTYPE}派系</UnableToLoadIdeoMemeRequired>
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
-  <UnableToLoadIdeoPreceptNotAllowed>TODO</UnableToLoadIdeoPreceptNotAllowed>
+  <UnableToLoadIdeoPreceptNotAllowed>戒律{PRECEPT}不能用於非玩家派系</UnableToLoadIdeoPreceptNotAllowed>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
   <RitualTargetGraveInfo>一個埋著{PAWN_labelShort}的墳墓</RitualTargetGraveInfo>
@@ -165,6 +171,8 @@
   <RitualTargetEmptyGraveInfo>一個悼念{PAWN_labelShort}的逝世的衣冠冢。</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>一個埋著{IDEO_memberNameIndef}的墳墓</RitualTargetGraveInfoAbstract>
+  <!-- EN: A grave containing a corpse. -->
+  <RitualTargetGraveInfoAbstractNoIdeo>一個埋著屍體的墳墓</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
   <RitualTargetEmptyGraveInfoAbstract>一個悼念{IDEO_memberNameIndef}的逝世的衣冠冢。</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
@@ -174,7 +182,7 @@
   <!-- EN: Altar or any ritual spot. -->
   <RitualTargetGatherAltarOrRitualSpotInfo>祭壇或任何儀式點</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
-  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>TODO</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>祭壇，符號或任何儀式點。</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
   <RitualTargetLightBallInfo>一個燈球或是儀式點。燈球和擴音器必須通電。</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
@@ -211,6 +219,10 @@
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort}不相信除目儀式而且不想被除目。</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort}生性懦弱因此不想被除目。</RitualBlindingWarnWimp>
+  <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
+  <RitualScarificationTriggerExtraDesc>當這裡少於{0}位受到瘢痕紋身的{IDEOMEMBERPLURAL}，{IDEOMEMBERPLURAL}就應該進行紋禮。</RitualScarificationTriggerExtraDesc>
+  <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
+  <RitualBlindingTriggerExtraDesc>所有新加入和現有{IDEOMEMBER}的居民都應進行除目。</RitualBlindingTriggerExtraDesc>
   
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>所有參與儀式的居民將獲得一整天工作專注加成({PERCENTAGE}全體工作速度)!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
@@ -245,23 +257,23 @@
   <!-- EN: negative -->
   <RitualAttachedOutcomes_Negative>負面</RitualAttachedOutcomes_Negative>
   <!-- EN: If the {0} is {1} -->
-  <RitualAttachedOutcomesInfo>如果{0}是{1}</RitualAttachedOutcomesInfo>
+  <RitualAttachedOutcomesInfo>如果{0}是{1}的</RitualAttachedOutcomesInfo>
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcome>任何{0}效果之上</RitualAttachedApplliesForOutcome>
+  <RitualAttachedApplliesForOutcome>如獲任何{0}評價</RitualAttachedApplliesForOutcome>
   <!-- EN: Upon any {0} outcome -->
-  <RitualAttachedApplliesForOutcomes>任何{0}效果之上</RitualAttachedApplliesForOutcomes>
+  <RitualAttachedApplliesForOutcomes>如獲任何{0}評價</RitualAttachedApplliesForOutcomes>
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
   <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>來自{0}的騷動吸引了一些好奇的動物!\n\n牠們似乎習慣與人類接觸，並加入了殖民地。</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
   <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0}誘生了一顆高嵐樹莢果，可以將它種下。</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
-  <RitualAttachedOutcomeCantApply>無法使用獎賞</RitualAttachedOutcomeCantApply>
+  <RitualAttachedOutcomeCantApply>無法實現獎勵</RitualAttachedOutcomeCantApply>
   <!-- EN: No valid spot -->
   <RitualAttachedOutcomeCantApply_NoValidSpot>缺少有效的儀式點</RitualAttachedOutcomeCantApply_NoValidSpot>
   <!-- EN: Extreme biome -->
   <RitualAttachedOutcomeCantApply_ExtremeBiome>極端生態系</RitualAttachedOutcomeCantApply_ExtremeBiome>
   <!-- EN: There is already a known ancient complex to explore. -->
-  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>可以在此探尋已知的遠古建築群</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
+  <RitualAttachedOutcomeCantApply_AncientComplexIsPresent>已有遠古建築群待探尋</RitualAttachedOutcomeCantApply_AncientComplexIsPresent>
   <!-- EN: Not available right now. -->
   <RitualAttachedOutcomeCantApply_NotAvailableRightNow>現在不可用</RitualAttachedOutcomeCantApply_NotAvailableRightNow>
   
@@ -331,13 +343,13 @@
   <!-- EN: Required apparel -->
   <RoleRequiredApparelLabel>服裝需求</RoleRequiredApparelLabel>
   <!-- EN: Has role in rituals -->
-  <RoleRitualsLabel>在儀式中擔當職位</RoleRitualsLabel>
+  <RoleRitualsLabel>負責的儀式</RoleRitualsLabel>
   <!-- EN: This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}. -->
-  <RoleBelieverCountDesc>此職位會在你的派系擁有{1}{0}時可用。而它將會當你的派系只有{3}{2}時不可用。</RoleBelieverCountDesc>
+  <RoleBelieverCountDesc>此職位會在你的派系擁有{1}名{0}時可用。而它將會當你的派系只有{3}名{2}時不可用。</RoleBelieverCountDesc>
   <!-- EN: Raised by {0} levels. -->
   <RoleExpectationOffset>提升了{0}等級。</RoleExpectationOffset>
   <!-- EN: The {0} has higher expectations. -->
-  <RoleRaisedExpectation>{0}有更高的期望了。</RoleRaisedExpectation>
+  <RoleRaisedExpectation>{0}有著更高的期望。</RoleRaisedExpectation>
   <!-- EN: The {0} will have higher expectations in {1}. -->
   <RoleRaisedExpectationGracePeriod>{0}將在{1}內得到更高期望。</RoleRaisedExpectationGracePeriod>
   <!-- EN: Led by {0} -->
@@ -347,7 +359,7 @@
   <!-- EN: No reachable altar or ritual spot. -->
   <AbilityDisabledNoAltarOrRitualsSpot>沒有可用的祭壇或儀式點。</AbilityDisabledNoAltarOrRitualsSpot>
   <!-- EN: No reachable altar, ideogram or ritual spot. -->
-  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>TODO</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
+  <AbilityDisabledNoAltarIdeogramOrRitualsSpot>沒有可用的祭壇，符號或儀式點。</AbilityDisabledNoAltarIdeogramOrRitualsSpot>
 
   <!-- EN: Will\n{0} to {1} -->
   <TextMote_WillReduced>意志\n{0}至{1}</TextMote_WillReduced>
@@ -358,7 +370,7 @@
   <!-- EN: Believers in {0} ({1}) -->
   <BelieversIn>{0}的信徒({1})</BelieversIn>
   <!-- EN: add {0} -->
-  <AddPrecept>增加{0}</AddPrecept>
+  <AddPrecept>新增{0}</AddPrecept>
   <!-- EN: precept -->
   <Precept>戒律</Precept>
   <!-- EN: building -->
@@ -388,7 +400,7 @@
   <!-- EN: hacked -->
   <Hacked>已經破解</Hacked>
   <!-- EN: Terminals hacked -->
-  <TerminalsHacked>終端機已被破解</TerminalsHacked>
+  <TerminalsHacked>已被破解的終端機</TerminalsHacked>
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>找到聖物資訊</RelicInfoFound>
@@ -452,7 +464,7 @@
   <!-- EN: Nobody -->
   <Nobody>無</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>與{TREE_label}聯結的人。如果聯結者死亡，{TREE_label}將不能{DURATION}內與其他人聯結。</ConnectedPawnDesc>
+  <ConnectedPawnDesc>與{TREE_label}聯結的人。如果聯結者死亡，{TREE_label}{DURATION}內將不能與其他人聯結。</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
   <ConnectionTorn>聯結被破壞。可以在{0}後再聯結。</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
@@ -460,7 +472,7 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>在人工建築物旁種植{PLANT_definite}會使聯結力隨時間消失。聯結力決定了{PLANT_definite}同時可承載最大樹精量。\n\n你確定要把它種在這裡?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>更改{TREE_definite}的樹精種類會消耗時間和能量。\n\n當聯結者與樹木互動後，所有樹精需要在繭中花{DURATION}天變態成新種類。\n\n現存的繭會取消，使本來在繭中的也能一起變態。</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>更改{TREE_definite}的樹精種類會消耗時間和能量。\n\n當聯結者對樹木互動後，所有樹精需要在繭中花{DURATION}天變態成新種類。\n\n現有的繭會解除，使本來在繭中的樹精也能重頭一起變態。</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>更改由{TREE_definite}生成的樹精種類。</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -468,7 +480,7 @@
   <!-- EN: Connection strength -->
   <ConnectionStrength>聯結力</ConnectionStrength>
   <!-- EN: {0} strength -->
-  <ConnectionStrengthDisplay>{0}度</ConnectionStrengthDisplay>
+  <ConnectionStrengthDisplay>{0}聯結力</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
   <ConnectionStrengthDesc>決定此樹最大承載樹精量。</ConnectionStrengthDesc>
   <!-- EN: Max dryads -->
@@ -504,7 +516,7 @@
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
   <DryadProducesResourcesDesc>{DRYAD_labelPlural}每{DURATION}生產{RESOURCES}。</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
-  <DryadCannotChangeMaster>{ANIMAL_nameDef}通過{ANIMAL_possessive}高嵐樹與{MASTER_nameDef}聯結了。{ANIMAL_possessive}的主人不能改變。</DryadCannotChangeMaster>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef}通過{ANIMAL_possessive}高嵐樹與{MASTER_nameDef}聯結了。{ANIMAL_possessive}主人不能改變。</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
   <ConnectionStrengthTooWeakForGaumakerPod>聯結力不足以生產高嵐樹莢果。</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
@@ -560,7 +572,7 @@
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
   <GameOverArchotechInvokedIntro>你已喚醒遠古聯繫核心。世界充斥著刺眼的光芒，時間似乎慢了下來...\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>機械之神告誡你。無人知曉之後會發生什麼。它可能殺你一個措手不及，也可能與你來一場面談，甚或可能會將你的意識傳送到另一個現實。\n\n你感受到一個淵博且非人類，有著無限碎形的複雜結構流進你的大腦。時間和空間混在一起。可怕得令人恐懼，亦美麗得令人讚嘆。...</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>機械之神察覺到你的存在了。無人知曉之後會發生什麼。它可能殺你一個措手不及，也可能與你來一場面談，甚或可能會將你的意識傳送到另一個現實。\n\n你感受到一個淵博得非人類所能描述的無限碎形複雜結構流進你的大腦。時間和空間分崩離析。可怕得令人恐懼，亦美麗得令人讚嘆...</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>以下殖民者已昇華︰\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
@@ -593,36 +605,54 @@
   <BiosculpterPodCycleLabel>療程</BiosculpterPodCycleLabel>
   <!-- EN: loading ingredients -->
   <BiosculpterPodCycleLabelLoading>輸入材料中</BiosculpterPodCycleLabelLoading>
-  <!-- EN: ready -->
-  <BiosculpterPodCycleLabelReady>預備</BiosculpterPodCycleLabelReady>
-  <!-- EN: Prepare {0} cycle -->
-  <BiosculpterPodCycleCommand>設定{0}療程</BiosculpterPodCycleCommand>
+  <!-- EN: (and biotuning) -->
+  <BiosculpterPodCycleWillBiotune>(及生物配對)</BiosculpterPodCycleWillBiotune>
+  <!-- EN: Begin {0} cycle -->
+  <BiosculpterPodCycleCommand>開始{0}療程</BiosculpterPodCycleCommand>
+  <!-- EN: Duration -->
+  <BiosculpterPodCycleDuration>需時</BiosculpterPodCycleDuration>
+  <!-- EN: Duration (transhumanists) -->
+  <BiosculpterPodCycleDurationTranshumanists>需時(仿生主義)</BiosculpterPodCycleDurationTranshumanists>
+  <!-- EN: Ready for cycle selection -->
+  <BiosculpterPodCycleSelection>準備選擇療程</BiosculpterPodCycleSelection>
+  <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
+  <BiosculpterPodCycleStandby>準備為{PAWN_labelShort}進行{CYCLE}療程</BiosculpterPodCycleStandby>
+  <!-- EN: Nutrition loaded, no power -->
+  <BiosculpterPodCycleSelectionNoPower>營養已注入，未供電</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
   <BiosculpterCycleTimeRemaining>完結於</BiosculpterCycleTimeRemaining>
+  <!-- EN: accelerated for transhumanists -->
+  <BiosculpterCycleAccelerated>仿生主義加速</BiosculpterCycleAccelerated>
+  <!-- EN: Paused: No power (interrupt in {TIME}) -->
+  <BiosculpterCycleNoPowerInterrupt>暫停︰停電(在{TIME}後中斷)</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
-  <BiosculpterBiotunedTo>塑造成</BiosculpterBiotunedTo>
+  <BiosculpterBiotunedTo>已配對給</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>中斷療程</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>中斷目前的療程。佔用者會以原樣退出，並會患上短期塑體艙症候群。</BiosculpterInteruptCycleDesc>
-  <!-- EN: Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old. -->
-  <BiosculpterUnderageAgeReversalMessage>警告︰逆齡療程無法在塑體艙被{PAWN_labelShort}使用時啟動，因為{PAWN_labelShort}少於{ADULTAGE}歲。</BiosculpterUnderageAgeReversalMessage>
-  <!-- EN: Once the biosculpter pod is filled with {INGREDIENTS}, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle. -->
-  <BiosculpterLoadingStartedMessage>當塑體艙注滿{INGREDIENTS}後，選擇一位居民並右鍵點擊塑體艙或一位倒下人士以開始療程。</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
+  <BiosculpterEnteringMessage>{PAWN_labelShort}將進入塑體艙並開始{CYCLE}療程。</BiosculpterEnteringMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort}將收集{INGREDIENTS}，並開始{CYCLE}療程。</BiosculpterLoadingStartedMessage>
+  <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort}將收集{INGREDIENTS}，將{DOWNED_labelShort}放在塑體艙內，並開始{CYCLE}療程。</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
-  <NumNutrition>TODO</NumNutrition>
+  <NumNutrition>{0}營養度</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort}被塑體艙退出，因為電力不足。</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
   <BiosculpterHealCompletedMessage>{PAWN_labelShort}完成了復原療程。</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了復原療程，而{PAWN_possessive} {HEDIFF_label}被治好了。</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort}完成了復原療程，而{PAWN_possessive}{HEDIFF_label}被治好了。</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort}完成了{PAWN_possessive}逆齡療程。{PAWN_pronoun}預計在{DEADLINE}天後進行下一次的逆齡。</BiosculpterAgeReversalCompletedMessage>
-  <!-- EN: {PAWN_labelShort} completed pleasure cycle. -->
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}完成了樂活療程。</BiosculpterPleasureCompletedMessage>
+  <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
+  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort}的樂活療程已完成。</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>潔淨環境加速度</BiosculpterCleanlinessSpeedFactor>
+  <!-- EN: Biotuned speed factor -->
+  <BiosculpterBiotunedSpeedFactor>生物配對加速度</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
   <HealingCycleWillHeal>以下傷勢會被治癒</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
@@ -630,10 +660,16 @@
   <!-- EN: Missing required research -->
   <MissingRequiredResearch>缺少必要研究</MissingRequiredResearch>
   <!-- EN: Requires -->
-  <BiosculpterRequiresIngredients>TODO</BiosculpterRequiresIngredients>
+  <BiosculpterRequiresIngredients>需要</BiosculpterRequiresIngredients>
   <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
-  <OnCompletionOfCycle>TODO</OnCompletionOfCycle>
+  <OnCompletionOfCycle>當{CYCLE}療程完成時，將會發生</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
-  <BiosculpterNoCoditionsToHeal>TODO</BiosculpterNoCoditionsToHeal>
+  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef}沒有任何需要被{CYCLE}療程治癒的病痛。\n\n你確定要繼續嗎?</BiosculpterNoCoditionsToHeal>
+
+  <!-- UNUSED -->
+  <DisablesPrecepts>禁用戒律</DisablesPrecepts>
+  <DisablesPreceptsCount>禁用{0}條戒律</DisablesPreceptsCount>
+  <Customize>自訂</Customize>
+  <CreateFluid>生成流動理念</CreateFluid>
 
 </LanguageData>

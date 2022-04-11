@@ -35,9 +35,9 @@
   <!-- EN: Relics -->
   <IdeoRelics>聖物</IdeoRelics>
   <!-- EN: Preferred apparel -->
-  <IdeoApparel>偏好服裝</IdeoApparel>
+  <IdeoApparel>服裝偏好</IdeoApparel>
   <!-- EN: apparel desire -->
-  <IdeoApparelDesire>服裝期望</IdeoApparelDesire>
+  <IdeoApparelDesire>服裝喜好</IdeoApparelDesire>
   <!-- EN: Won't do -->
   <UnwillingToDoIdeoAction>不會執行</UnwillingToDoIdeoAction>
   <!-- EN: Stats -->
@@ -91,15 +91,15 @@
   <!-- EN: Any time -->
   <StartingCondition_Anytime>任何時間</StartingCondition_Anytime>
   <!-- EN: Date -->
-  <StartingCondition_Date>日期</StartingCondition_Date>
+  <StartingCondition_Date>指定日期</StartingCondition_Date>
   <!-- EN: Starting condition -->
-  <StartingCondition>初始狀態</StartingCondition>
+  <StartingCondition>舉辦於</StartingCondition>
   <!-- EN: Edit -->
   <Edit>修改</Edit>
   <!-- EN: Randomize symbols -->
-  <RandomizeSymbols>隨機符號</RandomizeSymbols>
+  <RandomizeSymbols>隨機象徵</RandomizeSymbols>
   <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
-  <RandomizeSymbolsTooltip>隨機理念名稱、標誌、敍述、領袖頭銜和其他文字例如儀式名稱和職位名稱。這對遊戲沒有影響，諸如模因和戒律。</RandomizeSymbolsTooltip>
+  <RandomizeSymbolsTooltip>隨機理念名稱、標誌、敍述、領袖頭銜和其他文字例如儀式名稱和職位名稱。這對遊戲元素，例如模因和戒律沒有影響。</RandomizeSymbolsTooltip>
   <!-- EN: Click any element to edit it -->
   <ClickAnyElementToEditIt>點擊任何選項以修改它</ClickAnyElementToEditIt>
   <!-- EN: Click to edit -->
@@ -139,23 +139,23 @@
   <!-- EN: Venerated animals -->
   <VeneratedAnimals>聖獸</VeneratedAnimals>
   <!-- EN: weapon pair -->
-  <IdeoWeapon>武器對</IdeoWeapon>
+  <IdeoWeapon>武器組合</IdeoWeapon>
   <!-- EN: Weapons -->
   <IdeoWeapons>武器</IdeoWeapons>
   <!-- EN: Swap noble and despised -->
-  <SwapNobleAndDespised>交換尊貴和討厭的</SwapNobleAndDespised>
+  <SwapNobleAndDespised>交換高尚和鄙劣的</SwapNobleAndDespised>
   <!-- EN: noble -->
-  <Noble>尊貴</Noble>
+  <Noble>高尚</Noble>
   <!-- EN: despised -->
-  <Despised>討厭</Despised>
+  <Despised>鄙劣</Despised>
   <!-- EN: Unlocked craftables -->
   <UnlockedRecipes>解鎖生產台</UnlockedRecipes>
   <!-- EN: Start with research -->
-  <IdeoStartWithResearch>開始研究</IdeoStartWithResearch>
+  <IdeoStartWithResearch>解鎖研究</IdeoStartWithResearch>
   <!-- EN: Agreeing traits -->
   <AgreeableTraits>相符特性</AgreeableTraits>
   <!-- EN: Conflicting traits -->
-  <DisagreeableTraits>衝突特性</DisagreeableTraits>
+  <DisagreeableTraits>抵觸特性</DisagreeableTraits>
   <!-- EN: Shooting -->
   <Shooting>射擊</Shooting>
   <!-- EN: Impact -->
@@ -193,16 +193,16 @@
   
   
   <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
-  <FluidIdeoTip>由於此理念過於新穎以致此星球上只有很少信徒，它是流動理念。意味著它可以隨時間發展。\n\n發展理念需要發展點數。你可以經由完成有關此理念的任務和進行儀式以賺取發展點數。\n\n當你有足夠發展點數，你就可以重組理念，加入模因、戒律、風格等等。</FluidIdeoTip>
+  <FluidIdeoTip>由於此理念過於新穎以致此星球上只有很少信徒，所以它是流動的。意味著它可以隨時間發展。\n\n發展理念需要發展點數。你可以經由完成有關此理念的任務和進行儀式以賺取發展點數。\n\n當你有足夠發展點數，你就可以重組理念，加入模因、戒律、風格等等。</FluidIdeoTip>
   <!-- EN: How to get development points -->
   <FluidIdeoTipGetPoints>如何獲取發展點數</FluidIdeoTipGetPoints>
   <!-- EN: Convert someone to your ideoligion -->
   <FluidIdeoTipGetPoinsByConversion>使某人皈依你的理念</FluidIdeoTipGetPoinsByConversion>
 
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
-  <ResearchProjectHasDefsWithMissingMemes>{0}解鎖你無法建造的東西，因為它需求的模因不在你任何一位居民的信仰。</ResearchProjectHasDefsWithMissingMemes>
+  <ResearchProjectHasDefsWithMissingMemes>{0}也解鎖了你無法建造的東西，因為它需求的模因不在你任何一位居民的信仰中。</ResearchProjectHasDefsWithMissingMemes>
   <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
-  <SelectedWorkTypeOpposedByIdeo>警告︰這類型工作違反{0_possessive}的理念，所以他可能會不高興。</SelectedWorkTypeOpposedByIdeo>
+  <SelectedWorkTypeOpposedByIdeo>警告︰這類型工作違反{0_possessive}理念，所以他可能會不高興。</SelectedWorkTypeOpposedByIdeo>
 
   <!-- EN: Development points -->
   <DevelopmentPoints>發展點數</DevelopmentPoints>

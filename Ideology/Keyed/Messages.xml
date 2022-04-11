@@ -8,15 +8,15 @@
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1}和{PRECEPT2}互不相容。</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}的喜愛服裝與{ROLE}的服裝需求重疊。</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}作為服裝喜好與{ROLE}的服裝需求重疊。</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}的喜愛服裝與{ROLE}的服裝需求重疊({ROLEAPPAREL})。使得{ROLE}不可能同時穿上規定的和喜愛的服裝。</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}與{ROLE}的服裝需求重疊({ROLEAPPAREL})。使得{ROLE}不可能同時穿上規定和喜好的服裝。</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
   <MessageRitualMissingTarget>{PRECEPT}需要以下其中一種建築</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
   <MessageBuildingMissingRitual>{PRECEPT}需要關聯的儀式</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort}拒絕進行因為{0_possessive}的理念</MessagePawnUnwillingToDoDueToIdeo>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort}拒絕進行因為{0_possessive}理念</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
   <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef}試圖讓{RECIPIENT_nameDef}皈依{INITIATOR_possessive}理念。{RECIPIENT_nameDef}的感悟已由{CERTAINTYBEFORE}降至{CERTAINTYAFTER}。{RECIPIENT_pronoun}不滿這次的傳教。</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
@@ -32,13 +32,13 @@
   <!-- EN: You need {0} to start the {1}. -->
   <MessageNoRequiredRolePawnToBeginRitual>你需要{0}以開始{1}。</MessageNoRequiredRolePawnToBeginRitual>
   <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
-  <MessageNotEnoughSpectators>TODO</MessageNotEnoughSpectators>
+  <MessageNotEnoughSpectators>至少需要{0}名旁觀者以舉行{1}。</MessageNotEnoughSpectators>
   <!-- EN: You must choose a role. -->
-  <MessageRoleChangeChooseDifferentRole>TODO</MessageRoleChangeChooseDifferentRole>
+  <MessageRoleChangeChooseDifferentRole>你必須選擇一個職位。</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
   <MessageNeedAssignedRoleToBeginRitual>開始{1}之前，你必須指派某人擔任{0}。</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
-  <MessageNeedAtLeastOneParticipantOfIdeo>TODO</MessageNeedAtLeastOneParticipantOfIdeo>
+  <MessageNeedAtLeastOneParticipantOfIdeo>需要至少一名{0}參與。</MessageNeedAtLeastOneParticipantOfIdeo>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort}現在起擔任{1}。</MessageRoleAssigned>
@@ -57,7 +57,7 @@
   <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
   <MessagePrisonerEnslaved>{0_nameDef}已被{1_nameDef}奴役了。</MessagePrisonerEnslaved>
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>俘虜{1_nameDef}的意志已被{0_nameDef}摧毀了。</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken>俘虜{1_nameDef}的意志已被{0_nameDef}瓦解了。</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
   <MessagePrisonerWillBroken_RecruitAttempsWillBegin>將會接著奴役。</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
@@ -65,30 +65,30 @@
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>沒有獄卒能進行奴役。</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>向{PRISONER_nameDef}傳教的{MEMBERNAME}獄卒不在此。{PRISONER_possessive}的互動模式已改為「不互動」。</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>你沒有{MEMBERNAME}的獄卒可以向{PRISONER_nameDef}傳教。{PRISONER_possessive}互動模式已改為「不互動」。</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
-  <MessageCampDetected>你發現被{FACTION_name}控制的{CAMP_label}在附近。</MessageCampDetected>
+  <MessageCampDetected>你發現到附近有一處被{FACTION_name}控制的{CAMP_label}。</MessageCampDetected>
 
   <!-- Charity -->
   <!-- EN: Charity refused -->
   <MessageCharityEventRefused>拒絕了善行</MessageCharityEventRefused>
   <!-- EN: Charity fulfilled -->
   <MessageCharityEventFulfilled>達成了善行</MessageCharityEventFulfilled>
-  <!-- EN: {0} leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>{0}沒有留下丁點東西。</MessageBeggarsLeavingWithNoItems>
-  <!-- EN: {0} leaving with requested items. -->
-  <MessageBeggarsLeavingWithItems>{0}留下了要求的物品。</MessageBeggarsLeavingWithItems>
+  <!-- EN: {0} are leaving empty-handed. -->
+  <MessageBeggarsLeavingWithNoItems>{0}兩手空空地離開了。</MessageBeggarsLeavingWithNoItems>
+  <!-- EN: {0} have accepted the requested items and are leaving. -->
+  <MessageBeggarsLeavingWithItems>{0}收下了所需物品並起程離去。</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef}失救而死。</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
   <MessageWandererRecruited>{0_nameDef}被招募了。</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
   <MessageWandererLeftHealthy>{0_nameDef}健康地離開了。</MessageWandererLeftHealthy>
-  <!-- EN: {0} failed. -->
+  <!-- EN: {0} has been failed. -->
   <MessageCharityQuestEndedFailed>{0}失敗了。</MessageCharityQuestEndedFailed>
-  <!-- EN: {0} succesfully completed. -->
+  <!-- EN: {0} has been successfully completed. -->
   <MessageCharityQuestEndedSuccess>{0}完滿成功。</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
@@ -105,6 +105,8 @@
   
   <!-- EN: {0_label} will self-destruct in {1}. -->
   <SelfDestructCountdown>{0_label}將會在{1}後自我毀滅。</SelfDestructCountdown>
+  <!-- EN: Precept name is too long (maximum {0} letters) -->
+  <PreceptNameTooLong>戒律名稱過長(最多{0}個字)</PreceptNameTooLong>
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
@@ -112,7 +114,7 @@
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
   <MessageAncientComplexBackToShuttle>你已發現關於{0}的秘密資訊!返回太空梭並發射。</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>遠古補給衛星已被啟用。補給將被投至附近。</MessageAncientSignalActivated>
+  <MessageAncientSignalActivated>遠古補給衛星已被啟動。補給將被投至附近。</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
   <MessageAncientSignalHostileDetected>來自{1}的{0}追蹤到補給訊號並發起攻擊。</MessageAncientSignalHostileDetected>
 

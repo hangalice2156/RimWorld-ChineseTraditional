@@ -85,7 +85,7 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
   <MessageTameSuccess>{RECRUITER_labelShort}成功馴服了{1}。</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功馴服了{1}(機率{2})。牠現在命名為{RECRUITEE_nameFull}。</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort}成功馴服了{1}。牠現在命名為{RECRUITEE_nameFull}。</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>沒有適合{ANIMAL_labelShort}的圍欄。他最後會流浪離去。</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -168,7 +168,7 @@
   <MessageGaveBirth>{0}分娩了。</MessageGaveBirth>
   
   <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>當 {PAWN_pronoun} 的心靈敏感度為零時， {PAWN_labelShort} 無法使用心靈連結。</MessagePsylinkNoSensitivity>
+  <MessagePsylinkNoSensitivity>當{PAWN_pronoun}的心靈敏感度為零時，{PAWN_labelShort}無法使用心靈連結。</MessagePsylinkNoSensitivity>
   <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
   <MessageLostImplantLevelFromHediff>{PAWN_labelShort}由於{2}而喪失了一個{1}級別移植物。</MessageLostImplantLevelFromHediff>
   <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
@@ -185,7 +185,7 @@
   <MessageAttackedByPredator>{PREY_labelShort}正被{PREDATOR}攻擊！</MessageAttackedByPredator>
 
   <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort}正開始流浪離去！{PAWN_pronoun}會離開地圖，除非有馴獸師將{PAWN_objective}引領回圍欄中。</MessageRoamerLeaving>
+  <MessageRoamerLeaving>{PAWN_labelShort}正在游蕩離去！{PAWN_pronoun}將會離開地圖，除非有馴獸師將{PAWN_objective}領回飼養圈中。</MessageRoamerLeaving>
 
   <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>一個蟲巢蔓延了。</MessageHiveReproduced>
@@ -283,7 +283,7 @@
   <MessagePlantDiedOfBlight>{1_label}因為枯萎病而凋零了。</MessagePlantDiedOfBlight>
 
   <!-- EN: {1_labelShort} is being burned by superheated air! -->
-  <MessagePawnBeingBurned>{1_labelShort}因為高溫而枯萎了！</MessagePawnBeingBurned>
+  <MessagePawnBeingBurned>{1_labelShort}因為高溫而快要燒傷了！</MessagePawnBeingBurned>
 
   <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
   <MessageAccidentalOverdose>{INGESTER}不小心用了太多{DRUG_labelShort}！</MessageAccidentalOverdose>
@@ -385,9 +385,9 @@
   <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>{1}的{0}正在攻擊你的{2}。</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been assembled and will defend their cluster. -->
-  <MessageMechanoidsAssembled>機械族已經甦醒並開始防衛它們的軍團。</MessageMechanoidsAssembled>
+  <MessageMechanoidsAssembled>機械族被組裝完成並加入它們的軍團。</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to assemble -->
-  <MessageMechanoidsLeftToAssemble>機械族開始集結</MessageMechanoidsLeftToAssemble>
+  <MessageMechanoidsLeftToAssemble>尚未組裝的機械族</MessageMechanoidsLeftToAssemble>
   <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
   <MessageMechanoidsReinforcementsDrop>機械族空投信標召喚了增援部隊在附近降落。</MessageMechanoidsReinforcementsDrop>
 
@@ -451,13 +451,13 @@
   <MessageWarningCavePlantsExposedToLight>警告：{0}無法在曝光狀態下存活。</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}的憤怒發洩在{TARGET_label}身上。</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}憤怒發洩在{TARGET_label}身上。</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}的憤怒發洩在{TARGET_label}身上。</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}無法接觸到{OLDTARGET_label}，所以{PAWN_pronoun}決定將{PAWN_possessive}憤怒發洩在{TARGET_label}身上。</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageMurderousRageChangedTarget>{PAWN_labelShort}決定將{PAWN_possessive}的憤怒發洩在{TARGET_label}身上。</MessageMurderousRageChangedTarget>
+  <MessageMurderousRageChangedTarget>{PAWN_labelShort}決定將{PAWN_possessive}憤怒發洩在{TARGET_label}身上。</MessageMurderousRageChangedTarget>
 
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0}無法在屋頂下生長。</MessagePlantIncompatibleWithRoof>
@@ -598,10 +598,10 @@
   <MessageCantCleanupTranslationFilesBeucaseOfXmlError>無法載入翻譯檔案({0})。所有XML解析錯誤必須優先解決。</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
   <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
-  <MessageCapturingWillAngerFaction>警告：俘虜{PAWN_nameDef}將會激怒{PAWN_possessive}的派系{PAWN_factionName}。</MessageCapturingWillAngerFaction>
+  <MessageCapturingWillAngerFaction>警告：俘虜{PAWN_nameDef}將會激怒{PAWN_possessive}派系{PAWN_factionName}。</MessageCapturingWillAngerFaction>
 
   <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
-  <MessageStrippingWillAngerFaction>警告：掠奪 {PAWN_nameDef} 將激怒 {PAWN_factionName}。</MessageStrippingWillAngerFaction>
+  <MessageStrippingWillAngerFaction>警告：掠奪{PAWN_nameDef}將激怒{PAWN_factionName}。</MessageStrippingWillAngerFaction>
 
   <!-- EN: Cannot shoot in melee. -->
   <MessageCantShootInMelee>近戰中無法射擊。</MessageCantShootInMelee>
@@ -634,7 +634,7 @@
   <MessageResearchMenuWithoutBench>警告：直到你建造研究桌後，研究才會開始。</MessageResearchMenuWithoutBench>
 
   <!-- EN: {0_indefinite} has triggered a proximity activator. -->
-  <MessageActivatorProximityTriggered>{0_indefinite}觸發了一個鄰近啟動器。</MessageActivatorProximityTriggered>
+  <MessageActivatorProximityTriggered>{0_indefinite}觸發了一個探測啟動器。</MessageActivatorProximityTriggered>
 
   <!-- EN: {0_label} is currently hidden. -->
   <MessageCannotSelectInvisibleStat>{0_label}當前是隱藏的。</MessageCannotSelectInvisibleStat>
@@ -702,9 +702,9 @@
   <!-- EN: this role cannot be played by someone else. -->
   <MessageRitualRoleCannotReplaceRequiredPawn>此角色不能選其他人。</MessageRitualRoleCannotReplaceRequiredPawn>
   <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort}無法與高嵐樹接觸，因為{0_possessive}的接觸最近被中斷。</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort}無法與高嵐樹接觸，因為{0_possessive}接觸最近被中斷。</MessageRitualRolePawnRecentlyTornConnection>
   <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
-  <MessageRitualRolePawnHasSameIdeo>{0_labelShort}和教化者具有相同的理念。</MessageRitualRolePawnHasSameIdeo>
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort}和傳教者具有相同的理念。</MessageRitualRolePawnHasSameIdeo>
   <!-- EN: {0_labelShort} must be capable of wardening. -->
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort}必須有監管能力。</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
@@ -722,7 +722,7 @@
   <!-- EN: {0_labelShort} is in a mental state. -->
   <MessageRitualPawnMentalState>{0_labelShort}的精神崩潰。</MessageRitualPawnMentalState>
   <!-- EN: {0_labelShort} is already {1}. -->
-  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort}已經{1}。</MessageRitualPawnIsAlreadyBelievingIdeo>
+  <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort}已經是{1}。</MessageRitualPawnIsAlreadyBelievingIdeo>
   <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
   <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort}不能擔任觀眾以外的任何其他角色。</MessageRitualCannotAssignAnyRoleFromSpectating>
   <!-- EN: {0} cannot be an imprisoned wild man/woman. -->

@@ -26,7 +26,7 @@
   <!-- EN: Free -->
   <CommandCallRoyalAidFreeOption>免費</CommandCallRoyalAidFreeOption>
   <!-- EN: {0} days left, costs {1} {FACTION_royalFavorLabel} -->
-  <CommandCallRoyalAidFavorOption>剩餘{0}天，費用為{1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
+  <CommandCallRoyalAidFavorOption>剩餘{0}天，費用為{1}{FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
   <!-- EN: You are about to call for aid, but there are people from factions whom {0_name} is not hostile to. Any soldiers you call will not attack them: {1} -->
   <CommandCallRoyalAidWarningNonHostileFactions>你將要呼叫援軍，但是這有些屬於與{0_name}非敵對派系的人。你召喚的任何士兵都不會攻擊他們：{1}</CommandCallRoyalAidWarningNonHostileFactions>
   <!-- EN: Not enough honor. -->
@@ -46,7 +46,7 @@
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
   <CommandPsycastWouldExceedEntropy>神經熱會溢出。禁用神經熱限制來施展能力。</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
-  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}消耗{0}精神力，而{CASTERNAME}只消耗{1}。</CommandPsycastNotEnoughPsyfocus>
+  <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME}消耗{0}精神力，而{CASTERNAME}只剩下{1}。</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
   <CommandPsycastNotEnoughPsyfocusForMentalBreak>{PSYCASTNAME}需要消耗{0}精神力來停止{1}的精神崩潰，但是{CASTERNAME}只有{2}精神力。</CommandPsycastNotEnoughPsyfocusForMentalBreak>
   <!-- EN: level {0} psylink is required. -->
@@ -72,7 +72,7 @@
   <!-- EN: Build radius warning -->
   <CommandWarnInBuildingRadius>建築半徑警告</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
-  <CommandWarnInBuildingRadiusDesc>如果啟用，當您使用建築物清單放置建築物時，將會畫出一條紅線顯示物件會過於靠近而干擾冥想。\n\n如果您不打算將其用於冥想，則可以關閉。</CommandWarnInBuildingRadiusDesc>
+  <CommandWarnInBuildingRadiusDesc>啟用後，當您使用建築清單放置建築物時，將會畫出一條紅線顯示物件會過於靠近而干擾冥想。\n\n如果您不打算將其用於冥想，則可以關閉。</CommandWarnInBuildingRadiusDesc>
   
   <!-- Permits -->
   <!-- EN: Choose permit -->

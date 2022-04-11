@@ -3,7 +3,7 @@
 
   <!-- Convert ideo attempt -->
   <!-- EN: Conversion -->
-  <LetterLabelConvertIdeoAttempt_Success>傳教</LetterLabelConvertIdeoAttempt_Success>
+  <LetterLabelConvertIdeoAttempt_Success>皈依</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
   <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef}成功讓{RECIPIENT_nameDef}從{OLDIDEO_name}皈依為{IDEO_name}。</LetterConvertIdeoAttempt_Success>
 
@@ -62,11 +62,11 @@
   <!-- EN: {0} skipped. -->
   <LetterObligationRoleInactive>{0}略過了。</LetterObligationRoleInactive>
   <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
-  <LetterObligationRoleInactiveDateDesc>{0}是進行{1}的日子，但由於{ROLE_labelDef}現在失效了，所以{2}會略過{1}。</LetterObligationRoleInactiveDateDesc>
+  <LetterObligationRoleInactiveDateDesc>{0}是進行{1}的日子，但由於無人擔當{ROLE_labelDef}，所以{2}會略過{1}。</LetterObligationRoleInactiveDateDesc>
   
   <!-- Ideo misc -->
   <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
-  <LetterSpeechConvertedListeners>{PAWN_pronoun}的演講成功把以下的人皈依{IDEO}。</LetterSpeechConvertedListeners>
+  <LetterSpeechConvertedListeners>{PAWN_pronoun}的演講成功把以下的人皈依{IDEO}</LetterSpeechConvertedListeners>
 
   <!-- EN: {0} rituals activated -->
   <LetterTitleObligationsActivated>{0}儀式可用了。</LetterTitleObligationsActivated>
@@ -106,13 +106,13 @@
 
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
-  <LetterIdeoChangeConverted>{PAWN_pronoun}決定不再信奉{OLDIDEO_name}的{PAWN_possessive}。\n\n{PAWN_pronoun}現在信奉{NEWIDEO_name}。</LetterIdeoChangeConverted>
+  <LetterIdeoChangeConverted>{PAWN_pronoun}認為{PAWN_possessive}理念{OLDIDEO_name}不再值得信奉了。\n\n{PAWN_pronoun}現在信奉{NEWIDEO_name}。</LetterIdeoChangeConverted>
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
-  <LetterIdeoChangeNotConverted>{PAWN_nameDef}對於信奉{OLDIDEO_name}的{PAWN_possessive}的感悟已降至{NEWCERTAINTY}。</LetterIdeoChangeNotConverted>
+  <LetterIdeoChangeNotConverted>{PAWN_nameDef}對於信奉{OLDIDEO_name}的{PAWN_possessive}感悟已降至{NEWCERTAINTY}。</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>為適應對{PAWN_possessive}的信仰，{PAWN_nameDef}現在正於{PAWN_possessive}房間閉門不出。</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>為適應對{PAWN_possessive}信仰，{PAWN_nameDef}現在正於{PAWN_possessive}房間閉門不出。</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
-  <LetterIdeoChangedSadWander>{PAWN_nameDef}因為與{PAWN_possessive}的信仰衝突而恍惚遊走</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef}因為與{PAWN_possessive}信仰衝突而恍惚遊走</LetterIdeoChangedSadWander>
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
@@ -130,7 +130,7 @@
   <!-- EN: Look change desired -->
   <LetterWantLookChange>整容需求</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>{PAWN_nameDef}希望改變{PAWN_possessive}的樣貌，因為這不再符合{PAWN_pronoun}的信仰.\n\n{PAWN_pronoun}將自動進入有空的梳妝台並挑選外貌。如果你希望調整{PAWN_possessive}的外貌，選擇{PAWN_objective}並右鍵點擊梳妝台。</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef}希望改變{PAWN_possessive}外貌，因為這不再符合{PAWN_pronoun}的信仰.\n\n{PAWN_pronoun}將自動進入有空的梳妝台並挑選外貌。如果你希望調整{PAWN_possessive}外貌，選擇{PAWN_objective}並右鍵點擊梳妝台。</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
@@ -138,7 +138,7 @@
   <!-- EN: A spacedrone is landing nearby. -->
   <LetterTextSpacedroneIncoming>太空無人機在附近登陸了。</LetterTextSpacedroneIncoming>
   <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
-  <LetterTextRaidSpacedrone>由{0}前往{1}的襲擊部隊被迫在附近登陸了。</LetterTextRaidSpacedrone>
+  <LetterTextRaidSpacedrone>由{0}前來破壞{1}的襲擊部隊在附近登陸了。</LetterTextRaidSpacedrone>
 
   <!-- Hacked -->
   <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->

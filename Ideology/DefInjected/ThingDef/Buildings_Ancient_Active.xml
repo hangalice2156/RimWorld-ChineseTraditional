@@ -9,7 +9,7 @@
   <!-- EN: ancient cryptosleep pod -->
   <AncientCryptosleepPod.label>遠古休眠囊</AncientCryptosleepPod.label>
   <!-- EN: A single-use pod for preserving one person in a state of suspended animation. Unlike cryptosleep caskets, cryptosleep pods can only be used once. -->
-  <AncientCryptosleepPod.description>即棄式的的休眠囊，能讓裡頭的人進入多年的假死狀態。與休眠艙不同，休眠囊只能使用一次。</AncientCryptosleepPod.description>
+  <AncientCryptosleepPod.description>即棄式的休眠囊，能讓裡頭的人進入多年的假死狀態。與休眠艙不同，休眠囊只能使用一次。</AncientCryptosleepPod.description>
   
   <!-- EN: ancient enemy terminal -->
   <AncientEnemyTerminal.label>遠古敵用通訊台</AncientEnemyTerminal.label>
@@ -35,5 +35,10 @@
   <AncientTerminal.label>遠古終端機</AncientTerminal.label>
   <!-- EN: An ancient computer terminal. It can be hacked to reveal long-forgotten information. -->
   <AncientTerminal.description>遠古電腦終端。破解後可以獲得失傳的資料。</AncientTerminal.description>
+  
+  <!-- EN: ancient terminal -->
+  <AncientTerminal_Worshipful.label>遠古終端機</AncientTerminal_Worshipful.label>
+  <!-- EN: An ancient computer terminal. It can be hacked to reveal long-forgotten information. -->
+  <AncientTerminal_Worshipful.description>遠古電腦終端。破解後可以獲得失傳的資料。</AncientTerminal_Worshipful.description>
   
 </LanguageData>

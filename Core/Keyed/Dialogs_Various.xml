@@ -200,7 +200,7 @@
   <!-- EN: Map size -->
   <MapSize>地圖大小</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
-  <MapSizeDesc>{0}x{0} ({1}個方格)</MapSizeDesc>
+  <MapSizeDesc>{0}x{0}({1}個方格)</MapSizeDesc>
   <!-- EN: Small -->
   <MapSizeSmall>小</MapSizeSmall>
   <!-- EN: Medium -->
@@ -312,6 +312,8 @@
   <WarmupTime>預熱時間</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>近戰預熱時間</MeleeWarmupTime>
+  <!-- EN: Ranged warmup -->
+  <RangedWarmupTime>遠程預熱時間</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>冷卻時間</CooldownTime>
   <!-- EN: Disarmed -->
@@ -319,7 +321,7 @@
   <!-- EN: Charging -->
   <ChargingTime>充能中</ChargingTime>
   <!-- EN: Next recharge (for {1}) in: {0}\nCharge cycle: {2} -->
-  <ChargingNext>下一次充能(對於{1})在:{0}\n充能週期:{2}</ChargingNext>
+  <ChargingNext>下一次充能(需時{1})在:{0}\n充能週期:{2}</ChargingNext>
   <!-- EN: Shut down -->
   <ShutDown>關閉</ShutDown>
   <!-- EN: Fire rate -->
@@ -417,13 +419,13 @@
   <!-- EN: Misc -->
   <MiscRecordsCategory>其它</MiscRecordsCategory>
   <!-- EN: Chemical -->
-  <Chemical>藥物</Chemical>
+  <Chemical>化學物質</Chemical>
   <!-- EN: High gain per dose -->
-  <HighGain>快樂度獲得率</HighGain>
+  <HighGain>亢奮度獲得率</HighGain>
   <!-- EN: High fall rate -->
-  <HighFallRate>快樂度下降率</HighFallRate>
+  <HighFallRate>亢奮度下降率</HighFallRate>
   <!-- EN: High duration per dose -->
-  <HighDuration>快樂度持久率</HighDuration>
+  <HighDuration>亢奮度持久時間</HighDuration>
   <!-- EN: Tolerance gain per dose -->
   <ToleranceGain>耐受性獲得率</ToleranceGain>
   <!-- EN: Tolerance fall rate -->
@@ -437,27 +439,27 @@
   <!-- EN: Addiction initial severity -->
   <AddictionSeverityInitial>初期成癮嚴重度</AddictionSeverityInitial>
   <!-- EN: Addiction severity per dose -->
-  <AddictionSeverityPerDose>初期成癮獲得率</AddictionSeverityPerDose>
+  <AddictionSeverityPerDose>成癮獲得率</AddictionSeverityPerDose>
   <!-- EN: Addiction need fill per dose -->
-  <AddictionNeedOffset>成隱藥物需求度</AddictionNeedOffset>
+  <AddictionNeedOffset>成癮藥物需求滿足度</AddictionNeedOffset>
   <!-- EN: Addiction need fall rate -->
-  <AddictionNeedFallRate>成癮需求下降率</AddictionNeedFallRate>
+  <AddictionNeedFallRate>成癮藥物需求下降率</AddictionNeedFallRate>
   <!-- EN: Addiction need dose interval -->
-  <AddictionNeedDoseInterval>成隱藥物需求間隔</AddictionNeedDoseInterval>
+  <AddictionNeedDoseInterval>成癮藥物需求間隔</AddictionNeedDoseInterval>
   <!-- EN: Addiction recovery time -->
   <AddictionRecoveryTime>成癮恢復時間</AddictionRecoveryTime>
   <!-- EN: Addiction cost -->
-  <AddictionCost>成癮消耗</AddictionCost>
+  <AddictionCost>成癮消耗成本</AddictionCost>
   <!-- EN: Random overdose chance -->
   <RandomODChance>藥物過量機率</RandomODChance>
   <!-- EN: Always safe -->
-  <AlwaysSafe>安全</AlwaysSafe>
+  <AlwaysSafe>永遠安全</AlwaysSafe>
   <!-- EN: Never safe -->
   <NeverSafe>不安全</NeverSafe>
   <!-- EN: {0} / day -->
-  <PerDay>{0} / 天</PerDay>
+  <PerDay>{0}/ 天</PerDay>
   <!-- EN: {0} / hour -->
-  <PerHour>{0} / 小時</PerHour>
+  <PerHour>{0}/ 小時</PerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>貨運動物</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -494,8 +496,10 @@
   <TrapArmorPenetration>陷阱護甲穿透值</TrapArmorPenetration>
   <!-- EN: Rearm cost -->
   <RearmCost>維護花費</RearmCost>
-  <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
-  <RearmCostExplanation>此砲塔整備所需的資源(根據遊戲難度而浮動)。</RearmCostExplanation>
+  <!-- EN: Resources needed to rearm this turret -->
+  <RearmCostExplanation>此砲塔整備所需的資源</RearmCostExplanation>
+  <!-- EN: affected by difficulty -->
+  <RearmCostExplanationDifficulty>根據遊戲難度而浮動</RearmCostExplanationDifficulty>
   <!-- EN: Shots before rearm -->
   <ShotsBeforeRearm>整備前的射擊次數</ShotsBeforeRearm>
   <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
@@ -527,19 +531,19 @@
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>此物件提供的冥想專注類型。冥想的人可以專注在一個物件上，以改善精神力的成長，但前提是他們能夠使用的冥想類型。 每個人可以使用的冥想類型取決於他們的背景，特性，社會地位等。</MeditationFocusesDesc>
   <!-- EN: Can use {0} focus type because -->
-  <MeditationFocusCanUse>可以使用 {0} 的集中類型，因為</MeditationFocusCanUse>
+  <MeditationFocusCanUse>可以使用{0}的集中類型，因為</MeditationFocusCanUse>
   <!-- EN: {0} focus objects -->
-  <MeditationFocusObjects>{0} 專注物件</MeditationFocusObjects>
+  <MeditationFocusObjects>{0}專注物件</MeditationFocusObjects>
   <!-- EN: holds title: {TITLE} ({FACTION_name}). -->
-  <MeditationFocusEnabledByTitle>擁有的頭銜： {TITLE} ( {FACTION_name} )。</MeditationFocusEnabledByTitle>
+  <MeditationFocusEnabledByTitle>擁有頭銜：{TITLE}({FACTION_name})</MeditationFocusEnabledByTitle>
   <!-- EN: has childhood -->
-  <MeditationFocusEnabledByChildhood>童年的冥想專注</MeditationFocusEnabledByChildhood>
+  <MeditationFocusEnabledByChildhood>童年背景</MeditationFocusEnabledByChildhood>
   <!-- EN: has adulthood -->
-  <MeditationFocusEnabledByAdulthood>成年的冥想專注</MeditationFocusEnabledByAdulthood>
+  <MeditationFocusEnabledByAdulthood>成年背景</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
-  <MeditationFocusEnabledByTrait>特性的冥想專注</MeditationFocusEnabledByTrait>
+  <MeditationFocusEnabledByTrait>擁有特性</MeditationFocusEnabledByTrait>
   <!-- EN: does not have trait -->
-  <MeditationFocusDisabledByTrait>特性影響的冥想專注</MeditationFocusDisabledByTrait>
+  <MeditationFocusDisabledByTrait>沒有抵觸特性</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
   <EnablesMeditationFocusType>使用冥想專注類型</EnablesMeditationFocusType>
   
@@ -661,7 +665,7 @@
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>警告：部分被指派的殖民者無法抵達出口位置({0})。</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
-  <CaravanRoamerCannotReachSpots>{1_labelShort} 在任何指派的殖民者帶領下，無法到達裝卸點或出口位置。</CaravanRoamerCannotReachSpots>
+  <CaravanRoamerCannotReachSpots>{1_labelShort}在任何指派的殖民者帶領下，無法到達裝卸點或出口位置。</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>沒有任何被指派的殖民者能夠接觸到{0}。</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -889,7 +893,7 @@
   <!-- EN: Only if recreation below -->
   <JoyThresholdColumnLabel>只在娛樂值低時使用</JoyThresholdColumnLabel>
   <!-- EN: Keep in inventory -->
-  <TakeToInventoryColumnLabel>維持庫存量</TakeToInventoryColumnLabel>
+  <TakeToInventoryColumnLabel>隨身攜帶</TakeToInventoryColumnLabel>
   <!-- EN: (no drugs) -->
   <NoDrugsBrackets>(無藥物)</NoDrugsBrackets>
   <!-- EN: Every day -->
@@ -913,7 +917,7 @@
   <!-- EN: The colonists will take this drug only if their recreation level is below this threshold. -->
   <JoyThresholdColumnDesc>殖民者只會在娛樂值低於這個限時使用此藥物。</JoyThresholdColumnDesc>
   <!-- EN: An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time. -->
-  <TakeToInventoryColumnDesc>為了避免每次都要去儲存區拿藥物，在拿藥物的時候會多拿一份。</TakeToInventoryColumnDesc>
+  <TakeToInventoryColumnDesc>為了避免每次都要去儲存區拿藥物，在拿藥物的時候會多拿一些。</TakeToInventoryColumnDesc>
   <!-- EN: For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
   <DrugUsageTipForAddiction>針對成癮\n\n使用此藥物滿足已成癮的藥物需求。\n\n即使禁用藥物，帶有某些特性或精神崩潰狀態的小人仍有可能會使用藥物。</DrugUsageTipForAddiction>
   <!-- EN: For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway. -->
@@ -924,6 +928,8 @@
   <!-- Food restriction management -->
   <!-- EN: Food restriction -->
   <FoodRestriction>客製化菜單</FoodRestriction>
+  <!-- EN: Food -->
+  <FoodRestrictionShort>食物</FoodRestrictionShort>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>豪華料理</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -991,7 +997,7 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{1_labelShort}不見了，依然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
+  <ConfirmSendNotCompletelyLoadedPods>運輸艙尚未裝載完成。{1_labelShort}不在裡面，依然要發射嗎？</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
@@ -1035,21 +1041,21 @@
   <!-- EN: {0} must target a walkable area. -->
   <AbilityUnwalkable>{0}必須瞄準可移動區域。</AbilityUnwalkable>
   <!-- EN: {0} must target an unroofed area. -->
-  <AbilityRoofed>{0} 必須瞄準無屋頂區域。</AbilityRoofed>
+  <AbilityRoofed>{0}必須瞄準無屋頂區域。</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
-  <AbilityCantApplyToMentallyBroken>{0_labelShort} 的心靈壞掉了。</AbilityCantApplyToMentallyBroken>
+  <AbilityCantApplyToMentallyBroken>{0_labelShort}精神崩潰了。</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
-  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} 的心靈沒有壞掉。</AbilityCanOnlyApplyToMentallyBroken>
+  <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort}沒有精神崩潰。</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not maddened. -->
-  <AbilityCanOnlyApplyToManhunter>{0_labelShort} 沒有陷入瘋狂</AbilityCanOnlyApplyToManhunter>
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort}沒有陷入瘋狂</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
-  <AbilityCantApplyToScaria>{0_labelShort} 患有狂亂症，只能透過藥物治療。</AbilityCantApplyToScaria>
+  <AbilityCantApplyToScaria>{0_labelShort}患有狂亂症，只能透過藥物治療。</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0}無法作用於'{1}'精神狀態。</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort}已經毫無抵抗。</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
-  <AbilityCantApplyDowned>{0_labelShort} 被擊倒。</AbilityCantApplyDowned>
+  <AbilityCantApplyDowned>{0_labelShort}被擊倒。</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>無法使用：{0}無性。</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
@@ -1065,7 +1071,7 @@
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
   <AbilityMustBeSameIdeo>{0_labelShort}必須與{1_labelShort}有相同的理念。</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
-  <AbilityMustBeSickOrInjured>{0_labelShort}必須是生病或受傷。</AbilityMustBeSickOrInjured>
+  <AbilityMustBeSickOrInjured>{0_labelShort}必須是生病或受傷的人。</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
   <AbilityMustBeSameIdeoCounsel>{0}只能審議{1}。</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
@@ -1091,9 +1097,9 @@
   <!-- EN: No chunks to skip. -->
   <AbilityNoChunkToSkip>沒有塊堆能折躍。</AbilityNoChunkToSkip>
   <!-- EN: Induce psychic love in -->
-  <PsychicLoveInduceIn>減弱心靈戀情於</PsychicLoveInduceIn>
+  <PsychicLoveInduceIn>誘發心靈愛戀於</PsychicLoveInduceIn>
   <!-- EN: Psychic love for -->
-  <PsychicLoveFor>心靈戀情於</PsychicLoveFor>
+  <PsychicLoveFor>愛上</PsychicLoveFor>
   <!-- EN: If you skip {PAWN_labelShort} to another map or a caravan, the associated quest will fail and {PAWN_pronoun} will leave immediately.\n\nDo you really want to farskip {PAWN_labelShort}? -->
   <FarskipConfirmTeleportingLodger>如果你將{PAWN_labelShort}折躍至另一個地圖或者遠征隊，與之關聯的任務將會失敗並且{PAWN_pronoun}會立刻離開。\n\n你確定要對{PAWN_labelShort}進行長途折躍嗎？</FarskipConfirmTeleportingLodger>
   
@@ -1116,7 +1122,7 @@
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>其他</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
-  <AutoSlaugtherTip>殖民者會按照年齡大到小的順序屠宰沒有懷孕的動物，接著是很久之前懷孕到最近懷孕的動物順序。</AutoSlaugtherTip>
+  <AutoSlaugtherTip>殖民者會按照年齡大到小的順序屠宰沒有懷孕的動物，接著是最近懷孕到最久懷孕的動物順序。</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>成年雄性</AnimalMaleAdult>
   <!-- EN: Male young -->
@@ -1168,20 +1174,20 @@
 
   <!-- Room requirements -->
   <!-- EN: no beds allowed -->
-  <RoomRequirementNoBeds>沒有允許的床</RoomRequirementNoBeds>
+  <RoomRequirementNoBeds>不可以有床</RoomRequirementNoBeds>
   <!-- EN: room area: {0} tiles -->
-  <RoomRequirementArea>房間面積: {0} 格</RoomRequirementArea>
+  <RoomRequirementArea>房間面積:{0}格</RoomRequirementArea>
   <!-- EN: room impressiveness -->
   <RoomRequirementImpressiveness>房間印象</RoomRequirementImpressiveness>
   <!-- EN: all floored -->
-  <RoomRequirementAllFloored>所有地板</RoomRequirementAllFloored>
+  <RoomRequirementAllFloored>鋪滿地板</RoomRequirementAllFloored>
   <!-- EN: all braziers must be lit -->
   <RoomRequirementAllBraziersMustBeLit>所有火盆必須點燃</RoomRequirementAllBraziersMustBeLit>
   <!-- EN: all fine floored -->
-  <RoomRequirementAllFineFloored>所有合適的地板</RoomRequirementAllFineFloored>
+  <RoomRequirementAllFineFloored>鋪滿精美的地板</RoomRequirementAllFineFloored>
   <!-- EN: no work facilities allowed -->
-  <RoomRequirementNoProductionFacilities>沒有允許的生產設施</RoomRequirementNoProductionFacilities>
+  <RoomRequirementNoProductionFacilities>不可以有生產設施</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
-  <RoomRequirementNoAltars>沒有允許的祭壇</RoomRequirementNoAltars>
+  <RoomRequirementNoAltars>不可以有祭壇</RoomRequirementNoAltars>
 
 </LanguageData>
