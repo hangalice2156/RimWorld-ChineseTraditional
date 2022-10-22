@@ -54,7 +54,7 @@
   <!-- EN: loudspeaker -->
   <Loudspeaker.label>音響</Loudspeaker.label>
   <!-- EN: A large loudspeaker for playing music. At least one is necessary to hold a dance party, and more loudspeakers will enhance the effect. -->
-  <Loudspeaker.description>一台巨大音樂擴音器。跳舞派對中至少要有一台，若有更多的擴音器則能提升效果。</Loudspeaker.description>
+  <Loudspeaker.description>一台巨大音樂擴音器。舞會中至少要有一台，若有更多的擴音器則能提升效果。</Loudspeaker.description>
   
   <!-- EN: pew -->
   <Pew.label>長座椅</Pew.label>
@@ -68,25 +68,25 @@
   
   <!-- EN: reliquary -->
   <Reliquary.label>聖物箱</Reliquary.label>
-  <!-- EN: A ceremonial building that protects and displays a relic. Relics are ancient objects venerated by believers of a specific ideoligion. -->
-  <Reliquary.description>保護和展示聖物的神聖建築。聖物是遠古的文物，被所屬理念的朝聖者所崇拜。</Reliquary.description>
+  <!-- EN: A ceremonial building that protects and displays a relic. Relics are ancient objects venerated by some cultures, belief systems, or religions. -->
+  <Reliquary.description>保護和展示聖物的神聖建築。聖物是一些遠古的文物，受一些文化、信仰體系、或宗教所崇拜。</Reliquary.description>
   
   <!-- EN: skullspike -->
   <Skullspike.label>穿顱架</Skullspike.label>
   <!-- EN: A spike mounted upright for the purpose of piercing and displaying a human skull. To some, displayed skulls are a symbol of power. To others, they represent barbaric evil. Skullspikes are an especially brutal and effective way to terrorize slaves. -->
   <Skullspike.description>用於插起頭骨並展示的直立尖刺。對某些人而言，展示頭骨是力量的象徵。而另一些人則覺得這是殘暴的邪惡。穿顱架是非常野蠻而有效地威嚇奴隸的方法。</Skullspike.description>
   <!-- EN: skull of -->
-  <Skullspike.comps.CompHasSources.inspectStringLabel>頭顱自</Skullspike.comps.CompHasSources.inspectStringLabel>
+  <Skullspike.comps.CompHasSources.inspectStringLabel>頭顱來自</Skullspike.comps.CompHasSources.inspectStringLabel>
   
   <!-- EN: slab bed -->
-  <SlabBed.label>平板床</SlabBed.label>
+  <SlabBed.label>硬板床</SlabBed.label>
   <!-- EN: A slab of hard material made to sleep on. Slab beds are uncomfortable, but some see their use as a demonstration of moral good. -->
-  <SlabBed.description>一張以硬質物料造成的床。睡在平板床很不舒服，但有部份人視睡在上面能展現高尚的道德。</SlabBed.description>
+  <SlabBed.description>一張以硬質物料做成的床。睡在硬板床很不舒服，但有部份人視睡在上面能展現高尚的道德。</SlabBed.description>
   
   <!-- EN: slab double bed -->
-  <SlabDoubleBed.label>雙人平版床</SlabDoubleBed.label>
+  <SlabDoubleBed.label>雙人硬版床</SlabDoubleBed.label>
   <!-- EN: A slab of hard material made to sleep on. Slab beds are uncomfortable, but some see their use as a demonstration of moral good. This one is wide enough to fit two people. -->
-  <SlabDoubleBed.description>一張以硬質物料造成的床。睡在平板床很不舒服，但有部份人視睡在上面能展現高尚的道德。能夠睡兩個人。</SlabDoubleBed.description>
+  <SlabDoubleBed.description>一張以硬質物料做成的床。睡在硬板床很不舒服，但有部份人視睡在上面能展現高尚的道德。能夠睡兩個人。</SlabDoubleBed.description>
   
   <!-- EN: styling station -->
   <StylingStation.label>梳妝台</StylingStation.label>

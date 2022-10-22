@@ -89,7 +89,13 @@
   <OperateDeepDrill.reportString>在TargetA採礦。</OperateDeepDrill.reportString>
   
   <!-- EN: scanning at TargetA. -->
-  <OperateScanner.reportString>掃瞄TargetA。</OperateScanner.reportString>
+  <OperateScanner.reportString>在TargetA掃瞄。</OperateScanner.reportString>
+  
+  <!-- EN: painting TargetA. -->
+  <PaintBuilding.reportString>粉刷TargetA。</PaintBuilding.reportString>
+  
+  <!-- EN: painting TargetA. -->
+  <PaintFloor.reportString>粉刷TargetA。</PaintFloor.reportString>
   
   <!-- EN: building TargetA. -->
   <PlaceNoCostFrame.reportString>建造TargetA。</PlaceNoCostFrame.reportString>
@@ -108,6 +114,12 @@
   
   <!-- EN: removing floor. -->
   <RemoveFloor.reportString>拆除地板。</RemoveFloor.reportString>
+  
+  <!-- EN: removing paint from TargetA. -->
+  <RemovePaintBuilding.reportString>去除TargetA上的油漆。</RemovePaintBuilding.reportString>
+  
+  <!-- EN: removing paint from TargetA. -->
+  <RemovePaintFloor.reportString>去除TargetA上的油漆。</RemovePaintFloor.reportString>
   
   <!-- EN: removing roof. -->
   <RemoveRoof.reportString>拆除屋頂。</RemoveRoof.reportString>
@@ -152,7 +164,7 @@
   <Steal.reportString>掠奪TargetA。</Steal.reportString>
   
   <!-- EN: Studying TargetA. -->
-  <StudyThing.reportString>研究TargetA。</StudyThing.reportString>
+  <StudyBuilding.reportString>研究TargetA。</StudyBuilding.reportString>
   
   <!-- EN: taking TargetA to bed. -->
   <TakeDownedPawnToBedDrafted.reportString>帶TargetA到床上。</TakeDownedPawnToBedDrafted.reportString>

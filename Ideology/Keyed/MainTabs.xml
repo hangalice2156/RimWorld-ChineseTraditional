@@ -102,8 +102,6 @@
   <RandomizeSymbolsTooltip>隨機理念名稱、標誌、敍述、領袖頭銜和其他文字例如儀式名稱和職位名稱。這對遊戲元素，例如模因和戒律沒有影響。</RandomizeSymbolsTooltip>
   <!-- EN: Click any element to edit it -->
   <ClickAnyElementToEditIt>點擊任何選項以修改它</ClickAnyElementToEditIt>
-  <!-- EN: Click to edit -->
-  <ClickToEdit>點擊以修改</ClickToEdit>
   <!-- EN: Leader title -->
   <LeaderTitle>領袖頭銜</LeaderTitle>
   <!-- EN: Deity name -->
@@ -134,6 +132,8 @@
   <All>全部</All>
   <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
   <RelicTip>聖物是精神以及理念的象徵物。它可以經由完成漫長且危險的任務獲得。聖物可以被安置在聖物箱以吸引朝聖者，改善儀式，並強化理念使人皈依的力量。</RelicTip>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims and enhance rituals. -->
+  <RelicTipClassic>聖物是精神以及理念的象徵物。它可以經由完成漫長且危險的任務獲得。聖物可以被安置在聖物箱以吸引朝聖者，並改善儀式。</RelicTipClassic>
   <!-- EN: animal -->
   <Animal>動物</Animal>
   <!-- EN: Venerated animals -->

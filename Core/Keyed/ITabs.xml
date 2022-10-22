@@ -50,6 +50,8 @@
   <TabTransporterContents>內容物</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>內容物</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>自動裁剪</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -122,6 +124,23 @@
   <ConsideredGuilty>被判有罪({0}後到期)</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>被判有罪</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>上次心防減少值</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>當{0_nameDef}上次被{1}招募的時候減少的心防。</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>招募者意見</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>招募者談判能力</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>愚忠</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>此俘虜對他們的派系極為忠誠而絕對拒絕任何招募。</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>他們的忠誠延伸至他們的信仰因此無法傳教。</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -168,10 +187,10 @@
   <WontBleedOutSoon>無立即危險</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>概觀</HealthOverview>
-  <!-- EN: Operations ({0}) -->
-  <MedicalOperationsShort>手術({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
-  <MedicalOperationsMechanoidsShort>修正({0})</MedicalOperationsMechanoidsShort>
+  <!-- EN: Operations -->
+  <MedicalOperationsShort>手術</MedicalOperationsShort>
+  <!-- EN: Modifications -->
+  <MedicalOperationsMechanoidsShort>修正</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>手術</MedicalOperations>
   <!-- EN: amputate -->
@@ -186,6 +205,8 @@
   <SocialInteractionsLower>社交影響</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>飢餓率</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>食物消耗</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>疲勞率</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +262,6 @@
   <TrainingNeedsPrerequisite>前提條件：{0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(無社交關係)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>綁架</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -253,10 +272,10 @@
   <Slave>奴隸</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>派系首領</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>對{1_labelShort}的看法</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>{1_labelShort}對我的看法</SomeonesOpinionOfMe>
+  <!-- EN: Opinion of {0} -->
+  <OpinionOf>對{0}的看法</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
+  <SomeonesOpinionOfMe>{0}對我的看法</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>我死了</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -316,7 +335,7 @@
   <!-- EN: Loaded -->
   <LoadedItems>已裝載的貨物</LoadedItems>
   <!-- EN: pack animals -->
-  <PackAnimalsCountLower>動物群</PackAnimalsCountLower>
+  <PackAnimalsCountLower>貨運動物</PackAnimalsCountLower>
   <!-- EN: mentally broken -->
   <InMentalStateCountLower>精神崩潰</InMentalStateCountLower>
 
@@ -394,11 +413,17 @@
   <!-- EN: Auto-cut plants in pen -->
   <PenAutoCut_EnabledCheckbox>自動裁剪植物</PenAutoCut_EnabledCheckbox>
   <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
-  <PenAutoCut_EnabledCheckboxTip>自動標記並清除不可食用植物。這會讓可食物植物有更多空間可以成長，以便您的動物可以食用植物。\n\n自動指定會定期執行，只適用於某些植物。\n\n只有在飼養圈圍住時才會執行。</PenAutoCut_EnabledCheckboxTip>
+  <PenAutoCut_EnabledCheckboxTip>自動標記並清除不可食用植物。這會讓可食物植物有更多空間可以成長，以便你的動物可以食用植物。\n\n自動指定會定期執行，只適用於某些植物。\n\n只有在飼養圈圍住時才會執行。</PenAutoCut_EnabledCheckboxTip>
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>飼養圈未圍住</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>飼養圈目前沒有圍住，無法執行自動裁剪植物。</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <WindTurbineAutoCut_EnabledCheckbox>自動裁剪阻礙風力發電機的植物</WindTurbineAutoCut_EnabledCheckbox>
+
+  <!-- UNUSED -->
+  <NoRelationships>(無社交關係)</NoRelationships>
 
 </LanguageData>

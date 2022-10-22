@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: cleaning time multiplier -->
+  <CleaningTimeFactor.label>清潔時間倍率</CleaningTimeFactor.label>
+  <!-- EN: A multiplier on how long it takes to clean filth from this surface. -->
+  <CleaningTimeFactor.description>此表面需要多久才能清潔的倍率。</CleaningTimeFactor.description>
+  
   <!-- EN: construction speed -->
   <ConstructionSpeedFactor.label>建造速度</ConstructionSpeedFactor.label>
   <!-- EN: The speed at which buildings made of this are constructed is multiplied by this value.\n\nSome materials, like stone, are slow to build from, while others, like wood, are fast. -->
@@ -24,7 +29,7 @@
   <MedicalQualityMax.description>使用這個能獲得的醫療品質最大值。更好的醫療品質能讓醫生將傷口治療得更好、更可靠。</MedicalQualityMax.description>
   
   <!-- EN: meditation psyfocus bonus -->
-  <MeditationFocusStrength.label>冥想集中力</MeditationFocusStrength.label>
+  <MeditationFocusStrength.label>冥想額外所得精神力</MeditationFocusStrength.label>
   <!-- EN: The amount of extra psyfocus someone gains by focusing on this object during meditation, in addition to their own base rate of meditation psyfocus gain.\n\nFor some objects, this number can change depending on the surroundings and the person doing the meditating. -->
   <MeditationFocusStrength.description>某人在冥想過程中獲得的額外精神力。此數值會根據周圍環境和進行冥想的人而變化。</MeditationFocusStrength.description>
   <!-- EN: {0} / day -->

@@ -13,9 +13,9 @@
   <!-- EN: Throneroom requirements -->
   <RoyalTitleTooltipThroneroomRequirements>謁見廳要求</RoyalTitleTooltipThroneroomRequirements>
   <!-- EN: Title privileges -->
-  <RoyalTitleTooltipPermits>頭銜特權</RoyalTitleTooltipPermits>
+  <RoyalTitleTooltipPermits>頭銜待遇</RoyalTitleTooltipPermits>
   <!-- EN: Holders of this title must be covered in some combination of -->
-  <RoyalTitleRequiredApparelStatDescription>此頭銜的持有者必須在以下幾種方式組合使用</RoyalTitleRequiredApparelStatDescription>
+  <RoyalTitleRequiredApparelStatDescription>此頭銜的持有者必須從以下服裝挑選穿搭</RoyalTitleRequiredApparelStatDescription>
   <!-- EN: Any prestige armor -->
   <ApparelRequirementAnyPrestigeArmor>任意威嚴裝甲</ApparelRequirementAnyPrestigeArmor>
   <!-- EN: Any psycaster apparel -->
@@ -33,7 +33,7 @@
 
   <!-- Royal implants -->
   <!-- EN: According to laws of {FACTION_name}, one must have the title of {TITLE} to legally use a {IMPLANT}.\n\n{VIOLATIONTRIGGER}, there is a chance {FACTION_name} will detect its psychic signature. This will lead to diplomatic consequences. -->
-  <RoyalImplantIllegalUseWarning>根據{FACTION_name}的法律，必須擁有{TITLE}頭銜才能合法使用{IMPLANT}。\n\n{VIOLATIONTRIGGER},{FACTION_name}很有可能會檢測到其心靈訊號。這將導致嚴重的外交矛盾。</RoyalImplantIllegalUseWarning>
+  <RoyalImplantIllegalUseWarning>根據{FACTION_name}的法律，必須擁有{TITLE}頭銜才能合法使用{IMPLANT}。\n\n{VIOLATIONTRIGGER}，{FACTION_name}很有可能會檢測到其心靈訊號。這將導致嚴重的外交後果。</RoyalImplantIllegalUseWarning>
   <!-- EN: Install this implant anyway? -->
   <RoyalImplantInstallConfirmation>要安裝這個植入物嗎?</RoyalImplantInstallConfirmation>
   <!-- EN: Upgrade this implant anyway? -->
@@ -49,9 +49,17 @@
   
   <!-- Psycasts -->
   <!-- EN: Target is psychically deaf. -->
-  <AbilityTargetPsychicallyDeaf>目標對象為心靈失聰者。</AbilityTargetPsychicallyDeaf>
+  <AbilityTargetPsychicallyDeaf>目標對象為心靈障壁者。</AbilityTargetPsychicallyDeaf>
   <!-- EN: This is illegal for {PAWN_labelShort}. Requires {TITLE} title. -->
   <PsycastIsIllegal>對於{PAWN_labelShort}，這是非法的。需要{TITLE}頭銜。</PsycastIsIllegal>
+
+  <!-- Skip -->
+  <!-- EN: Cannot skip {PAWN_labelShort} -->
+  <CannotSkipTarget>無法對{PAWN_labelShort}折躍</CannotSkipTarget>
+  <!-- EN: Too large -->
+  <CannotSkipTargetTooLarge>過大</CannotSkipTargetTooLarge>
+  <!-- EN: Psychic resistance -->
+  <CannotSkipTargetPsychicResistant>心靈阻抗</CannotSkipTargetPsychicResistant>
 
   <!-- Warning -->
   <!-- EN: This quest will reward {FACTION_royalFavorLabel} and thus royal titles for {PAWN_labelShort}. -->
@@ -59,7 +67,7 @@
   <!-- EN: {PAWN_labelShort} is incapable of social tasks. Those with royal titles have great need of social skills, so if {PAWN_labelShort} gains a title, {PAWN_pronoun} may have a difficult time. Another colonist might be more socially-adept. -->
   <RoyalIncapableOfSocial>{PAWN_labelShort}無法執行社交任務。 那些擁有榮譽頭銜的人非常需要社交能力，因此，如果{PAWN_labelShort}獲得頭銜，{PAWN_pronoun}可能會遇到困難。 其他殖民者可能更善於社交。</RoyalIncapableOfSocial>
   <!-- EN: Since {PAWN_labelShort} is {2}, {PAWN_pronoun} will demand that the title's privileges be fully respected. {PAWN_labelShort} may refuse to do certain work types or eat low-class food, and will issue decrees. Another colonist would probably be more flexible. -->
-  <RoyalWithConceitedTrait>由於{PAWN_labelShort}為{2}，因此{PAWN_pronoun}將要求頭銜的權力應受到充分尊重。{PAWN_labelShort}可能會拒絕從事某些工作或吃低等食物，並且會頒布法令。另一個殖民者可能會更有彈性。</RoyalWithConceitedTrait>
+  <RoyalWithConceitedTrait>由於{PAWN_labelShort}為{2}，因此{PAWN_pronoun}將要求完全尊重此頭銜的待遇。{PAWN_labelShort}可能會拒絕從事某些工作或吃低等食物，並且會頒布法令。另一個殖民者可能會更有彈性。</RoyalWithConceitedTrait>
   <!-- EN: Since {PAWN_labelShort} is {2}, the psylink might not be useful for {PAWN_objective}. -->
   <RoyalWithTraitAffectingPsylinkNegatively>由於{PAWN_labelShort}為{2}，因此心靈連結可能對{PAWN_objective}無效。</RoyalWithTraitAffectingPsylinkNegatively>
   <!-- EN: {PAWN_labelShort}'s psylink is not at a high enough level to use {ABILITY}.\n\nGain this power anyways? -->

@@ -11,6 +11,11 @@
   <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
   <AnimalGatherYield.description>此人進行擠奶、剃毛或從活的動物身上獲取資源時的百分比產量。\n\n百分比越高就能避免浪費產品。</AnimalGatherYield.description>
   
+  <!-- EN: cleaning speed multiplier -->
+  <CleaningSpeed.label>清潔速度倍率</CleaningSpeed.label>
+  <!-- EN: A multiplier on how fast this cleans up filth from the ground. -->
+  <CleaningSpeed.description>清潔地面的髒污的速度倍率。</CleaningSpeed.description>
+  
   <!-- EN: construction speed -->
   <ConstructionSpeed.label>建造速度</ConstructionSpeed.label>
   <!-- EN: The speed at which this person constructs and repairs buildings. -->
@@ -75,5 +80,7 @@
   <WorkSpeedGlobal.label>工作速度</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
   <WorkSpeedGlobal.description>此人進行任何工作時的速度。</WorkSpeedGlobal.description>
+  <!-- EN: Offset from mechanitor -->
+  <WorkSpeedGlobal.parts.2.label>TODO</WorkSpeedGlobal.parts.2.label>
   
 </LanguageData>

@@ -16,7 +16,7 @@
   <CannotDoThisWork>{1_labelShort}無法做這類型的工作。</CannotDoThisWork>
   <!-- EN: (none) -->
   <NoneBrackets>(無)</NoneBrackets>
-  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
+  <!-- EN: This colonist is not able to do any work of this type because of their health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>由於他的健康狀況，此殖民者無法做任何工作。</IncapableOfWorkTypeBecauseOfCapacities>
   <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
@@ -36,12 +36,12 @@
   <Priority4>低優先度</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>{0}\n\n當前屬於{1_nameDef}。\n\n點擊以查看派系。</PawnFactionInfo>
-  <!-- EN: Disabled by backstory: {0} -->
-  <WorkDisabledByBackstory>禁用背景故事：{0}</WorkDisabledByBackstory>
-  <!-- EN: Disabled by trait: {0} -->
-  <WorkDisabledByTrait>禁用特性：{0}</WorkDisabledByTrait>
-  <!-- EN: Disabled by quest: {0} -->
-  <WorkDisabledByQuest>禁用任務：{0}</WorkDisabledByQuest>
+  <!-- EN: Disabled by {0} backstory -->
+  <WorkDisabledByBackstory>{0}的背景故事禁用</WorkDisabledByBackstory>
+  <!-- EN: Disabled by {0} trait -->
+  <WorkDisabledByTrait>{0}的特性禁用</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest '{0}' -->
+  <WorkDisabledByQuest>任務「{0}」所禁用</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -78,6 +78,10 @@
   <PregnantIconDesc>懷孕({0}/{1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
   <BondedTo>夥伴與</BondedTo>
+  <!-- EN: Sterilize animal. -->
+  <SterilizeAnimal>絕育。</SterilizeAnimal>
+  <!-- EN: Animal sterile. -->
+  <AnimalAlreadySterile>動物絕育。</AnimalAlreadySterile>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
@@ -184,6 +188,8 @@
   <Research>研究</Research>
   <!-- EN: Study -->
   <Study>研究</Study>
+  <!-- EN: Study {0} -->
+  <StudyThing>研究{0}</StudyThing>
   <!-- EN: Unresearched -->
   <Unresearched>未研究</Unresearched>
   <!-- EN: Finished -->
@@ -200,6 +206,8 @@
   <InsufficientTechprintsApplied>已使用的科技藍圖不足({0}/{1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>前置條件未完成</PrerequisitesNotCompleted>
+  <!-- EN: Missing required research facilities -->
+  <MissingRequiredResearchFacilities>缺乏必要的研究設施</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
   <RequiredResearchBench>需要研究桌</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
@@ -249,7 +257,7 @@
   <!-- EN: The average mood of {0} over the previous {1} -->
   <QuestAveragePawnMoodTargets>{0}在過往{1}的平均心情</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
-  <ShuttleArrivesIn>太空梭於{0}抵達</ShuttleArrivesIn>
+  <ShuttleArrivesIn>太空梭於{0}後抵達</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
   <ShuttleArrivesOn>太空梭將於{0}抵達</ShuttleArrivesOn>
   <!-- EN: Shuttle departs in {0} -->
@@ -299,7 +307,7 @@
   <!-- EN: {PAWN_definite} to be in your home colony -->
   <QuestPawnNotOnColonyMap>{PAWN_definite}在主殖民地</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
-  <QuestRequiresNoDangerOnMap>地圖上賜予者的敵人都已被解決</QuestRequiresNoDangerOnMap>
+  <QuestRequiresNoDangerOnMap>地圖上不可以有賜予者的敵人</QuestRequiresNoDangerOnMap>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>完成正在進行的授勳儀式任務</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -315,7 +323,7 @@
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
   <AcceptGoodwillDesc>是否希望獲得可以提昇與{FACTION_name}的關係的任務。\n\n如果禁用此功能，{FACTION_name}將提供其他類型的獎勵。\n\n此設置只會影響新接到的任務。</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
-  <RoyalFavorOn>當前選擇接受{FACTION_royalFavorLabel}任務。 </RoyalFavorOn>
+  <RoyalFavorOn>當前選擇接受{FACTION_royalFavorLabel}任務。</RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>當前選擇不接受{FACTION_royalFavorLabel}任務。</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
@@ -323,7 +331,7 @@
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward>{0_labelShort}加入</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
-  <QuestBetrayalOffer>背叛：存在{0}個目標</QuestBetrayalOffer>
+  <QuestBetrayalOffer>背叛提議：尚欠{0}個目標</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0}將因你殺死{1}的所有成員而獎勵你。</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->
@@ -340,5 +348,9 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>引起需求</CreatesNeed>
+
+  <!-- Misc -->
+  <!-- EN: Click to edit -->
+  <ClickToEdit>點擊編輯</ClickToEdit>
 
 </LanguageData>

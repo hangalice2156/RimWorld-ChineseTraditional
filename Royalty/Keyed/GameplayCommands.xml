@@ -18,9 +18,9 @@
   <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
   <CommandCallRoyalAidDesc>使用特殊的榮譽特權申請軍事援助。\n\n每種類型的援助可以免費使用一次，之後你必須等待再次免費使用它。你可以更頻繁地使用援助，但這樣做會讓你失去很多榮譽值。</CommandCallRoyalAidDesc>
   <!-- EN: Guests will not use their aid permits. -->
-  <CommandCallRoyalAidLodger>訪客將不會使用他們的支援許可。</CommandCallRoyalAidLodger>
+  <CommandCallRoyalAidLodger>訪客將不會使用他們的支援權限。</CommandCallRoyalAidLodger>
   <!-- EN: Slaves cannot use their permits. -->
-  <CommandCallRoyalAidSlave>奴隸無法使用他們的支援許可。</CommandCallRoyalAidSlave>
+  <CommandCallRoyalAidSlave>奴隸無法使用他們的權限。</CommandCallRoyalAidSlave>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
   <CommandCallRoyalAidFactionHostile>你與{FACTION_name}的派系關係充滿敵意。</CommandCallRoyalAidFactionHostile>
   <!-- EN: Free -->
@@ -72,13 +72,13 @@
   <!-- EN: Build radius warning -->
   <CommandWarnInBuildingRadius>建築半徑警告</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
-  <CommandWarnInBuildingRadiusDesc>啟用後，當您使用建築清單放置建築物時，將會畫出一條紅線顯示物件會過於靠近而干擾冥想。\n\n如果您不打算將其用於冥想，則可以關閉。</CommandWarnInBuildingRadiusDesc>
+  <CommandWarnInBuildingRadiusDesc>啟用後，當你使用建築清單放置建築物時，將會畫出一條紅線顯示物件會過於靠近而干擾冥想。\n\n如果你不打算將其用於冥想，則可以關閉。</CommandWarnInBuildingRadiusDesc>
   
   <!-- Permits -->
   <!-- EN: Choose permit -->
-  <ChooseRoyalPermit>選擇許可</ChooseRoyalPermit>
+  <ChooseRoyalPermit>選擇權限</ChooseRoyalPermit>
   <!-- EN: Open the permit selection screen and choose a new permit. -->
-  <ChooseRoyalPermit_Desc>打開許可選擇窗並且選擇一個新的許可。</ChooseRoyalPermit_Desc>
+  <ChooseRoyalPermit_Desc>打開權限選擇頁面並且選擇一個新的權限。</ChooseRoyalPermit_Desc>
 
   <!-- EN: Leave bestowing ceremony -->
   <CommandLeaveBestowingCeremony>離開授勛儀式</CommandLeaveBestowingCeremony>

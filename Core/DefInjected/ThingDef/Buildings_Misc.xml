@@ -15,6 +15,8 @@
   <CommsConsole.label>通訊台</CommsConsole.label>
   <!-- EN: Allows radio contact with other factions and orbital traders. -->
   <CommsConsole.description>可和其他派系、軌道商人進行無線電連繫。</CommsConsole.description>
+  <!-- EN: Summon diabolus threat -->
+  <CommsConsole.comps.CompUsable.useLabel>TODO</CommsConsole.comps.CompUsable.useLabel>
   
   <!-- EN: cryptosleep casket -->
   <CryptosleepCasket.label>休眠艙</CryptosleepCasket.label>
@@ -29,9 +31,9 @@
   <!-- EN: firefoam popper -->
   <FirefoamPopper.label>滅火裝置</FirefoamPopper.label>
   <!-- EN: When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually. -->
-  <FirefoamPopper.description>當偵測到火焰或是手動啟動時，滅火裝置會以它為中心，向一個範圍內噴灑滅火泡沫撲滅火焰。</FirefoamPopper.description>
-  <!-- EN: Trigger firefoam popper -->
-  <FirefoamPopper.comps.CompUsable.useLabel>啟動泡沫滅火裝置</FirefoamPopper.comps.CompUsable.useLabel>
+  <FirefoamPopper.description>當偵測到火焰或是手動啟動時，此安全裝置會以它為中心爆發，向一片圓形範圍噴灑阻燃泡沫。</FirefoamPopper.description>
+  <!-- EN: Trigger {0_label} -->
+  <FirefoamPopper.comps.CompUsable.useLabel>啟動{0_label}</FirefoamPopper.comps.CompUsable.useLabel>
   
   <!-- EN: grave -->
   <Grave.label>墳墓</Grave.label>
@@ -76,7 +78,7 @@
   <!-- EN: pen marker -->
   <PenMarker.label>飼養圈標誌</PenMarker.label>
   <!-- EN: A post with a sign designating an animal pen. It must be placed in an area enclosed by fences, barricades, walls, and doors. You can assign each pen marker a set of animals to accept, and handlers will bring animals to an appropriate pen. -->
-  <PenMarker.description>動物飼養圈的標誌杆。它必須放置在柵欄、路障、牆和門圍住的區域。您可以在飼養圈標誌上指定動物，馴獸師會將動物帶到指定的飼養圈。</PenMarker.description>
+  <PenMarker.description>動物飼養圈的標誌杆。它必須放置在柵欄、路障、牆和門圍住的區域。你可以在飼養圈標誌上指定動物，馴獸師會將動物帶到指定的飼養圈。</PenMarker.description>
   
   <!-- EN: pod launcher -->
   <PodLauncher.label>發射平台</PodLauncher.label>
