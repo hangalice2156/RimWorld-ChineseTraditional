@@ -2,214 +2,214 @@
 <LanguageData>
   
   <!-- EN: dark vision -->
-  <DarkVision.label>TODO</DarkVision.label>
+  <DarkVision.label>夜視</DarkVision.label>
   <!-- EN: Carriers of this gene see well in low light and are unaffected by mood penalties related to darkness. They have a reflective layer behind the retina that amplifies their ability to see in the dark. -->
-  <DarkVision.description>TODO</DarkVision.description>
+  <DarkVision.description>基因擁有者在弱光環境仍能看清，並且不受與黑暗有關的心情扣減。他們的視網膜後面有一層反射層，可以增強他們在黑暗中看東西的能力。</DarkVision.description>
   <!-- EN: dark -->
-  <DarkVision.symbolPack.prefixSymbols.0.symbol>TODO</DarkVision.symbolPack.prefixSymbols.0.symbol>
+  <DarkVision.symbolPack.prefixSymbols.0.symbol>暗</DarkVision.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: night -->
-  <DarkVision.symbolPack.prefixSymbols.1.symbol>TODO</DarkVision.symbolPack.prefixSymbols.1.symbol>
+  <DarkVision.symbolPack.prefixSymbols.1.symbol>夜</DarkVision.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: dim -->
-  <DarkVision.symbolPack.prefixSymbols.2.symbol>TODO</DarkVision.symbolPack.prefixSymbols.2.symbol>
+  <DarkVision.symbolPack.prefixSymbols.2.symbol>黯</DarkVision.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: gloom -->
-  <DarkVision.symbolPack.prefixSymbols.3.symbol>TODO</DarkVision.symbolPack.prefixSymbols.3.symbol>
+  <DarkVision.symbolPack.prefixSymbols.3.symbol>昏暗</DarkVision.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: murk -->
-  <DarkVision.symbolPack.prefixSymbols.4.symbol>TODO</DarkVision.symbolPack.prefixSymbols.4.symbol>
+  <DarkVision.symbolPack.prefixSymbols.4.symbol>朦朧</DarkVision.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: deep -->
-  <DarkVision.symbolPack.prefixSymbols.5.symbol>TODO</DarkVision.symbolPack.prefixSymbols.5.symbol>
+  <DarkVision.symbolPack.prefixSymbols.5.symbol>深沉</DarkVision.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: umbra -->
-  <DarkVision.symbolPack.prefixSymbols.6.symbol>TODO</DarkVision.symbolPack.prefixSymbols.6.symbol>
+  <DarkVision.symbolPack.prefixSymbols.6.symbol>暗影</DarkVision.symbolPack.prefixSymbols.6.symbol>
   <!-- EN: shadow -->
-  <DarkVision.symbolPack.suffixSymbols.0.symbol>TODO</DarkVision.symbolPack.suffixSymbols.0.symbol>
+  <DarkVision.symbolPack.suffixSymbols.0.symbol>影子</DarkVision.symbolPack.suffixSymbols.0.symbol>
   
   <!-- EN: fire resistant -->
-  <FireResistant.label>TODO</FireResistant.label>
+  <FireResistant.label>抗火</FireResistant.label>
   <!-- EN: Carriers of this gene have special fast-acting sweat glands and heat-resistant skin. They only take 25% of the normal damage from fire. The chance of them catching on fire is also drastically reduced. -->
-  <FireResistant.description>TODO</FireResistant.description>
+  <FireResistant.description>基因擁有者擁有特殊的速效汗腺和耐熱皮膚。他們只會受到25%的火焰傷害。他們著火的機會也大大降低了。</FireResistant.description>
   <!-- EN: fireproof -->
-  <FireResistant.labelShortAdj>TODO</FireResistant.labelShortAdj>
+  <FireResistant.labelShortAdj>防火</FireResistant.labelShortAdj>
   <!-- EN: foam -->
-  <FireResistant.symbolPack.prefixSymbols.0.symbol>TODO</FireResistant.symbolPack.prefixSymbols.0.symbol>
+  <FireResistant.symbolPack.prefixSymbols.0.symbol>泡沫</FireResistant.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: wet -->
-  <FireResistant.symbolPack.prefixSymbols.1.symbol>TODO</FireResistant.symbolPack.prefixSymbols.1.symbol>
+  <FireResistant.symbolPack.prefixSymbols.1.symbol>濕</FireResistant.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: foam -->
-  <FireResistant.symbolPack.suffixSymbols.0.symbol>TODO</FireResistant.symbolPack.suffixSymbols.0.symbol>
+  <FireResistant.symbolPack.suffixSymbols.0.symbol>泡沫</FireResistant.symbolPack.suffixSymbols.0.symbol>
   
   <!-- EN: inbred -->
-  <Inbred.label>TODO</Inbred.label>
+  <Inbred.label>近親繁殖</Inbred.label>
   <!-- EN: This genetic condition affects a person's fertility, immunity, and mental capacity. -->
-  <Inbred.description>TODO</Inbred.description>
+  <Inbred.description>此基因缺陷影響其生育力、免疫力和精神能力。</Inbred.description>
   
   <!-- EN: major cell instability -->
-  <Instability_Major.label>TODO</Instability_Major.label>
+  <Instability_Major.label>嚴重的細胞不穩定</Instability_Major.label>
   <!-- EN: Carriers of this gene need much less metabolic energy to stay alive, at the cost of greatly-reduced stability in their cell-replication machinery. -->
-  <Instability_Major.description>TODO</Instability_Major.description>
+  <Instability_Major.description>基因擁有者只需要更少的代謝能量就能維持生命，但代價是會大大降低其細胞複製機制的穩定性。</Instability_Major.description>
   
   <!-- EN: mild cell instability -->
-  <Instability_Mild.label>TODO</Instability_Mild.label>
+  <Instability_Mild.label>輕微的細胞不穩定</Instability_Mild.label>
   <!-- EN: Carriers of this gene need less metabolic energy to stay alive, at the cost of reduced stability in their cell-replication machinery. -->
-  <Instability_Mild.description>TODO</Instability_Mild.description>
+  <Instability_Mild.description>基因擁有者需要較少的代謝能量來維持生命，但代價是會降低其細胞複製機制的穩定性。</Instability_Mild.description>
   
   <!-- EN: kill thirst -->
-  <KillThirst.label>TODO</KillThirst.label>
+  <KillThirst.label>殺戮本能</KillThirst.label>
   <!-- EN: Carriers of this gene lust for the feeling of ending another's life. They will become irritated if they go for too long without killing someone in close combat. -->
-  <KillThirst.description>TODO</KillThirst.description>
+  <KillThirst.description>基因擁有者渴望了結他人生命的感覺。如果他們太久沒在近戰中殺人，他們就會變得煩躁。</KillThirst.description>
   <!-- EN: kill-thirsty -->
-  <KillThirst.labelShortAdj>TODO</KillThirst.labelShortAdj>
+  <KillThirst.labelShortAdj>渴望殺戮</KillThirst.labelShortAdj>
   <!-- EN: murder -->
-  <KillThirst.symbolPack.prefixSymbols.0.symbol>TODO</KillThirst.symbolPack.prefixSymbols.0.symbol>
+  <KillThirst.symbolPack.prefixSymbols.0.symbol>殺人</KillThirst.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: death -->
-  <KillThirst.symbolPack.prefixSymbols.1.symbol>TODO</KillThirst.symbolPack.prefixSymbols.1.symbol>
+  <KillThirst.symbolPack.prefixSymbols.1.symbol>死亡</KillThirst.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: kill -->
-  <KillThirst.symbolPack.prefixSymbols.2.symbol>TODO</KillThirst.symbolPack.prefixSymbols.2.symbol>
+  <KillThirst.symbolPack.prefixSymbols.2.symbol>殺</KillThirst.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: slay -->
-  <KillThirst.symbolPack.prefixSymbols.3.symbol>TODO</KillThirst.symbolPack.prefixSymbols.3.symbol>
+  <KillThirst.symbolPack.prefixSymbols.3.symbol>滅</KillThirst.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: rage -->
-  <KillThirst.symbolPack.prefixSymbols.4.symbol>TODO</KillThirst.symbolPack.prefixSymbols.4.symbol>
+  <KillThirst.symbolPack.prefixSymbols.4.symbol>憤怒</KillThirst.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: hate -->
-  <KillThirst.symbolPack.prefixSymbols.5.symbol>TODO</KillThirst.symbolPack.prefixSymbols.5.symbol>
+  <KillThirst.symbolPack.prefixSymbols.5.symbol>厭惡</KillThirst.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: snuff -->
-  <KillThirst.symbolPack.prefixSymbols.6.symbol>TODO</KillThirst.symbolPack.prefixSymbols.6.symbol>
+  <KillThirst.symbolPack.prefixSymbols.6.symbol>消滅</KillThirst.symbolPack.prefixSymbols.6.symbol>
   <!-- EN: vore -->
-  <KillThirst.symbolPack.suffixSymbols.0.symbol>TODO</KillThirst.symbolPack.suffixSymbols.0.symbol>
+  <KillThirst.symbolPack.suffixSymbols.0.symbol>狂</KillThirst.symbolPack.suffixSymbols.0.symbol>
   <!-- EN: killer -->
-  <KillThirst.symbolPack.suffixSymbols.1.symbol>TODO</KillThirst.symbolPack.suffixSymbols.1.symbol>
+  <KillThirst.symbolPack.suffixSymbols.1.symbol>殺手</KillThirst.symbolPack.suffixSymbols.1.symbol>
   <!-- EN: slayer -->
-  <KillThirst.symbolPack.suffixSymbols.2.symbol>TODO</KillThirst.symbolPack.suffixSymbols.2.symbol>
+  <KillThirst.symbolPack.suffixSymbols.2.symbol>劊子手</KillThirst.symbolPack.suffixSymbols.2.symbol>
   
   <!-- EN: kind instinct -->
-  <KindInstinct.label>TODO</KindInstinct.label>
-  <!-- EN: Carriers of this gene are high in trait agreeableness and are very conscientious. They rarely insult others or starts fights, and will sometimes offer kind words to brighten the moods of those around them. They also never judges people by their appearance. -->
-  <KindInstinct.description>TODO</KindInstinct.description>
+  <KindInstinct.label>善良本能</KindInstinct.label>
+  <!-- EN: Carriers of this gene are high in trait agreeableness and are very conscientious. They rarely insult others and will sometimes offer kind words to brighten the moods of those around them. They also never judge people by their appearance. -->
+  <KindInstinct.description>基因擁有者個性平易近人，且樂於奉獻。他們甚少侮辱他人，有時還會讚美身邊周圍的人來提振情緒。他們也從不以貌取人。</KindInstinct.description>
   <!-- EN: kind -->
-  <KindInstinct.labelShortAdj>TODO</KindInstinct.labelShortAdj>
+  <KindInstinct.labelShortAdj>善良</KindInstinct.labelShortAdj>
   <!-- EN: kind -->
-  <KindInstinct.symbolPack.prefixSymbols.0.symbol>TODO</KindInstinct.symbolPack.prefixSymbols.0.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.0.symbol>善良</KindInstinct.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: nice -->
-  <KindInstinct.symbolPack.prefixSymbols.1.symbol>TODO</KindInstinct.symbolPack.prefixSymbols.1.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.1.symbol>友善</KindInstinct.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: gentle -->
-  <KindInstinct.symbolPack.prefixSymbols.2.symbol>TODO</KindInstinct.symbolPack.prefixSymbols.2.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.2.symbol>紳士</KindInstinct.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: ami -->
-  <KindInstinct.symbolPack.prefixSymbols.3.symbol>TODO</KindInstinct.symbolPack.prefixSymbols.3.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.3.symbol>親切</KindInstinct.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: cool -->
-  <KindInstinct.symbolPack.prefixSymbols.4.symbol>TODO</KindInstinct.symbolPack.prefixSymbols.4.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.4.symbol>爽朗</KindInstinct.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: mellow -->
-  <KindInstinct.symbolPack.prefixSymbols.5.symbol>TODO</KindInstinct.symbolPack.prefixSymbols.5.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.5.symbol>溫和</KindInstinct.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: soft -->
-  <KindInstinct.symbolPack.prefixSymbols.6.symbol>TODO</KindInstinct.symbolPack.prefixSymbols.6.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.6.symbol>柔和</KindInstinct.symbolPack.prefixSymbols.6.symbol>
   <!-- EN: tame -->
-  <KindInstinct.symbolPack.prefixSymbols.7.symbol>TODO</KindInstinct.symbolPack.prefixSymbols.7.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.7.symbol>溫順</KindInstinct.symbolPack.prefixSymbols.7.symbol>
   <!-- EN: pleas -->
-  <KindInstinct.symbolPack.prefixSymbols.8.symbol>TODO</KindInstinct.symbolPack.prefixSymbols.8.symbol>
+  <KindInstinct.symbolPack.prefixSymbols.8.symbol>友好</KindInstinct.symbolPack.prefixSymbols.8.symbol>
   
   <!-- EN: naked speed -->
-  <NakedSpeed.label>TODO</NakedSpeed.label>
+  <NakedSpeed.label>裸體增速</NakedSpeed.label>
   <!-- EN: Carriers of this gene move slower while clothed, and faster while naked. -->
-  <NakedSpeed.description>TODO</NakedSpeed.description>
+  <NakedSpeed.description>基因擁有者穿著衣物時移動得較慢，相反裸體則移動得較快。</NakedSpeed.description>
   
   <!-- EN: nearsighted -->
-  <Nearsighted.label>TODO</Nearsighted.label>
+  <Nearsighted.label>近視</Nearsighted.label>
   <!-- EN: Carriers of this gene have difficulty seeing at a distance. Their shooting accuracy at long ranges is reduced. -->
-  <Nearsighted.description>TODO</Nearsighted.description>
+  <Nearsighted.description>基因擁有者很難看清遠處。他們的遠程射擊準度也降低了。</Nearsighted.description>
   <!-- EN: blind -->
-  <Nearsighted.symbolPack.prefixSymbols.0.symbol>TODO</Nearsighted.symbolPack.prefixSymbols.0.symbol>
+  <Nearsighted.symbolPack.prefixSymbols.0.symbol>瞎</Nearsighted.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: blur -->
-  <Nearsighted.symbolPack.prefixSymbols.1.symbol>TODO</Nearsighted.symbolPack.prefixSymbols.1.symbol>
+  <Nearsighted.symbolPack.prefixSymbols.1.symbol>模糊</Nearsighted.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: squint -->
-  <Nearsighted.symbolPack.prefixSymbols.2.symbol>TODO</Nearsighted.symbolPack.prefixSymbols.2.symbol>
+  <Nearsighted.symbolPack.prefixSymbols.2.symbol>瞇</Nearsighted.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: peek -->
-  <Nearsighted.symbolPack.prefixSymbols.3.symbol>TODO</Nearsighted.symbolPack.prefixSymbols.3.symbol>
+  <Nearsighted.symbolPack.prefixSymbols.3.symbol>窺</Nearsighted.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: cross -->
-  <Nearsighted.symbolPack.prefixSymbols.4.symbol>TODO</Nearsighted.symbolPack.prefixSymbols.4.symbol>
+  <Nearsighted.symbolPack.prefixSymbols.4.symbol>互</Nearsighted.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: sighter -->
-  <Nearsighted.symbolPack.suffixSymbols.0.symbol>TODO</Nearsighted.symbolPack.suffixSymbols.0.symbol>
+  <Nearsighted.symbolPack.suffixSymbols.0.symbol>視人</Nearsighted.symbolPack.suffixSymbols.0.symbol>
   <!-- EN: peeker -->
-  <Nearsighted.symbolPack.suffixSymbols.1.symbol>TODO</Nearsighted.symbolPack.suffixSymbols.1.symbol>
+  <Nearsighted.symbolPack.suffixSymbols.1.symbol>看人</Nearsighted.symbolPack.suffixSymbols.1.symbol>
   
   <!-- EN: pollution stimulus -->
-  <PollutionRush.label>TODO</PollutionRush.label>
+  <PollutionRush.label>惡地亢奮</PollutionRush.label>
   <!-- EN: Carriers of this gene get a chemical rush from being exposed to pollution. This makes them move faster and helps them think clearer. A similar gene is found in combat-engineered mega-insects. -->
-  <PollutionRush.description>TODO</PollutionRush.description>
+  <PollutionRush.description>基因擁有者會因曝露在污染中而產生亢奮的化學反應。這使他們移動更快，並幫助他們更清晰地思考。在為戰鬥改造的巨型蟲族中也能發現類似的基因。</PollutionRush.description>
   <!-- EN: Gain stat bonuses when exposed to pollution. -->
-  <PollutionRush.customEffectDescriptions.0>TODO</PollutionRush.customEffectDescriptions.0>
+  <PollutionRush.customEffectDescriptions.0>當曝露在污染時會獲得額外的屬性增強。</PollutionRush.customEffectDescriptions.0>
   
   <!-- EN: psychic bonding -->
-  <PsychicBonding.label>TODO</PsychicBonding.label>
+  <PsychicBonding.label>心靈伴侶</PsychicBonding.label>
   <!-- EN: Carriers of this gene have a special neural organ that makes them psychically bond with a lover for life. As long as the lovers are together, they will be happy. If they are physically separated, they will be disturbed by the distance. If one dies, the other's mind will be badly disrupted. -->
-  <PsychicBonding.description>TODO</PsychicBonding.description>
+  <PsychicBonding.description>基因擁有者有一個特殊的神經器官，使他們在精神上與愛人終生結伴在一起。只要愛人在旁，他們就會幸福。如果他們相隔兩地，他們會因距離而不安。如果其中一人死了，另一個人的心智也會受到嚴重破壞。</PsychicBonding.description>
   <!-- EN: Romance attempts always succeed. -->
-  <PsychicBonding.customEffectDescriptions.0>TODO</PsychicBonding.customEffectDescriptions.0>
+  <PsychicBonding.customEffectDescriptions.0>每次約會邀請都必能成功。</PsychicBonding.customEffectDescriptions.0>
   <!-- EN: Gains psychic bond with first romantic partner. -->
-  <PsychicBonding.customEffectDescriptions.1>TODO</PsychicBonding.customEffectDescriptions.1>
+  <PsychicBonding.customEffectDescriptions.1>與初次約會對象建立心靈羈絆。</PsychicBonding.customEffectDescriptions.1>
   
   <!-- EN: robust digestion -->
-  <RobustDigestion.label>TODO</RobustDigestion.label>
+  <RobustDigestion.label>強勁消化力</RobustDigestion.label>
   <!-- EN: Carriers of this gene grow a multi-fold stomach, allowing them to digest raw foods more efficiently than baseline humans. In general, they get the same nutrition from raw food as from if it is cooked. They also don't mind the taste of raw food at all. -->
-  <RobustDigestion.description>TODO</RobustDigestion.description>
+  <RobustDigestion.description>基因擁有者會長出多皺褶的胃，使他們能夠比一般人類更能有效地消化生食。一般來說，他們從生食中獲得的營養與從熟食中獲得的營養相同。他們也不介意生食的味道。</RobustDigestion.description>
   <!-- EN: eat -->
-  <RobustDigestion.symbolPack.prefixSymbols.0.symbol>TODO</RobustDigestion.symbolPack.prefixSymbols.0.symbol>
+  <RobustDigestion.symbolPack.prefixSymbols.0.symbol>吃</RobustDigestion.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: raw -->
-  <RobustDigestion.symbolPack.prefixSymbols.1.symbol>TODO</RobustDigestion.symbolPack.prefixSymbols.1.symbol>
+  <RobustDigestion.symbolPack.prefixSymbols.1.symbol>生</RobustDigestion.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: quad -->
-  <RobustDigestion.symbolPack.prefixSymbols.2.symbol>TODO</RobustDigestion.symbolPack.prefixSymbols.2.symbol>
+  <RobustDigestion.symbolPack.prefixSymbols.2.symbol>四</RobustDigestion.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: moo -->
-  <RobustDigestion.symbolPack.prefixSymbols.3.symbol>TODO</RobustDigestion.symbolPack.prefixSymbols.3.symbol>
+  <RobustDigestion.symbolPack.prefixSymbols.3.symbol>吽</RobustDigestion.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: raw -->
-  <RobustDigestion.symbolPack.prefixSymbols.4.symbol>TODO</RobustDigestion.symbolPack.prefixSymbols.4.symbol>
+  <RobustDigestion.symbolPack.prefixSymbols.4.symbol>生</RobustDigestion.symbolPack.prefixSymbols.4.symbol>
   <!-- EN: munch -->
-  <RobustDigestion.symbolPack.prefixSymbols.5.symbol>TODO</RobustDigestion.symbolPack.prefixSymbols.5.symbol>
+  <RobustDigestion.symbolPack.prefixSymbols.5.symbol>嚼</RobustDigestion.symbolPack.prefixSymbols.5.symbol>
   <!-- EN: cow -->
-  <RobustDigestion.symbolPack.prefixSymbols.6.symbol>TODO</RobustDigestion.symbolPack.prefixSymbols.6.symbol>
+  <RobustDigestion.symbolPack.prefixSymbols.6.symbol>牛</RobustDigestion.symbolPack.prefixSymbols.6.symbol>
   <!-- EN: eater -->
-  <RobustDigestion.symbolPack.suffixSymbols.0.symbol>TODO</RobustDigestion.symbolPack.suffixSymbols.0.symbol>
+  <RobustDigestion.symbolPack.suffixSymbols.0.symbol>食者</RobustDigestion.symbolPack.suffixSymbols.0.symbol>
   <!-- EN: mouth -->
-  <RobustDigestion.symbolPack.suffixSymbols.1.symbol>TODO</RobustDigestion.symbolPack.suffixSymbols.1.symbol>
+  <RobustDigestion.symbolPack.suffixSymbols.1.symbol>嘴</RobustDigestion.symbolPack.suffixSymbols.1.symbol>
   <!-- EN: vore -->
-  <RobustDigestion.symbolPack.suffixSymbols.2.symbol>TODO</RobustDigestion.symbolPack.suffixSymbols.2.symbol>
+  <RobustDigestion.symbolPack.suffixSymbols.2.symbol>吞</RobustDigestion.symbolPack.suffixSymbols.2.symbol>
   <!-- EN: munch -->
-  <RobustDigestion.symbolPack.suffixSymbols.3.symbol>TODO</RobustDigestion.symbolPack.suffixSymbols.3.symbol>
+  <RobustDigestion.symbolPack.suffixSymbols.3.symbol>嚼</RobustDigestion.symbolPack.suffixSymbols.3.symbol>
   <!-- EN: hardeater -->
-  <RobustDigestion.symbolPack.wholeNameSymbols.0.symbol>TODO</RobustDigestion.symbolPack.wholeNameSymbols.0.symbol>
+  <RobustDigestion.symbolPack.wholeNameSymbols.0.symbol>強食者</RobustDigestion.symbolPack.wholeNameSymbols.0.symbol>
   <!-- EN: muncher -->
-  <RobustDigestion.symbolPack.wholeNameSymbols.1.symbol>TODO</RobustDigestion.symbolPack.wholeNameSymbols.1.symbol>
+  <RobustDigestion.symbolPack.wholeNameSymbols.1.symbol>嚼食者</RobustDigestion.symbolPack.wholeNameSymbols.1.symbol>
   <!-- EN: grubber -->
-  <RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>TODO</RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>
+  <RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>貪食者</RobustDigestion.symbolPack.wholeNameSymbols.2.symbol>
   
   <!-- EN: strong stomach -->
-  <StrongStomach.label>TODO</StrongStomach.label>
+  <StrongStomach.label>強胃</StrongStomach.label>
   <!-- EN: Carriers of this gene have an extra toxin-filtering organ in their stomach and will never suffer from food poisoning even after eating rotten food. -->
-  <StrongStomach.description>TODO</StrongStomach.description>
+  <StrongStomach.description>基因擁有者胃部擁有額外的毒素過濾器官，永不受食物中毒影響，即使吃下腐爛食物亦然。</StrongStomach.description>
   <!-- EN: dura -->
-  <StrongStomach.symbolPack.prefixSymbols.0.symbol>TODO</StrongStomach.symbolPack.prefixSymbols.0.symbol>
+  <StrongStomach.symbolPack.prefixSymbols.0.symbol>硬</StrongStomach.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: eat -->
-  <StrongStomach.symbolPack.prefixSymbols.1.symbol>TODO</StrongStomach.symbolPack.prefixSymbols.1.symbol>
+  <StrongStomach.symbolPack.prefixSymbols.1.symbol>食</StrongStomach.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: feed -->
-  <StrongStomach.symbolPack.prefixSymbols.2.symbol>TODO</StrongStomach.symbolPack.prefixSymbols.2.symbol>
+  <StrongStomach.symbolPack.prefixSymbols.2.symbol>餵</StrongStomach.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: cram -->
-  <StrongStomach.symbolPack.prefixSymbols.3.symbol>TODO</StrongStomach.symbolPack.prefixSymbols.3.symbol>
+  <StrongStomach.symbolPack.prefixSymbols.3.symbol>囫圇</StrongStomach.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: vore -->
-  <StrongStomach.symbolPack.suffixSymbols.0.symbol>TODO</StrongStomach.symbolPack.suffixSymbols.0.symbol>
+  <StrongStomach.symbolPack.suffixSymbols.0.symbol>吞</StrongStomach.symbolPack.suffixSymbols.0.symbol>
   
   <!-- EN: unstoppable -->
-  <Unstoppable.label>TODO</Unstoppable.label>
+  <Unstoppable.label>無人能擋</Unstoppable.label>
   <!-- EN: Carriers of this gene are not slowed down when taking damage. -->
-  <Unstoppable.description>TODO</Unstoppable.description>
+  <Unstoppable.description>基因擁有者即使受傷也不會減慢移動。</Unstoppable.description>
   
   <!-- EN: violence disabled -->
-  <ViolenceDisabled.label>TODO</ViolenceDisabled.label>
+  <ViolenceDisabled.label>禁止暴力</ViolenceDisabled.label>
   <!-- EN: Carriers of this gene are emotionally and mentally incapable of engaging in violence. They are overwhelmingly resistant to and horrified by the idea of hurting another. -->
-  <ViolenceDisabled.description>TODO</ViolenceDisabled.description>
+  <ViolenceDisabled.description>基因擁有者在情感上和精神上都無法參與暴力。他們對傷害他人的想法非常抗拒和恐懼。</ViolenceDisabled.description>
   <!-- EN: nonviolent -->
-  <ViolenceDisabled.labelShortAdj>TODO</ViolenceDisabled.labelShortAdj>
+  <ViolenceDisabled.labelShortAdj>非暴力</ViolenceDisabled.labelShortAdj>
   <!-- EN: paci -->
-  <ViolenceDisabled.symbolPack.prefixSymbols.0.symbol>TODO</ViolenceDisabled.symbolPack.prefixSymbols.0.symbol>
+  <ViolenceDisabled.symbolPack.prefixSymbols.0.symbol>太平</ViolenceDisabled.symbolPack.prefixSymbols.0.symbol>
   <!-- EN: calm -->
-  <ViolenceDisabled.symbolPack.prefixSymbols.1.symbol>TODO</ViolenceDisabled.symbolPack.prefixSymbols.1.symbol>
+  <ViolenceDisabled.symbolPack.prefixSymbols.1.symbol>靜</ViolenceDisabled.symbolPack.prefixSymbols.1.symbol>
   <!-- EN: peace -->
-  <ViolenceDisabled.symbolPack.prefixSymbols.2.symbol>TODO</ViolenceDisabled.symbolPack.prefixSymbols.2.symbol>
+  <ViolenceDisabled.symbolPack.prefixSymbols.2.symbol>和平</ViolenceDisabled.symbolPack.prefixSymbols.2.symbol>
   <!-- EN: dove -->
-  <ViolenceDisabled.symbolPack.prefixSymbols.3.symbol>TODO</ViolenceDisabled.symbolPack.prefixSymbols.3.symbol>
+  <ViolenceDisabled.symbolPack.prefixSymbols.3.symbol>鴿</ViolenceDisabled.symbolPack.prefixSymbols.3.symbol>
   <!-- EN: dove -->
-  <ViolenceDisabled.symbolPack.suffixSymbols.0.symbol>TODO</ViolenceDisabled.symbolPack.suffixSymbols.0.symbol>
+  <ViolenceDisabled.symbolPack.suffixSymbols.0.symbol>鴿</ViolenceDisabled.symbolPack.suffixSymbols.0.symbol>
   
 </LanguageData>

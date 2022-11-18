@@ -411,7 +411,7 @@
   <!-- EN: there may be danger there. -->
   <HiddenOrNoSitePartDescription>可能有危險潛伏在該處</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>掃瞄器正在探測礦區附近的活動，它可能是敵對的。</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>掃描器正在探測礦區附近的活動，它可能是敵對的。</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
   <PreciousLumpLabel>一堆{0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
@@ -984,6 +984,8 @@
   <PowerNeeded>電力需求</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>電力輸出</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>運作時{0}W</PowerActiveNeeded>
   <!-- EN: Stored -->
   <PowerBatteryStored>儲電量</PowerBatteryStored>
   <!-- EN: Efficiency -->
@@ -1037,7 +1039,7 @@
 
   <!-- Meal -->
   <!-- EN: Ingredients -->
-  <Ingredients>食材</Ingredients>
+  <Ingredients>材料</Ingredients>
   <!-- EN: The ingredients used to make this meal. -->
   <IngredientsDesc>用於烹調此餐點的食材。</IngredientsDesc>
   <!-- EN: Dietary type -->
@@ -1743,11 +1745,11 @@
   <MaxValue>上限{0}</MaxValue>
 
   <!-- EN: {0} of -->
-  <ThingOf>{0}個</ThingOf>
+  <ThingOf>{0}來自</ThingOf>
   <!-- EN: {0} of {1} -->
-  <ThingOfSource>{0}個{1}</ThingOfSource>
+  <ThingOfSource>{1}的{0}</ThingOfSource>
   <!-- EN: {0} of {1} and {2} -->
-  <ThingOfTwoSources>{0}個{1}和{2}</ThingOfTwoSources>
+  <ThingOfTwoSources>{1}和{2}的{0}</ThingOfTwoSources>
 
   <!-- Gas types -->
   <!-- EN: blind smoke -->
@@ -1789,13 +1791,22 @@
 
   <!-- Shields -->
   <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
-  <ShieldPersonalTip>可以阻截射來的槍彈或利器。它能在槍林彈雨間保護穿戴者，及防止因EMP攻擊而即時倒地。</ShieldPersonalTip>
+  <ShieldPersonalTip>可以阻截射來的槍彈或利器。它能在槍林彈雨間保護穿戴者，及防止因 EMP 攻擊而即時倒地。</ShieldPersonalTip>
 
   <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
   <UnrecruitableDesc>{PAWN_nameDef}對{PAWN_possessive}家鄉十分忠誠，因此即使{PAWN_pronoun}被俘虜，也會拒絕任何招募。</UnrecruitableDesc>
 
   <!-- EN: Random -->
   <Random>隨機</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>種植{0_label}</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>在選定的區域種植{0_label}</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>取消種植{0_label}</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>取消種植{0_label}</CancelPlantThingDesc>
 
   <!-- UNUSED -->
   <PawnMainDescTempFactionedWrap>{1}下屬的{0}\n原派系：{2}</PawnMainDescTempFactionedWrap>
